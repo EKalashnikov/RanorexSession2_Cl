@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="3064e6923e60afa"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="automation"
+		host="DESKTOP-IP0304R"
+		rxversion="5.4.0.24580"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1024x768"
+		timestamp="2/28/2016 7:42:07 PM"
+		timestampiso="2016-02-29T00:42:07"
+		timeoutfactor="1"
+		module="DisplayQAJobs">
+		<detail>
+			DisplayQAJobs
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.593"
+			timeRelativeToTestModuleStartTime="00:01.593"
+			timeWallClock="19:42:09"
+			time="00:01.593"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'inputSearch' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='miami.craigslist.org']/body/section/form/div/input[#'query']"
+				fullname="Session2_CLRepository.CLMiami.List.SearchForm.inputSearch"
+				id="dbfc1970be6743afa942c9e20486cb47"
+				timeout="95000"
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="57"
+				loglvl="Success"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.640"
+			timeRelativeToTestModuleStartTime="00:01.640"
+			timeWallClock="19:42:09"
+			time="00:01.640"
+			level="Info"
+			category="User">
+			<message>
+				Search Found
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="58"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.266"
+			timeRelativeToTestModuleStartTime="00:07.266"
+			timeWallClock="19:42:15"
+			time="00:07.266"
+			level="Info"
+			category="User">
+			<message>
+				32
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="67"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.453"
+			timeRelativeToTestModuleStartTime="00:07.453"
+			timeWallClock="19:42:15"
+			time="00:07.453"
+			level="Info"
+			category="User">
+			<message>
+				/dom[@domain='miami.craigslist.org']/body/section/form/div[@class='content']/p[1]/span/span/a[@href~'miami.cr']
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="74"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.390"
+			timeRelativeToTestModuleStartTime="00:14.390"
+			timeWallClock="19:42:22"
+			time="00:14.390"
+			level="Warn"
+			category="Repository">
+			<message>
+				Item 'Session2_CLRepository.CLMiami.sectionPost' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'Session2_CLRepository.CLMiami'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="78"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:35.359"
+			timeRelativeToTestModuleStartTime="00:35.359"
+			timeWallClock="19:42:43"
+			time="00:35.359"
+			level="Error"
+			category="Module">
+			<message>
+				Test run was aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

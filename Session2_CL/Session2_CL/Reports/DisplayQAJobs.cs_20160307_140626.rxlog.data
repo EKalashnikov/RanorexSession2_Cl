@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="516b874a8dc1c"
+		totalerrorcount="1"
+		totalwarningcount="2"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="automation"
+		host="DESKTOP-IP0304R"
+		rxversion="5.4.0.24580"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1280x960"
+		timestamp="3/7/2016 2:06:30 PM"
+		timestampiso="2016-03-07T19:06:30"
+		timeoutfactor="1"
+		module="DisplayQAJobs">
+		<detail>
+			DisplayQAJobs
+		</detail>
+		<errmsg>
+			Failed to find item 'Session2_CLRepository.WebDocumentIE.sectionPost'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.061"
+			timeRelativeToTestModuleStartTime="00:02.061"
+			timeWallClock="14:06:32"
+			time="00:02.061"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'inputSearch' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='miami.craigslist.org']/body/section/form/div/input[#'query']"
+				fullname="Session2_CLRepository.CLMiami.List.SearchForm.inputSearch"
+				id="dbfc1970be6743afa942c9e20486cb47"
+				timeout="93000"
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="57"
+				loglvl="Success"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.108"
+			timeRelativeToTestModuleStartTime="00:02.108"
+			timeWallClock="14:06:32"
+			time="00:02.108"
+			level="Info"
+			category="User">
+			<message>
+				Search Found
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="58"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.890"
+			timeRelativeToTestModuleStartTime="00:07.890"
+			timeWallClock="14:06:38"
+			time="00:07.890"
+			level="Info"
+			category="User">
+			<message>
+				21
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="67"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.799"
+			timeRelativeToTestModuleStartTime="00:10.799"
+			timeWallClock="14:06:41"
+			time="00:10.799"
+			level="Info"
+			category="User">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="81"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.936"
+			timeRelativeToTestModuleStartTime="00:17.936"
+			timeWallClock="14:06:48"
+			time="00:17.936"
+			level="Warn"
+			category="Repository">
+			<message>
+				Item 'Session2_CLRepository.WebDocumentIE.sectionPost' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'Session2_CLRepository.WebDocumentIE'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="78"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.999"
+			timeRelativeToTestModuleStartTime="00:17.999"
+			timeWallClock="14:06:48"
+			time="00:17.999"
+			level="Info"
+			category="User">
+			<message>
+				requirements for this opening.
+Job Purpose:
+Analyzes business needs and detailed system components, identifies, communicates, and resolves systems issues in support of core system functions. Performs systems analysis, design, coding, testing, documentation and implementation for application systems development software initiatives driven by business needs. Develops and enhances computer applications to support the implementation of difficult to complex business requirements. Performs specific assignments as part of a project team or works independently on small to medium-sized enhancements and production support assignments. May perform technical project management.
+Major Duties:
+Design/Programming
+&#8226; Interprets business requirements for system enhancements and projects, translates them into detailed design system specifications including process and data flows, screen and report specifications, stored procedures, batch scripts, and batch scheduling specifications.
+&#8226; Recommends technologies to be used in building the solution.
+&#8226; Develops system components based on business requirements and system specifications, codes, tests, and implements components in accordance with standards and procedures.
+&#8226; Responsible for unit testing components and supporting DEV and QA testing.
+&#8226; Performs design reviews and code reviews for other team initiatives.
+&#8226; Coordinates and executes integration testing for development efforts.
+&#8226; Develops implementation plans and supports migrations through the various environments.
+&#8226; Responsible for the coordination and implementation of small to medium-sized enhancements and production support assignments from end to end.
+&#8226; Prepares and maintains technical system documentation for system support and other needs.
+Analysis
+&#8226; Analyzes business needs and detailed system components, including input, process, and output requirements, data and system flows, and hardware and software requirements.
+&#8226; Identifies, communicates, and resolves systems issues in support of core system functions.
+&#8226; Identifies root cause of problems, provides options for resolution and documents outcome of analysis.
+&#8226; Evaluates existing systems to improve their effectiveness and efficiency, reducing operational costs, and providing solutions to resolve data and system issues.
+&#8226; Provides consultation in areas of expertise and/or 3rd party vendor software products.
+Project Management
+&#8226; Manages various technical aspects of small to medium-sized projects concurrently through the project lifecycle using the PMO process while managing to a budget, timeline and customer satisfaction and value.
+&#8226; Responsible for estimating, project planning, communicating status of projects, designing, analyzing, coding (where applicable), testing, and documentation and implementation of components in accordance with standards and procedures.
+&#8226; Works with management team to staff projects.
+&#8226; Provides objective feedback to management regarding team and individual performance.
+&#8226; Provides technical expertise and knowledge transfer for IT, PMO and Business user team members.
+Relationships
+&#8226; Establishes and/or maintains working relationships with both Business and IT partners to define, understand and evaluate business requirements and resolve production issues.
+&#8226; Provides support in a matrix-management fashion to other areas as needed.
+Leadership
+&#8226; Provides knowledge transfer to other technical peers.
+&#8226; Provides technical leadership and expertise to peers on small to medium-sized work efforts and production support.
+Required Education, Experience &amp; Skills:
+&#8226; Bachelor's degree and a minimum of 5 years IT programming experience or 5 years managing software development and/or technical project management experience.
+&#8226; In lieu of degree, additional work experience and/or trade school or applicable certifications required.
+&#8226; Solid understanding of IT Technical Architecture, and strong knowledge of the capabilities and constraints of large-scale, multi-processing computer systems.
+&#8226; In depth knowledge and experience with Relational Database Management Systems (RDBMS) that interact with batch and web applications.
+&#8226; In depth technical expertise in multiple platforms (i.e., UNIX/LINUX, Windows/Intel); multiple database technologies, (i.e., Oracle); multiple programming languages, (i.e., VB.Net, C#, ASP, PL/SQL, Java, Object oriented programming); and multiple batch operating environments (i.e., Unix/Shell Scripting, Windows).
+&#8226; Solid Communication Skills - ability to communicate clearly and concisely, both verbally and in writing, and to establish and maintain working relationships with both Business and IT partners as part of developing solutions and resolving business issues.
+&#8226; Solid Customer Service Skills - ability to identify and anticipate customer requirements and needs, and respond to and influence customer expectations.
+&#8226; In Depth Analytical Skills - ability to gather and analyze information, and draw logical conclusions while identifying the root cause of problems and providing options for resolution.
+&#8226; Programming Skills -- In depth knowledge of programming principles, techniques, standards and analytical ability to develop computer programs and systems.
+&#8226; Project Management Skills -- In depth understanding of project life cycle methodologies, estimating, and IT best practices with experience managing and implementing small to medium size projects.
+&#8226; Ability to multi-task, juggle multiple projects, and function in a flexible matrix-management environment.
+&#8226; In depth understanding of industry standard desktop software (e.g., Windows, Office, eMail, SharePoint, etc).
+Preferred Education, Experience, and Skills:
+&#8226; Bachelor's degree in computer information or related field.
+&#8226; Good working knowledge and understanding of NCCI business processes and systems.
+&#8226; Experience integrating 3rd party software.
+&#8226; MCSD or ORACLE Developer Certification.
+&#8226; PMI (Project Management Institute) Certification.
+As key contributors to our success, our team members enjoy working in a casual, collaborative environment that offers state-of-the-art resources, advanced technologies, and a superior benefits package.
+We require a drug screen and background check.
+EEO/Smoke Free environment
+Apply online:&#32;
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="81"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.093"
+			timeRelativeToTestModuleStartTime="00:25.093"
+			timeWallClock="14:06:55"
+			time="00:25.093"
+			level="Warn"
+			category="Repository"
+			errimg=".\DisplayQAJobs.cs_20160307_140626_6c3903e9_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160307_140626_6c3903e9_trace_thumb.jpg">
+			<message>
+				Item 'Session2_CLRepository.WebDocumentIE.sectionPost' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'Session2_CLRepository.WebDocumentIE'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="78"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.155"
+			timeRelativeToTestModuleStartTime="00:25.155"
+			timeWallClock="14:06:56"
+			time="00:25.155"
+			level="Info"
+			category="User"
+			errimg=".\DisplayQAJobs.cs_20160307_140626_2465f657_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160307_140626_2465f657_trace_thumb.jpg">
+			<message>
+				requirements, developing functional specification and developing applications. Programmer must be experienced with Microsoft development products such as .NET, C#, Active Server Pages, SQL, Access, and TFS. Knowledge of web development, HTML, Java, and MVC are required. In addition, ESRI products such as ArcSDE, ArcIMS, ArcGIS Server and interfacing with geographic databases are beneficial. 
+Required / Desired Skills
+&#8226;	.NET (Required 2 Years)
+&#8226;	C# (Required 2 Years)
+&#8226;	Active Server Pages (ASP) (Required 2 Years)
+&#8226;	SQL (Required 2 Years)
+&#8226;	Access (Required 2 Years)
+&#8226;	Team Foundation Server (TFS) (Required 2 Years)
+&#8226;	HTML (Required 2 Years)
+&#8226;	Java (Required 2 Years)
+&#8226;	MVC (Required 2 Years)
+&#8226;	ArcSDE (Highly Desired 1 Years)
+&#8226;	ArcIMS (Highly Desired 1 Years)
+&#8226;	ArcGIS Server (Highly Desired 1 Years)
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="81"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:45.311"
+			timeRelativeToTestModuleStartTime="00:45.311"
+			timeWallClock="14:07:16"
+			time="00:45.311"
+			level="Error"
+			category="Module"
+			errimg=".\DisplayQAJobs.cs_20160307_140626_efc4d22e_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160307_140626_efc4d22e_trace_thumb.jpg">
+			<message>
+				Failed to find item 'Session2_CLRepository.WebDocumentIE.sectionPost'.<br/>No element found for path 'section/section/section/section[#'postingbody']' within 3000ms.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at Session2_CL.Session2_CLRepositoryFolders.WebDocumentIEAppFolder.get_sectionPost() in c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\Session2_CLRepository.cs:line 439
+   at Session2_CL.DisplayQAJobs.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs:line 78
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="78"
+				type="repoitem"
+				path="/dom[@domain~'miami.craigslist.org']/body/section/section/section/section[#'postingbody']"
+				fullname="Session2_CLRepository.WebDocumentIE.sectionPost"
+				id="05e3c7fc565b4b72ac9e02d13d9edc7b"
+				timeout="6000"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

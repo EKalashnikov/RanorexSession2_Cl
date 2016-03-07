@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.0.24580"
+id="9320f11b-e117-4404-b9af-b2815d8f38a4"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		Recording1
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="Session2_CL"/>
+	<variables/>
+	<recorditems/>
+	<repository
+	name="Session2_CLRepository"
+	id="c37419d0-2c53-49d5-9cb9-4663bb008f82"
+	rxversion="5.4.0.24580"
+	relativepath="Session2_CLRepository.rxrep">
+		<codegen
+		classname="Session2_CLRepository"
+		namespace="Session2_CL"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="c5501f00-a0ff-437c-bd9a-a7846c3cdd0d"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

@@ -1,0 +1,546 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="11ef15459dad0dd"
+		totalerrorcount="0"
+		totalwarningcount="31"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="automation"
+		host="DESKTOP-IP0304R"
+		rxversion="5.4.0.24580"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1024x768"
+		timestamp="2/28/2016 6:43:16 PM"
+		timestampiso="2016-02-28T23:43:16"
+		timeoutfactor="1"
+		module="DisplayQAJobs">
+		<detail>
+			DisplayQAJobs
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.312"
+			timeRelativeToTestModuleStartTime="00:01.312"
+			timeWallClock="18:43:18"
+			time="00:01.312"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'inputSearch' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='miami.craigslist.org']/body/section/form/div/input[#'query']"
+				fullname="Session2_CLRepository.CLMiami.List.SearchForm.inputSearch"
+				id="dbfc1970be6743afa942c9e20486cb47"
+				timeout="120000"
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="57"
+				loglvl="Success"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.359"
+			timeRelativeToTestModuleStartTime="00:01.359"
+			timeWallClock="18:43:18"
+			time="00:01.359"
+			level="Info"
+			category="User">
+			<message>
+				Search Found
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="58"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.031"
+			timeRelativeToTestModuleStartTime="00:07.031"
+			timeWallClock="18:43:23"
+			time="00:07.031"
+			level="Info"
+			category="User">
+			<message>
+				32
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="67"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.671"
+			timeRelativeToTestModuleStartTime="00:08.671"
+			timeWallClock="18:43:25"
+			time="00:08.671"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{ATag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="69"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.693"
+			timeRelativeToTestModuleStartTime="00:09.693"
+			timeWallClock="18:43:26"
+			time="00:09.693"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{ATag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="69"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.000"
+			timeRelativeToTestModuleStartTime="00:11.000"
+			timeWallClock="18:43:27"
+			time="00:11.000"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{ATag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="69"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.011"
+			timeRelativeToTestModuleStartTime="00:12.011"
+			timeWallClock="18:43:28"
+			time="00:12.011"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{ATag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="69"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.774"
+			timeRelativeToTestModuleStartTime="00:13.774"
+			timeWallClock="18:43:30"
+			time="00:13.774"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{ATag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="69"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.743"
+			timeRelativeToTestModuleStartTime="00:14.743"
+			timeWallClock="18:43:31"
+			time="00:14.743"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{ATag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="69"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.122"
+			timeRelativeToTestModuleStartTime="00:16.122"
+			timeWallClock="18:43:32"
+			time="00:16.122"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{ATag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="69"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.209"
+			timeRelativeToTestModuleStartTime="00:17.209"
+			timeWallClock="18:43:34"
+			time="00:17.209"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{ATag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="69"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.036"
+			timeRelativeToTestModuleStartTime="00:19.036"
+			timeWallClock="18:43:35"
+			time="00:19.036"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{ATag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="69"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.104"
+			timeRelativeToTestModuleStartTime="00:20.104"
+			timeWallClock="18:43:36"
+			time="00:20.104"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{ATag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="69"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.399"
+			timeRelativeToTestModuleStartTime="00:21.399"
+			timeWallClock="18:43:38"
+			time="00:21.399"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{ATag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="69"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.769"
+			timeRelativeToTestModuleStartTime="00:22.769"
+			timeWallClock="18:43:39"
+			time="00:22.769"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{ATag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="69"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.786"
+			timeRelativeToTestModuleStartTime="00:23.786"
+			timeWallClock="18:43:40"
+			time="00:23.786"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{ATag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="69"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.844"
+			timeRelativeToTestModuleStartTime="00:24.844"
+			timeWallClock="18:43:41"
+			time="00:24.844"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{ATag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="69"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.868"
+			timeRelativeToTestModuleStartTime="00:25.868"
+			timeWallClock="18:43:42"
+			time="00:25.868"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{ATag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="69"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.155"
+			timeRelativeToTestModuleStartTime="00:27.155"
+			timeWallClock="18:43:44"
+			time="00:27.155"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{ATag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="69"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:28.681"
+			timeRelativeToTestModuleStartTime="00:28.681"
+			timeWallClock="18:43:45"
+			time="00:28.681"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{ATag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="69"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:29.953"
+			timeRelativeToTestModuleStartTime="00:29.953"
+			timeWallClock="18:43:46"
+			time="00:29.953"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{ATag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="69"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:32.124"
+			timeRelativeToTestModuleStartTime="00:32.124"
+			timeWallClock="18:43:48"
+			time="00:32.124"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{ATag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="69"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:33.344"
+			timeRelativeToTestModuleStartTime="00:33.344"
+			timeWallClock="18:43:50"
+			time="00:33.344"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{ATag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="69"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:34.452"
+			timeRelativeToTestModuleStartTime="00:34.452"
+			timeWallClock="18:43:51"
+			time="00:34.452"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{ATag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="69"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:35.444"
+			timeRelativeToTestModuleStartTime="00:35.444"
+			timeWallClock="18:43:52"
+			time="00:35.444"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{ATag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="69"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:36.594"
+			timeRelativeToTestModuleStartTime="00:36.594"
+			timeWallClock="18:43:53"
+			time="00:36.594"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{ATag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="69"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:37.684"
+			timeRelativeToTestModuleStartTime="00:37.684"
+			timeWallClock="18:43:54"
+			time="00:37.684"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{ATag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="69"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:38.690"
+			timeRelativeToTestModuleStartTime="00:38.690"
+			timeWallClock="18:43:55"
+			time="00:38.690"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{ATag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="69"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:39.681"
+			timeRelativeToTestModuleStartTime="00:39.681"
+			timeWallClock="18:43:56"
+			time="00:39.681"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{ATag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="69"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:40.689"
+			timeRelativeToTestModuleStartTime="00:40.689"
+			timeWallClock="18:43:57"
+			time="00:40.689"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{ATag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="69"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:41.742"
+			timeRelativeToTestModuleStartTime="00:41.742"
+			timeWallClock="18:43:58"
+			time="00:41.742"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{ATag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="69"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:42.772"
+			timeRelativeToTestModuleStartTime="00:42.772"
+			timeWallClock="18:43:59"
+			time="00:42.772"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{ATag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="69"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:43.774"
+			timeRelativeToTestModuleStartTime="00:43.774"
+			timeWallClock="18:44:00"
+			time="00:43.774"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{ATag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="69"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:44.787"
+			timeRelativeToTestModuleStartTime="00:44.787"
+			timeWallClock="18:44:01"
+			time="00:44.787"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{ATag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="69"
+				loglvl="Warn"/>
+		</item>
+	</activity>
+</report>

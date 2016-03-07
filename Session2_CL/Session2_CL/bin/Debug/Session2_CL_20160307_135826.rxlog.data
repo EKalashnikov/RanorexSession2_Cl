@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2cf2b94b697e115d"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="automation"
+		host="DESKTOP-IP0304R"
+		rxversion="5.4.0.24580"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1280x960"
+		timestamp="3/7/2016 1:58:26 PM"
+		timestampiso="2016-03-07T18:58:26"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="0ms"
+			durationms="0"
+			type="test suite"
+			rid="de086694b26c428"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="Session2_CL"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="0ms"
+				durationms="0"
+				type="test case"
+				rid="3721a9b52bc9652c"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				testcasename="TestCase"
+				testcaseid="572a67b4-cf71-4fa4-9a48-d8e7704378ea"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="312ms"
+					durationms="312"
+					type="test module"
+					rid="e7f5b5dd97eae64"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="OpenWebSite"
+					moduleid="9b78d80c-7370-470a-9b3c-7c683029ef41"
+					moduletype="UserCode">
+					<detail>
+					</detail>
+					<varbindings/>
+				</activity>
+				<activity
+					result="Success"
+					duration="5795ms"
+					durationms="5795"
+					type="test module"
+					rid="294f36892f2c71"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="ChooseCategory"
+					moduleid="d60d95eb-bacf-44f2-950b-065a697dcf0e"
+					moduletype="UserCode">
+					<detail>
+					</detail>
+					<varbindings/>
+				</activity>
+				<activity
+					result="Failed"
+					duration="0ms"
+					durationms="0"
+					type="test module"
+					rid="3b95587b88352b"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="DisplayQAJobs"
+					moduleid="11988a37-fce2-45ba-b382-ef4ea500875f"
+					moduletype="UserCode">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:20.891"
+						timeRelativeToTestModuleStartTime="00:14.311"
+						timeWallClock="13:58:47"
+						time="00:20.891"
+						level="Error"
+						category="Module">
+						<message>
+							Test run was aborted by the user.
+						</message>
+						<metainfo
+							loglvl="Error"/>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

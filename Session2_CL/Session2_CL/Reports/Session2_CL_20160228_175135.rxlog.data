@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="284deda628f993f6"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="automation"
+		host="DESKTOP-IP0304R"
+		rxversion="5.4.0.24580"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1024x768"
+		timestamp="2/28/2016 5:51:35 PM"
+		timestampiso="2016-02-28T22:51:35"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="78ms"
+			durationms="78"
+			type="test suite"
+			rid="a9bae588587498f"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			testsuitename="Session2_CL"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Success"
+				duration="31ms"
+				durationms="31"
+				type="test case"
+				rid="f81a60decb9d698"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				testcasename="TestCase"
+				testcaseid="572a67b4-cf71-4fa4-9a48-d8e7704378ea"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="15ms"
+					durationms="15"
+					type="test module"
+					rid="6a4caf9f754174"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="Recording1"
+					moduleid="9320f11b-e117-4404-b9af-b2815d8f38a4"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

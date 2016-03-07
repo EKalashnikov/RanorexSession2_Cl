@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="58440bb74f811a1"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="automation"
+		host="DESKTOP-IP0304R"
+		rxversion="5.4.0.24580"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1024x768"
+		timestamp="2/28/2016 5:52:49 PM"
+		timestampiso="2016-02-28T22:52:49"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="0ms"
+			durationms="0"
+			type="test suite"
+			rid="2e50f41ccbae4751"
+			totalerrorcount="1"
+			totalwarningcount="1"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="Session2_CL"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="0ms"
+				durationms="0"
+				type="test case"
+				rid="73dae3cbc5a7754"
+				totalerrorcount="1"
+				totalwarningcount="1"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				testcasename="TestCase"
+				testcaseid="572a67b4-cf71-4fa4-9a48-d8e7704378ea"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="187ms"
+					durationms="187"
+					type="test module"
+					rid="f22fc51c8af50"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="OpenWebSite"
+					moduleid="9b78d80c-7370-470a-9b3c-7c683029ef41"
+					moduletype="UserCode">
+					<detail>
+					</detail>
+					<varbindings/>
+				</activity>
+				<activity
+					result="Failed"
+					duration="0ms"
+					durationms="0"
+					type="test module"
+					rid="32ee51df2abce54"
+					totalerrorcount="1"
+					totalwarningcount="1"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="DisplayQAJobs"
+					moduleid="11988a37-fce2-45ba-b382-ef4ea500875f"
+					moduletype="UserCode">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:05.546"
+						timeRelativeToTestModuleStartTime="00:05.047"
+						timeWallClock="17:52:55"
+						time="00:05.546"
+						level="Warn"
+						category="Firefox">
+						<message>
+							Please make sure that you have the Ranorex Addon installed and enabled in your Mozilla Firefox browser. Otherwise Ranorex UI element identification capabilities for Firefox are limited.<br/>The following website provides more information on this technology limitation:<br/>http://www.ranorex.com/support/user-guide-20/instrumentation-wizard/mozilla-firefox.html<br/>(This message is only shown once per report.)
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="52"
+							loglvl="Warn"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:07.400"
+						timeRelativeToTestModuleStartTime="00:06.901"
+						timeWallClock="17:52:56"
+						time="00:07.400"
+						level="Info"
+						category="User">
+						<message>
+							Ready to search
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="53"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:09.152"
+						timeRelativeToTestModuleStartTime="00:08.652"
+						timeWallClock="17:52:58"
+						time="00:09.152"
+						level="Info"
+						category="User">
+						<message>
+							Search Found
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="56"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:15.499"
+						timeRelativeToTestModuleStartTime="01:15.000"
+						timeWallClock="17:54:05"
+						time="01:15.499"
+						level="Error"
+						category="Module">
+						<message>
+							Test run was aborted by the user.
+						</message>
+						<metainfo
+							loglvl="Error"/>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1dd25a10b0d1a44"
+		totalerrorcount="1"
+		totalwarningcount="2"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="automation"
+		host="DESKTOP-IP0304R"
+		rxversion="5.4.0.24580"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1024x768"
+		timestamp="2/28/2016 7:29:56 PM"
+		timestampiso="2016-02-29T00:29:56"
+		timeoutfactor="1"
+		module="DisplayQAJobs">
+		<detail>
+			DisplayQAJobs
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.000"
+			timeRelativeToTestModuleStartTime="00:02.000"
+			timeWallClock="19:29:58"
+			time="00:02.000"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'inputSearch' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='miami.craigslist.org']/body/section/form/div/input[#'query']"
+				fullname="Session2_CLRepository.CLMiami.List.SearchForm.inputSearch"
+				id="dbfc1970be6743afa942c9e20486cb47"
+				timeout="120000"
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="57"
+				loglvl="Success"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.078"
+			timeRelativeToTestModuleStartTime="00:02.078"
+			timeWallClock="19:29:58"
+			time="00:02.078"
+			level="Info"
+			category="User">
+			<message>
+				Search Found
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="58"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.969"
+			timeRelativeToTestModuleStartTime="00:07.969"
+			timeWallClock="19:30:04"
+			time="00:07.969"
+			level="Info"
+			category="User">
+			<message>
+				32
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="67"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.187"
+			timeRelativeToTestModuleStartTime="00:08.187"
+			timeWallClock="19:30:04"
+			time="00:08.187"
+			level="Info"
+			category="User">
+			<message>
+				/dom[@domain='miami.craigslist.org']/body/section/form/div[@class='content']/p[1]/span/span/a[@href~'miami.cr']
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="74"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:40.000"
+			timeRelativeToTestModuleStartTime="00:40.000"
+			timeWallClock="19:30:36"
+			time="00:40.000"
+			level="Warn"
+			category="Repository">
+			<message>
+				Item 'Session2_CLRepository.CLMiami.sectionPost' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'Session2_CLRepository.CLMiami'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="78"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:40.047"
+			timeRelativeToTestModuleStartTime="00:40.047"
+			timeWallClock="19:30:36"
+			time="00:40.047"
+			level="Info"
+			category="User">
+			<message>
+				&#10;We are an emerging technology company developing an app that will revolutionize the way personal communication is done. We will offer international calling designed for the world today, encouraging fun, communication &amp; interaction. CallPal App aims to facilitate that in every aspect and keep people in touch with the ones they love.
+We are seeking for a Back End NodeJs Developer to join our time. Applicants must have the following requirements:
+Skills knowledge and Experience:
+- Experience developing restfull API systems with NodeJS.
+- NodeJS, Express, passport, NoSQL databases integration. (Mandatory)
+- Knowledge or implementations using Couchbase is a BIG plus.
+- MySql for NodeJs is a plus.
+- PostgreSQL for NodeJs is a plus.
+Functions and Responsibilities
+- Responsible of developing new functions and end points in the back end systems.
+- Keep track of the availability of the services
+- Advise in programming approaches to create efficient functionality
+- Enhance and maintain code in the back end systems
+- Advise in data structure 
+This is a full time and in-house position. 3rd Parties DO NOT APPLY!
+If you think you're the right candidate for this position, please send us your resume to hr@callpalapp.net&#10;
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="80"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:43.094"
+			timeRelativeToTestModuleStartTime="00:43.094"
+			timeWallClock="19:30:39"
+			time="00:43.094"
+			level="Info"
+			category="User">
+			<message>
+				/dom[@domain='miami.craigslist.org']/body/section/form/div[@class='content']/p[2]/span/span/a[@href~'miami.cr']
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="74"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:15.046"
+			timeRelativeToTestModuleStartTime="01:15.046"
+			timeWallClock="19:31:11"
+			time="01:15.046"
+			level="Warn"
+			category="Repository">
+			<message>
+				Item 'Session2_CLRepository.CLMiami.sectionPost' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'Session2_CLRepository.CLMiami'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="78"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:15.046"
+			timeRelativeToTestModuleStartTime="01:15.046"
+			timeWallClock="19:31:11"
+			time="01:15.046"
+			level="Info"
+			category="User">
+			<message>
+				&#10;Entry-level UI Web Developer (Washington DC)
+Training + Placement in 6 weeks!
+We are one of the fastest growing IT consultancy services providers in Maryland! With nearly 100 consultants deployed nationwide across Fortune 500 companies, our newly trained entry-level developers get to work on some of the most cutting-edge software development projects. 
+We are looking specifically for fresh or recent graduates that have some minimal or basic programming experience (i.e. HTML, CSS, Javascript, C, C#, C++, Java, .NET etc.). 
+Our training and placement program seeks candidates that are highly interested in learning how to build web pages and mobile websites and not afraid to push the boundaries of creativity and innovation.
+K-Square's proprietary in-house UI/web development training program (a 4-week course), designed specifically for fresh graduates or entry-level employees, will teach not just the fundamentals of web development but also provide hands-on experience through various projects and assignments.
+Selected candidate will be required to travel to our headquarters located in Greenbelt, Maryland for the 4-week training session. Travel costs, accommodation, boarding expenses and all training materials will be covered at no cost to the selected employee. Following the training, the placement process on average takes 2 to 3 weeks.
+International students are encouraged to apply too since K-Square IT sponsors H1B visas, as well as permanent residence applications (green cards), on a fast-track basis.
+SKILLS &amp; QUALIFICATIONS
+-Fresh or recent graduate (if recent graduate, then no more than 3 to 4 years of experience)
+-Basic programming experience or exposure required in any programming language (C, C#, C++, Java, HTML, .NET, Python, PHP etc.)
+-Degree in Computer Science, IT, Engineering or any subject area with significant objected-oriented programming. 
+-Strong interpersonal communication skills
+-Great time-management skills
+-Ability to learn and adapt to new concepts as and when explained
+**FOR IMMEDIATE CONSIDERATION**
+Email resumes at indu@ksquareit.com and mention 'Web/UI Developer' in the subject title.
+Please ensure the resume has your email address, contact phone number and your current address. Also, in your email, please give a basic overview of your technical/programming skills and your current status (i.e. OPT, H1B, Permanent Resident, US Citizen).
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="80"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:18.094"
+			timeRelativeToTestModuleStartTime="01:18.094"
+			timeWallClock="19:31:14"
+			time="01:18.094"
+			level="Info"
+			category="User">
+			<message>
+				/dom[@domain='miami.craigslist.org']/body/section/form/div[@class='content']/p[3]/span/span/a[@href~'miami.cr']
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="74"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:25.281"
+			timeRelativeToTestModuleStartTime="01:25.281"
+			timeWallClock="19:31:21"
+			time="01:25.281"
+			level="Error"
+			category="Module">
+			<message>
+				Test run was aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

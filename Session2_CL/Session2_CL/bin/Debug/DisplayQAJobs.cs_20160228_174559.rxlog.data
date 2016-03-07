@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2233f2ea212d8968"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="automation"
+		host="DESKTOP-IP0304R"
+		rxversion="5.4.0.24580"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1024x768"
+		timestamp="2/28/2016 5:46:03 PM"
+		timestampiso="2016-02-28T22:46:03"
+		timeoutfactor="1"
+		module="DisplayQAJobs">
+		<detail>
+			DisplayQAJobs
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.124"
+			timeRelativeToTestModuleStartTime="00:01.124"
+			timeWallClock="17:46:04"
+			time="00:01.124"
+			level="Warn"
+			category="Firefox">
+			<message>
+				Please make sure that you have the Ranorex Addon installed and enabled in your Mozilla Firefox browser. Otherwise Ranorex UI element identification capabilities for Firefox are limited.<br/>The following website provides more information on this technology limitation:<br/>http://www.ranorex.com/support/user-guide-20/instrumentation-wizard/mozilla-firefox.html<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="52"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.617"
+			timeRelativeToTestModuleStartTime="00:02.617"
+			timeWallClock="17:46:06"
+			time="00:02.617"
+			level="Info"
+			category="User">
+			<message>
+				Ready to search
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="53"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:37.687"
+			timeRelativeToTestModuleStartTime="00:37.687"
+			timeWallClock="17:46:41"
+			time="00:37.687"
+			level="Error"
+			category="Module">
+			<message>
+				Test run was aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

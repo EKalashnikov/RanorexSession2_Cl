@@ -1,0 +1,46 @@
+﻿<testsuite
+name="Session2_CL"
+rxversion="5.4.0.24580"
+id="c22fc7e4-247d-49da-b5fc-eb8b83e3c9f3"
+reportfilename="%S_%Y%M%D_%T.rxlog"
+reporttemplatefolder=""
+reportxslfilename=""
+placescreenshotsinfolder="True"
+ReportTime="RelativeToTestSuiteStartTime"
+reportwriteinterval="30000ms"
+reportcompress="False"
+enabletracingscreenshots="True"
+TracingScreenshotMode="Foreground"
+TracingScreenshotQuality="40"
+reportlevel="Info;20">
+	<content>
+		<testcase
+		name="TestCase"
+		id="572a67b4-cf71-4fa4-9a48-d8e7704378ea">
+			<testmodule
+			name="OpenWebSite"
+			id="3d579648-4993-42e3-99a8-fe92ba4bfeb8"
+			ref="9b78d80c-7370-470a-9b3c-7c683029ef41"
+			type="UserCode"/>
+			<testmodule
+			name="ChooseCategory"
+			id="2001b279-f983-438e-9ab2-43490dc6910a"
+			ref="d60d95eb-bacf-44f2-950b-065a697dcf0e"
+			type="UserCode"/>
+			<testmodule
+			name="DisplayQAJobs"
+			id="132525c4-878d-4cd7-a6f4-a5cd8fc2c4e2"
+			ref="11988a37-fce2-45ba-b382-ef4ea500875f"
+			type="UserCode"/>
+		</testcase>
+	</content>
+	<testconfigurations
+	default="TestRun">
+		<testconfiguration
+		name="TestRun">
+			<testcase
+			id="572a67b4-cf71-4fa4-9a48-d8e7704378ea"/>
+		</testconfiguration>
+	</testconfigurations>
+	<references/>
+</testsuite>

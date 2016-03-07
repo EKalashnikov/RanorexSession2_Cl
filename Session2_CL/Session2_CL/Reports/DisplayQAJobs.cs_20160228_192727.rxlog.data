@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="135ba2739b2a9f4"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="automation"
+		host="DESKTOP-IP0304R"
+		rxversion="5.4.0.24580"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1024x768"
+		timestamp="2/28/2016 7:27:33 PM"
+		timestampiso="2016-02-29T00:27:33"
+		timeoutfactor="1"
+		module="DisplayQAJobs">
+		<detail>
+			DisplayQAJobs
+		</detail>
+		<errmsg>
+			Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.172"
+			timeRelativeToTestModuleStartTime="00:02.172"
+			timeWallClock="19:27:35"
+			time="00:02.172"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'inputSearch' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='miami.craigslist.org']/body/section/form/div/input[#'query']"
+				fullname="Session2_CLRepository.CLMiami.List.SearchForm.inputSearch"
+				id="dbfc1970be6743afa942c9e20486cb47"
+				timeout="120000"
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="57"
+				loglvl="Success"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.218"
+			timeRelativeToTestModuleStartTime="00:02.218"
+			timeWallClock="19:27:35"
+			time="00:02.218"
+			level="Info"
+			category="User">
+			<message>
+				Search Found
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="58"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.844"
+			timeRelativeToTestModuleStartTime="00:07.844"
+			timeWallClock="19:27:41"
+			time="00:07.844"
+			level="Info"
+			category="User">
+			<message>
+				32
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="67"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.032"
+			timeRelativeToTestModuleStartTime="00:08.032"
+			timeWallClock="19:27:41"
+			time="00:08.032"
+			level="Info"
+			category="User">
+			<message>
+				/dom[@domain='miami.craigslist.org']/body/section/form/div[@class='content']/p[1]/span/span/a[@href~'miami.cr']
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="74"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:39.953"
+			timeRelativeToTestModuleStartTime="00:39.953"
+			timeWallClock="19:28:13"
+			time="00:39.953"
+			level="Warn"
+			category="Repository">
+			<message>
+				Item 'Session2_CLRepository.CLMiami.sectionPost' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'Session2_CLRepository.CLMiami'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="78"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:40.015"
+			timeRelativeToTestModuleStartTime="00:40.015"
+			timeWallClock="19:28:13"
+			time="00:40.015"
+			level="Info"
+			category="User"
+			errimg=".\DisplayQAJobs.cs_20160228_192727_78ead1fe_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160228_192727_78ead1fe_trace_thumb.jpg">
+			<message>
+				&#10;We are an emerging technology company developing an app that will revolutionize the way personal communication is done. We will offer international calling designed for the world today, encouraging fun, communication &amp; interaction. CallPal App aims to facilitate that in every aspect and keep people in touch with the ones they love.
+We are seeking for a Back End NodeJs Developer to join our time. Applicants must have the following requirements:
+Skills knowledge and Experience:
+- Experience developing restfull API systems with NodeJS.
+- NodeJS, Express, passport, NoSQL databases integration. (Mandatory)
+- Knowledge or implementations using Couchbase is a BIG plus.
+- MySql for NodeJs is a plus.
+- PostgreSQL for NodeJs is a plus.
+Functions and Responsibilities
+- Responsible of developing new functions and end points in the back end systems.
+- Keep track of the availability of the services
+- Advise in programming approaches to create efficient functionality
+- Enhance and maintain code in the back end systems
+- Advise in data structure 
+This is a full time and in-house position. 3rd Parties DO NOT APPLY!
+If you think you're the right candidate for this position, please send us your resume to hr@callpalapp.net&#10;
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="80"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:41.422"
+			timeRelativeToTestModuleStartTime="00:41.422"
+			timeWallClock="19:28:14"
+			time="00:41.422"
+			level="Info"
+			category="User"
+			errimg=".\DisplayQAJobs.cs_20160228_192727_49a9afc9_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160228_192727_49a9afc9_trace_thumb.jpg">
+			<message>
+				/dom[@domain='miami.craigslist.org']/body/section/form/div[@class='content']/p[2]/span/span/a[@href~'miami.cr']
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="74"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:41.484"
+			timeRelativeToTestModuleStartTime="00:41.484"
+			timeWallClock="19:28:14"
+			time="00:41.484"
+			level="Error"
+			category="Module"
+			errimg=".\DisplayQAJobs.cs_20160228_192727_49a9afc9_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160228_192727_49a9afc9_trace_thumb.jpg">
+			<message>
+				Index was out of range. Must be non-negative and less than the size of the collection.<br/>Parameter name: index
+			</message>
+			<metainfo
+				stacktrace="   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Session2_CL.DisplayQAJobs.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs:line 75
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="75"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

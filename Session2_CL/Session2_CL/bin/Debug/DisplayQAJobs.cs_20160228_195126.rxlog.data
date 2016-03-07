@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1938c23e4e4de511"
+		totalerrorcount="0"
+		totalwarningcount="8"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="automation"
+		host="DESKTOP-IP0304R"
+		rxversion="5.4.0.24580"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1024x768"
+		timestamp="2/28/2016 7:51:31 PM"
+		timestampiso="2016-02-29T00:51:31"
+		timeoutfactor="1"
+		module="DisplayQAJobs">
+		<detail>
+			DisplayQAJobs
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.671"
+			timeRelativeToTestModuleStartTime="00:01.671"
+			timeWallClock="19:51:32"
+			time="00:01.671"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'inputSearch' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='miami.craigslist.org']/body/section/form/div/input[#'query']"
+				fullname="Session2_CLRepository.CLMiami.List.SearchForm.inputSearch"
+				id="dbfc1970be6743afa942c9e20486cb47"
+				timeout="93000"
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="57"
+				loglvl="Success"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.718"
+			timeRelativeToTestModuleStartTime="00:01.718"
+			timeWallClock="19:51:32"
+			time="00:01.718"
+			level="Info"
+			category="User">
+			<message>
+				Search Found
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="58"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.389"
+			timeRelativeToTestModuleStartTime="00:07.389"
+			timeWallClock="19:51:38"
+			time="00:07.389"
+			level="Info"
+			category="User">
+			<message>
+				32
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="67"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.374"
+			timeRelativeToTestModuleStartTime="00:09.374"
+			timeWallClock="19:51:40"
+			time="00:09.374"
+			level="Info"
+			category="User">
+			<message>
+				requirements:
+Skills knowledge and Experience:
+- Experience developing restfull API systems with NodeJS.
+- NodeJS, Express, passport, NoSQL databases integration. (Mandatory)
+- Knowledge or implementations using Couchbase is a BIG plus.
+- MySql for NodeJs is a plus.
+- PostgreSQL for NodeJs is a plus.
+Functions and Responsibilities
+- Responsible of developing new functions and end points in the back end systems.
+- Keep track of the availability of the services
+- Advise in programming approaches to create efficient functionality
+- Enhance and maintain code in the back end systems
+- Advise in data structure 
+This is a full time and in-house position. 3rd Parties DO NOT APPLY!
+If you think you're the right candidate for this position, please send us your resume to hr@callpalapp.net&#10;
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="81"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.281"
+			timeRelativeToTestModuleStartTime="00:16.281"
+			timeWallClock="19:51:47"
+			time="00:16.281"
+			level="Warn"
+			category="Repository">
+			<message>
+				Item 'Session2_CLRepository.WebDocumentIE.sectionPost' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'Session2_CLRepository.WebDocumentIE'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="78"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.281"
+			timeRelativeToTestModuleStartTime="00:16.281"
+			timeWallClock="19:51:47"
+			time="00:16.281"
+			level="Info"
+			category="User">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="81"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.155"
+			timeRelativeToTestModuleStartTime="00:23.155"
+			timeWallClock="19:51:54"
+			time="00:23.155"
+			level="Warn"
+			category="Repository">
+			<message>
+				Item 'Session2_CLRepository.WebDocumentIE.sectionPost' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'Session2_CLRepository.WebDocumentIE'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="78"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.155"
+			timeRelativeToTestModuleStartTime="00:23.155"
+			timeWallClock="19:51:54"
+			time="00:23.155"
+			level="Info"
+			category="User">
+			<message>
+				requirements. This will require integration with other enterprise systems, developing new tools and functionality to improve planning, operations and reporting of utility infrastructure. Candidate will mainly focus on consent decree/CMOM initiatives. 
+Required / Desired Skills
+&#8226;	Visual Studio .Net C#/VB (Required 5 Years)
+&#8226;	JavaScript (Required 5 Years)
+&#8226;	JQuery (Required 5 Years)
+&#8226;	MVC MS Model (Required 5 Years)
+&#8226;	Razor Syntax (Required 5 Years)
+&#8226;	Ajax (Required 5 Years)
+&#8226;	Entity Framework (Required 5 Years)
+&#8226;	HTML (Required 5 Years)
+&#8226;	CSS (Required 5 Years)
+&#8226;	XML/XSL/XSLT (Required 5 Years)
+&#8226;	ASP (Required 5 Years)
+&#8226;	SSIS (Required 5 Years)
+&#8226;	SSRS (Required 5 Years)
+&#8226;	Web Services (Required 5 Years)
+&#8226;	MS .NET Framework 2.0+ and higher (Required 5 Years)
+&#8226;	TFS (Required 5 Years)
+&#8226;	IIS (Required 5 Years)
+&#8226;	SSL (Required 5 Years)
+&#8226;	SQL Server Management (Views, Stored Procedures, and Security) (Required 5 Years)
+&#8226;	Crystal Reports (Required 5 Years)
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="81"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.327"
+			timeRelativeToTestModuleStartTime="00:30.327"
+			timeWallClock="19:52:01"
+			time="00:30.327"
+			level="Warn"
+			category="Repository">
+			<message>
+				Item 'Session2_CLRepository.WebDocumentIE.sectionPost' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'Session2_CLRepository.WebDocumentIE'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="78"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.327"
+			timeRelativeToTestModuleStartTime="00:30.327"
+			timeWallClock="19:52:01"
+			time="00:30.327"
+			level="Info"
+			category="User">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="81"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:37.187"
+			timeRelativeToTestModuleStartTime="00:37.187"
+			timeWallClock="19:52:08"
+			time="00:37.187"
+			level="Warn"
+			category="Repository">
+			<message>
+				Item 'Session2_CLRepository.WebDocumentIE.sectionPost' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'Session2_CLRepository.WebDocumentIE'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="78"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:37.187"
+			timeRelativeToTestModuleStartTime="00:37.187"
+			timeWallClock="19:52:08"
+			time="00:37.187"
+			level="Info"
+			category="User">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="81"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:44.078"
+			timeRelativeToTestModuleStartTime="00:44.078"
+			timeWallClock="19:52:15"
+			time="00:44.078"
+			level="Warn"
+			category="Repository">
+			<message>
+				Item 'Session2_CLRepository.WebDocumentIE.sectionPost' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'Session2_CLRepository.WebDocumentIE'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="78"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:44.078"
+			timeRelativeToTestModuleStartTime="00:44.078"
+			timeWallClock="19:52:15"
+			time="00:44.078"
+			level="Info"
+			category="User">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="81"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:50.952"
+			timeRelativeToTestModuleStartTime="00:50.952"
+			timeWallClock="19:52:22"
+			time="00:50.952"
+			level="Warn"
+			category="Repository">
+			<message>
+				Item 'Session2_CLRepository.WebDocumentIE.sectionPost' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'Session2_CLRepository.WebDocumentIE'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="78"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:50.968"
+			timeRelativeToTestModuleStartTime="00:50.968"
+			timeWallClock="19:52:22"
+			time="00:50.968"
+			level="Info"
+			category="User">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="81"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:57.843"
+			timeRelativeToTestModuleStartTime="00:57.843"
+			timeWallClock="19:52:28"
+			time="00:57.843"
+			level="Warn"
+			category="Repository">
+			<message>
+				Item 'Session2_CLRepository.WebDocumentIE.sectionPost' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'Session2_CLRepository.WebDocumentIE'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="78"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:57.859"
+			timeRelativeToTestModuleStartTime="00:57.859"
+			timeWallClock="19:52:28"
+			time="00:57.859"
+			level="Info"
+			category="User">
+			<message>
+				requirements
+&#183; Configure and scales dev, QA and prod environments
+&#183; Manages and documents codebase
+&#183; Leads development team as it grows
+&#183; Manages QA team
+&#183; Contributes to software roadmap
+Requirements
+&#183; Intermediate knowledge of .NET. Minimum three years of experience required
+&#183; Intermediate knowledge of IOS programming environment. Minimum three years of experience required
+&#183; Intermediate knowledge of HTML &amp; JavaScript. Minimum two years of experience required
+&#183; Knowledge of Adobe Photoshop. Minimum one year of experience required
+&#183; Knowledge of Google Analytics or similar analytics tool. Minimum two years of experience required.
+&#183; Experience integrating customer payment gateway. Minimum two years of experience required.
+&#183; Be located in Miami, FL
+Other Skills/Abilities
+&#183; Independent
+&#183; Process-driven
+&#183; Ordered
+&#183; Thinks outside the box to solve issues. Able to suggest workarounds. 
+&#183; Contributes to process
+&#183; Accountable
+&#183; Enjoys fast-pace
+&#183; Able to communicate promptly
+TO APPLY: Please email your resume &amp; mobile app portfolio to David Levy 
+NOTE: This job description is not intended to be all-inclusive. Candidate may perform other related duties as negotiated to meet the ongoing needs of the organization.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="81"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:05.046"
+			timeRelativeToTestModuleStartTime="01:05.046"
+			timeWallClock="19:52:36"
+			time="01:05.046"
+			level="Warn"
+			category="Repository">
+			<message>
+				Item 'Session2_CLRepository.WebDocumentIE.sectionPost' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'Session2_CLRepository.WebDocumentIE'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="78"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:05.046"
+			timeRelativeToTestModuleStartTime="01:05.046"
+			timeWallClock="19:52:36"
+			time="01:05.046"
+			level="Info"
+			category="User">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="81"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

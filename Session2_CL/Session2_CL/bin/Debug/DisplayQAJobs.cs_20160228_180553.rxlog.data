@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="53049dc09db8f78"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="automation"
+		host="DESKTOP-IP0304R"
+		rxversion="5.4.0.24580"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1024x768"
+		timestamp="2/28/2016 6:05:57 PM"
+		timestampiso="2016-02-28T23:05:57"
+		timeoutfactor="1"
+		module="DisplayQAJobs">
+		<detail>
+			DisplayQAJobs
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.343"
+			timeRelativeToTestModuleStartTime="00:01.343"
+			timeWallClock="18:05:59"
+			time="00:01.343"
+			level="Warn"
+			category="Firefox">
+			<message>
+				Please make sure that you have the Ranorex Addon installed and enabled in your Mozilla Firefox browser. Otherwise Ranorex UI element identification capabilities for Firefox are limited.<br/>The following website provides more information on this technology limitation:<br/>http://www.ranorex.com/support/user-guide-20/instrumentation-wizard/mozilla-firefox.html<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="51"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.187"
+			timeRelativeToTestModuleStartTime="00:04.187"
+			timeWallClock="18:06:01"
+			time="00:04.187"
+			level="Info"
+			category="User">
+			<message>
+				62
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="67"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>
