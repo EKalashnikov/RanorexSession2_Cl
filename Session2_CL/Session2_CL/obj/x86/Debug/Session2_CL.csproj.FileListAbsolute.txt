@@ -6,3 +6,11 @@ C:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session
 C:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\obj\x86\Debug\Session2_CL.exe
 C:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\obj\x86\Debug\Session2_CL.pdb
 C:\Users\automation\Documents\Ranorex\RanorexStudio Projects\Session2_CL\Session2_CL\obj\x86\Debug\Session2_CL.csprojResolveAssemblyReference.cache
+C:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\bin\Debug\Session2_CL.rxtmg
+C:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\bin\Debug\Session2_CL.rxtst
+C:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\bin\Debug\Session2_CL.exe.config
+C:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\bin\Debug\Session2_CL.exe
+C:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\bin\Debug\Session2_CL.pdb
+C:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\obj\x86\Debug\Session2_CL.csprojResolveAssemblyReference.cache
+C:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\obj\x86\Debug\Session2_CL.exe
+C:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\obj\x86\Debug\Session2_CL.pdb

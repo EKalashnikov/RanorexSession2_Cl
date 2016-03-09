@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="21bc2590420e2220"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="automation"
+		host="DESKTOP-IP0304R"
+		rxversion="5.4.0.24580"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1280x1024"
+		timestamp="3/7/2016 9:40:30 PM"
+		timestampiso="2016-03-08T02:40:30"
+		timeoutfactor="1"
+		module="DisplayQAJobs">
+		<detail>
+			DisplayQAJobs
+		</detail>
+		<errmsg>
+			Failed to wait for item to exist.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.062"
+			timeRelativeToTestModuleStartTime="00:03.062"
+			timeWallClock="21:40:33"
+			time="00:03.062"
+			level="Info"
+			category="User">
+			<message>
+				Search Found
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="57"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.187"
+			timeRelativeToTestModuleStartTime="00:08.187"
+			timeWallClock="21:40:38"
+			time="00:08.187"
+			level="Info"
+			category="User"
+			errimg=".\DisplayQAJobs.cs_20160307_214025_795565e6_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160307_214025_795565e6_trace_thumb.jpg">
+			<message>
+				Number of links (21) is equal to rangeTo (21)
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="71"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.921"
+			timeRelativeToTestModuleStartTime="00:12.921"
+			timeWallClock="21:40:43"
+			time="00:12.921"
+			level="Info"
+			category="User"
+			errimg=".\DisplayQAJobs.cs_20160307_214025_998ace88_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160307_214025_998ace88_trace_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="89"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.175"
+			timeRelativeToTestModuleStartTime="00:26.175"
+			timeWallClock="21:40:56"
+			time="00:26.175"
+			level="Error"
+			category="Module"
+			errimg=".\DisplayQAJobs.cs_20160307_214025_90155807_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160307_214025_90155807_trace_thumb.jpg">
+			<message>
+				Failed to wait for item to exist.<br/>Failed to find item 'Session2_CLRepository.CLMiamiDetail.sectionPost'.<br/>No element found for path '/dom[@domain~'miami.craigslist.org']/body/section/section/section/section[#'postingbody']' within 10s.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.WaitForExists(Duration waitTimeout)
+   at Session2_CL.DisplayQAJobs.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs:line 83
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="83"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

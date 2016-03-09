@@ -1,0 +1,503 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2d410af41aa9a812"
+		totalerrorcount="1"
+		totalwarningcount="6"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="automation"
+		host="DESKTOP-IP0304R"
+		rxversion="5.4.0.24580"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1280x1024"
+		timestamp="3/7/2016 9:07:43 PM"
+		timestampiso="2016-03-08T02:07:43"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="0ms"
+			durationms="0"
+			type="test suite"
+			rid="53716710423ae5a"
+			totalerrorcount="1"
+			totalwarningcount="6"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="Session2_CL"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="0ms"
+				durationms="0"
+				type="test case"
+				rid="4113f5bb7bf7892"
+				totalerrorcount="1"
+				totalwarningcount="6"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				testcasename="TestCase"
+				testcaseid="572a67b4-cf71-4fa4-9a48-d8e7704378ea"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="266ms"
+					durationms="266"
+					type="test module"
+					rid="23eeef015ea0840"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="OpenWebSite"
+					moduleid="9b78d80c-7370-470a-9b3c-7c683029ef41"
+					moduletype="UserCode">
+					<detail>
+					</detail>
+					<varbindings/>
+				</activity>
+				<activity
+					result="Success"
+					duration="6132ms"
+					durationms="6132"
+					type="test module"
+					rid="12af800868747814"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="ChooseCategory"
+					moduleid="d60d95eb-bacf-44f2-950b-065a697dcf0e"
+					moduletype="UserCode">
+					<detail>
+					</detail>
+					<varbindings/>
+				</activity>
+				<activity
+					result="Failed"
+					duration="0ms"
+					durationms="0"
+					type="test module"
+					rid="2ae80df339838828"
+					totalerrorcount="1"
+					totalwarningcount="6"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="DisplayQAJobs"
+					moduleid="11988a37-fce2-45ba-b382-ef4ea500875f"
+					moduletype="UserCode">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:08.375"
+						timeRelativeToTestModuleStartTime="00:01.551"
+						timeWallClock="21:07:52"
+						time="00:08.375"
+						level="Success"
+						category="Validation">
+						<message>
+							Element for item 'inputSearch' does exist.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='miami.craigslist.org']/body/section/form/div[@class='querybox']/input[#'query']"
+							fullname="Session2_CLRepository.CLMiamiList.List.SearchForm.inputSearch"
+							id="dbfc1970be6743afa942c9e20486cb47"
+							timeout="120000"
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="55"
+							loglvl="Success"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:08.453"
+						timeRelativeToTestModuleStartTime="00:01.628"
+						timeWallClock="21:07:52"
+						time="00:08.453"
+						level="Info"
+						category="User">
+						<message>
+							Search Found
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="56"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:11.415"
+						timeRelativeToTestModuleStartTime="00:04.591"
+						timeWallClock="21:07:55"
+						time="00:11.415"
+						level="Success"
+						category="Validation">
+						<message>
+							Element for item 'spanRangeTo' does exist.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='miami.craigslist.org']/body/section/form/div[@class='search-legend']/div/span[@class='buttons']/span[@class~'pagenum']/span/span[@class='rangeTo']"
+							fullname="Session2_CLRepository.CLMiamiList.List.SearchLegend.spanRangeTo"
+							id="5633678b9f0b4246bf9a986e8ec51d06"
+							timeout="120000"
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="61"
+							loglvl="Success"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:41.874"
+						timeRelativeToTestModuleStartTime="01:35.050"
+						timeWallClock="21:09:25"
+						time="01:41.874"
+						level="Warn"
+						category="Repository">
+						<message>
+							Item 'Session2_CLRepository.CLMiamiList.List.SearchLegend.spanRangeTo' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'Session2_CLRepository.CLMiamiList'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="62"
+							loglvl="Warn"
+							id="5633678b9f0b4246bf9a986e8ec51d06"
+							path="/dom[@domain='miami.craigslist.org']/body/section/form/div[@class='search-legend']/div/span[@class='buttons']/span[@class~'pagenum']/span/span[@class='rangeTo']"
+							fullname="Session2_CLRepository.CLMiamiList.List.SearchLegend.spanRangeTo"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:42.578"
+						timeRelativeToTestModuleStartTime="01:35.753"
+						timeWallClock="21:09:26"
+						time="01:42.578"
+						level="Info"
+						category="User">
+						<message>
+							Number of links (21) is equal to rangeTo (21)
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="70"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:55.140"
+						timeRelativeToTestModuleStartTime="01:48.316"
+						timeWallClock="21:09:38"
+						time="01:55.140"
+						level="Success"
+						category="Validation">
+						<message>
+							Element for item 'sectionPost' does exist.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain~'miami.craigslist.org']/body/section/section/section/section[#'postingbody']"
+							fullname="Session2_CLRepository.CLMiamiDetail.sectionPost"
+							id="05e3c7fc565b4b72ac9e02d13d9edc7b"
+							timeout="6000"
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="82"
+							loglvl="Success"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:55.250"
+						timeRelativeToTestModuleStartTime="01:48.425"
+						timeWallClock="21:09:38"
+						time="01:55.250"
+						level="Info"
+						category="User">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="88"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:01.578"
+						timeRelativeToTestModuleStartTime="01:54.754"
+						timeWallClock="21:09:45"
+						time="02:01.578"
+						level="Warn"
+						category="Repository">
+						<message>
+							Item 'Session2_CLRepository.CLMiamiDetail.sectionPost' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'Session2_CLRepository.CLMiamiDetail'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="82"
+							loglvl="Warn"
+							id="05e3c7fc565b4b72ac9e02d13d9edc7b"
+							path="/dom[@domain~'miami.craigslist.org']/body/section/section/section/section[#'postingbody']"
+							fullname="Session2_CLRepository.CLMiamiDetail.sectionPost"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:01.687"
+						timeRelativeToTestModuleStartTime="01:54.863"
+						timeWallClock="21:09:45"
+						time="02:01.687"
+						level="Success"
+						category="Validation">
+						<message>
+							Element for item 'sectionPost' does exist.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain~'miami.craigslist.org']/body/section/section/section/section[#'postingbody']"
+							fullname="Session2_CLRepository.CLMiamiDetail.sectionPost"
+							id="05e3c7fc565b4b72ac9e02d13d9edc7b"
+							timeout="6000"
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="82"
+							loglvl="Success"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:04.922"
+						timeRelativeToTestModuleStartTime="01:58.097"
+						timeWallClock="21:09:48"
+						time="02:04.922"
+						level="Warn"
+						category="Repository">
+						<message>
+							Item 'Session2_CLRepository.CLMiamiDetail.sectionPost' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'Session2_CLRepository.CLMiamiDetail'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="85"
+							loglvl="Warn"
+							id="05e3c7fc565b4b72ac9e02d13d9edc7b"
+							path="/dom[@domain~'miami.craigslist.org']/body/section/section/section/section[#'postingbody']"
+							fullname="Session2_CLRepository.CLMiamiDetail.sectionPost"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:05.015"
+						timeRelativeToTestModuleStartTime="01:58.191"
+						timeWallClock="21:09:48"
+						time="02:05.015"
+						level="Info"
+						category="User">
+						<message>
+							requirements for this opening.
+Job Purpose:
+Analyzes business needs and detailed system components, identifies, communicates, and resolves systems issues in support of core system functions. Performs systems analysis, design, coding, testing, documentation and implementation for application systems development software initiatives driven by business needs. Develops and enhances computer applications to support the implementation of difficult to complex business requirements. Performs specific assignments as part of a project team or works independently on small to medium-sized enhancements and production support assignments. May perform technical project management.
+Major Duties:
+Design/Programming
+&#8226; Interprets business requirements for system enhancements and projects, translates them into detailed design system specifications including process and data flows, screen and report specifications, stored procedures, batch scripts, and batch scheduling specifications.
+&#8226; Recommends technologies to be used in building the solution.
+&#8226; Develops system components based on business requirements and system specifications, codes, tests, and implements components in accordance with standards and procedures.
+&#8226; Responsible for unit testing components and supporting DEV and QA testing.
+&#8226; Performs design reviews and code reviews for other team initiatives.
+&#8226; Coordinates and executes integration testing for development efforts.
+&#8226; Develops implementation plans and supports migrations through the various environments.
+&#8226; Responsible for the coordination and implementation of small to medium-sized enhancements and production support assignments from end to end.
+&#8226; Prepares and maintains technical system documentation for system support and other needs.
+Analysis
+&#8226; Analyzes business needs and detailed system components, including input, process, and output requirements, data and system flows, and hardware and software requirements.
+&#8226; Identifies, communicates, and resolves systems issues in support of core system functions.
+&#8226; Identifies root cause of problems, provides options for resolution and documents outcome of analysis.
+&#8226; Evaluates existing systems to improve their effectiveness and efficiency, reducing operational costs, and providing solutions to resolve data and system issues.
+&#8226; Provides consultation in areas of expertise and/or 3rd party vendor software products.
+Project Management
+&#8226; Manages various technical aspects of small to medium-sized projects concurrently through the project lifecycle using the PMO process while managing to a budget, timeline and customer satisfaction and value.
+&#8226; Responsible for estimating, project planning, communicating status of projects, designing, analyzing, coding (where applicable), testing, and documentation and implementation of components in accordance with standards and procedures.
+&#8226; Works with management team to staff projects.
+&#8226; Provides objective feedback to management regarding team and individual performance.
+&#8226; Provides technical expertise and knowledge transfer for IT, PMO and Business user team members.
+Relationships
+&#8226; Establishes and/or maintains working relationships with both Business and IT partners to define, understand and evaluate business requirements and resolve production issues.
+&#8226; Provides support in a matrix-management fashion to other areas as needed.
+Leadership
+&#8226; Provides knowledge transfer to other technical peers.
+&#8226; Provides technical leadership and expertise to peers on small to medium-sized work efforts and production support.
+Required Education, Experience &amp; Skills:
+&#8226; Bachelor's degree and a minimum of 5 years IT programming experience or 5 years managing software development and/or technical project management experience.
+&#8226; In lieu of degree, additional work experience and/or trade school or applicable certifications required.
+&#8226; Solid understanding of IT Technical Architecture, and strong knowledge of the capabilities and constraints of large-scale, multi-processing computer systems.
+&#8226; In depth knowledge and experience with Relational Database Management Systems (RDBMS) that interact with batch and web applications.
+&#8226; In depth technical expertise in multiple platforms (i.e., UNIX/LINUX, Windows/Intel); multiple database technologies, (i.e., Oracle); multiple programming languages, (i.e., VB.Net, C#, ASP, PL/SQL, Java, Object oriented programming); and multiple batch operating environments (i.e., Unix/Shell Scripting, Windows).
+&#8226; Solid Communication Skills - ability to communicate clearly and concisely, both verbally and in writing, and to establish and maintain working relationships with both Business and IT partners as part of developing solutions and resolving business issues.
+&#8226; Solid Customer Service Skills - ability to identify and anticipate customer requirements and needs, and respond to and influence customer expectations.
+&#8226; In Depth Analytical Skills - ability to gather and analyze information, and draw logical conclusions while identifying the root cause of problems and providing options for resolution.
+&#8226; Programming Skills -- In depth knowledge of programming principles, techniques, standards and analytical ability to develop computer programs and systems.
+&#8226; Project Management Skills -- In depth understanding of project life cycle methodologies, estimating, and IT best practices with experience managing and implementing small to medium size projects.
+&#8226; Ability to multi-task, juggle multiple projects, and function in a flexible matrix-management environment.
+&#8226; In depth understanding of industry standard desktop software (e.g., Windows, Office, eMail, SharePoint, etc).
+Preferred Education, Experience, and Skills:
+&#8226; Bachelor's degree in computer information or related field.
+&#8226; Good working knowledge and understanding of NCCI business processes and systems.
+&#8226; Experience integrating 3rd party software.
+&#8226; MCSD or ORACLE Developer Certification.
+&#8226; PMI (Project Management Institute) Certification.
+As key contributors to our success, our team members enjoy working in a casual, collaborative environment that offers state-of-the-art resources, advanced technologies, and a superior benefits package.
+We require a drug screen and background check.
+EEO/Smoke Free environment
+Apply online:&#32;
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="88"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:11.203"
+						timeRelativeToTestModuleStartTime="02:04.379"
+						timeWallClock="21:09:54"
+						time="02:11.203"
+						level="Warn"
+						category="Repository">
+						<message>
+							Item 'Session2_CLRepository.CLMiamiDetail.sectionPost' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'Session2_CLRepository.CLMiamiDetail'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="82"
+							loglvl="Warn"
+							id="05e3c7fc565b4b72ac9e02d13d9edc7b"
+							path="/dom[@domain~'miami.craigslist.org']/body/section/section/section/section[#'postingbody']"
+							fullname="Session2_CLRepository.CLMiamiDetail.sectionPost"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:11.327"
+						timeRelativeToTestModuleStartTime="02:04.503"
+						timeWallClock="21:09:54"
+						time="02:11.327"
+						level="Success"
+						category="Validation">
+						<message>
+							Element for item 'sectionPost' does exist.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain~'miami.craigslist.org']/body/section/section/section/section[#'postingbody']"
+							fullname="Session2_CLRepository.CLMiamiDetail.sectionPost"
+							id="05e3c7fc565b4b72ac9e02d13d9edc7b"
+							timeout="6000"
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="82"
+							loglvl="Success"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:14.594"
+						timeRelativeToTestModuleStartTime="02:07.769"
+						timeWallClock="21:09:58"
+						time="02:14.594"
+						level="Warn"
+						category="Repository">
+						<message>
+							Item 'Session2_CLRepository.CLMiamiDetail.sectionPost' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'Session2_CLRepository.CLMiamiDetail'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="85"
+							loglvl="Warn"
+							id="05e3c7fc565b4b72ac9e02d13d9edc7b"
+							path="/dom[@domain~'miami.craigslist.org']/body/section/section/section/section[#'postingbody']"
+							fullname="Session2_CLRepository.CLMiamiDetail.sectionPost"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:14.703"
+						timeRelativeToTestModuleStartTime="02:07.878"
+						timeWallClock="21:09:58"
+						time="02:14.703"
+						level="Info"
+						category="User">
+						<message>
+							requirements, developing functional specification and developing applications. Programmer must be experienced with Microsoft development products such as .NET, C#, Active Server Pages, SQL, Access, and TFS. Knowledge of web development, HTML, Java, and MVC are required. In addition, ESRI products such as ArcSDE, ArcIMS, ArcGIS Server and interfacing with geographic databases are beneficial. 
+Required / Desired Skills
+&#8226;	.NET (Required 2 Years)
+&#8226;	C# (Required 2 Years)
+&#8226;	Active Server Pages (ASP) (Required 2 Years)
+&#8226;	SQL (Required 2 Years)
+&#8226;	Access (Required 2 Years)
+&#8226;	Team Foundation Server (TFS) (Required 2 Years)
+&#8226;	HTML (Required 2 Years)
+&#8226;	Java (Required 2 Years)
+&#8226;	MVC (Required 2 Years)
+&#8226;	ArcSDE (Highly Desired 1 Years)
+&#8226;	ArcIMS (Highly Desired 1 Years)
+&#8226;	ArcGIS Server (Highly Desired 1 Years)
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="88"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:20.905"
+						timeRelativeToTestModuleStartTime="02:14.081"
+						timeWallClock="21:10:04"
+						time="02:20.905"
+						level="Warn"
+						category="Repository">
+						<message>
+							Item 'Session2_CLRepository.CLMiamiDetail.sectionPost' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'Session2_CLRepository.CLMiamiDetail'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="82"
+							loglvl="Warn"
+							id="05e3c7fc565b4b72ac9e02d13d9edc7b"
+							path="/dom[@domain~'miami.craigslist.org']/body/section/section/section/section[#'postingbody']"
+							fullname="Session2_CLRepository.CLMiamiDetail.sectionPost"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:20.952"
+						timeRelativeToTestModuleStartTime="02:14.128"
+						timeWallClock="21:10:04"
+						time="02:20.952"
+						level="Success"
+						category="Validation">
+						<message>
+							Element for item 'sectionPost' does exist.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain~'miami.craigslist.org']/body/section/section/section/section[#'postingbody']"
+							fullname="Session2_CLRepository.CLMiamiDetail.sectionPost"
+							id="05e3c7fc565b4b72ac9e02d13d9edc7b"
+							timeout="6000"
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="82"
+							loglvl="Success"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:22.484"
+						timeRelativeToTestModuleStartTime="02:15.659"
+						timeWallClock="21:10:06"
+						time="02:22.484"
+						level="Error"
+						category="Module">
+						<message>
+							Test run was aborted by the user.
+						</message>
+						<metainfo
+							loglvl="Error"/>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

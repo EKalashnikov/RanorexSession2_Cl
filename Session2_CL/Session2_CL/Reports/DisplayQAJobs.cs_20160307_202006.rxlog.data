@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1d64c1f6b518d66"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="automation"
+		host="DESKTOP-IP0304R"
+		rxversion="5.4.0.24580"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1280x1024"
+		timestamp="3/7/2016 8:20:10 PM"
+		timestampiso="2016-03-08T01:20:10"
+		timeoutfactor="1"
+		module="DisplayQAJobs">
+		<detail>
+			DisplayQAJobs
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.765"
+			timeRelativeToTestModuleStartTime="00:01.765"
+			timeWallClock="20:20:12"
+			time="00:01.765"
+			level="Warn"
+			category="Internet Explorer">
+			<message>
+				Please make sure that you have the Ranorex Addon installed and enabled in Internet Explorer. Otherwise Ranorex UI element identification might be very slow.<br/>The following website provides more information on this technology limitation:<br/>http://www.ranorex.com/support/user-guide-20/technology-instrumentation/general-troubleshooting.html#c3253<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="53"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.234"
+			timeRelativeToTestModuleStartTime="00:02.234"
+			timeWallClock="20:20:12"
+			time="00:02.234"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'spanRangeTo' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='miami.craigslist.org']/body/section/form/div[@class='search-legend']/div/span[@class='buttons']/span[@class~'pagenum']/span/span[@class='rangeTo']"
+				fullname="Session2_CLRepository.CLMiamiList.List.SearchLegend.spanRangeTo"
+				id="5633678b9f0b4246bf9a986e8ec51d06"
+				timeout="120000"
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="53"
+				loglvl="Success"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.313"
+			timeRelativeToTestModuleStartTime="00:02.313"
+			timeWallClock="20:20:12"
+			time="00:02.313"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'inputSearch' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='miami.craigslist.org']/body/section/form/div[@class='querybox']/input[#'query']"
+				fullname="Session2_CLRepository.CLMiamiList.List.SearchForm.inputSearch"
+				id="dbfc1970be6743afa942c9e20486cb47"
+				timeout="120000"
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="55"
+				loglvl="Success"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.328"
+			timeRelativeToTestModuleStartTime="00:02.328"
+			timeWallClock="20:20:12"
+			time="00:02.328"
+			level="Info"
+			category="User">
+			<message>
+				Search Found
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="56"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.047"
+			timeRelativeToTestModuleStartTime="00:08.047"
+			timeWallClock="20:20:18"
+			time="00:08.047"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for path '/dom[@domain='miami.craigslist.org']/body/section/form/div[@class='search-legend']/div/span[@class='buttons']/span[@class~'pagenum']/span/span[@class='rangeTo']' does exist.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="61"
+				loglvl="Success"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:34.672"
+			timeRelativeToTestModuleStartTime="00:34.672"
+			timeWallClock="20:20:45"
+			time="00:34.672"
+			level="Error"
+			category="Module">
+			<message>
+				Test run was aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

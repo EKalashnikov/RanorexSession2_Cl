@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="f0b69c346f2c49c"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="automation"
+		host="DESKTOP-IP0304R"
+		rxversion="5.4.0.24580"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1280x1024"
+		timestamp="3/7/2016 7:34:01 PM"
+		timestampiso="2016-03-08T00:34:01"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="1.1m"
+			durationms="64252"
+			type="test suite"
+			rid="1463176edc93cc7f"
+			totalerrorcount="1"
+			totalwarningcount="1"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="Session2_CL"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="1.1m"
+				durationms="64202"
+				type="test case"
+				rid="2e10709c12cffd7e"
+				totalerrorcount="1"
+				totalwarningcount="1"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				testcasename="TestCase"
+				testcaseid="572a67b4-cf71-4fa4-9a48-d8e7704378ea"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="234ms"
+					durationms="234"
+					type="test module"
+					rid="13524aeebe227d4"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="OpenWebSite"
+					moduleid="9b78d80c-7370-470a-9b3c-7c683029ef41"
+					moduletype="UserCode">
+					<detail>
+					</detail>
+					<varbindings/>
+				</activity>
+				<activity
+					result="Failed"
+					duration="1.1m"
+					durationms="63822"
+					type="test module"
+					rid="22fbebb012bf1258"
+					totalerrorcount="1"
+					totalwarningcount="1"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="ChooseCategory"
+					moduleid="d60d95eb-bacf-44f2-950b-065a697dcf0e"
+					moduletype="UserCode">
+					<detail>
+					</detail>
+					<errmsg>
+						Failed to find item 'Session2_CLRepository.CLMiami.Categories.spanQA'.
+					</errmsg>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:08.608"
+						timeRelativeToTestModuleStartTime="00:07.874"
+						timeWallClock="19:34:10"
+						time="00:08.608"
+						level="Warn"
+						category="Firefox"
+						errimg="images_Session2_CL_20160307_193401\Session2_CL_20160307_193401_7ea50db2_trace.jpg"
+						errthumb="images_Session2_CL_20160307_193401\Session2_CL_20160307_193401_7ea50db2_trace_thumb.jpg">
+						<message>
+							Please make sure that you have the Ranorex Addon installed and enabled in your Mozilla Firefox browser. Otherwise Ranorex UI element identification capabilities for Firefox are limited.<br/>The following website provides more information on this technology limitation:<br/>http://www.ranorex.com/support/user-guide-20/instrumentation-wizard/mozilla-firefox.html<br/>(This message is only shown once per report.)
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\ChooseCategory.cs"
+							codeline="50"
+							loglvl="Warn"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:04.388"
+						timeRelativeToTestModuleStartTime="01:03.654"
+						timeWallClock="19:35:05"
+						time="01:04.388"
+						level="Error"
+						category="Module"
+						errimg="images_Session2_CL_20160307_193401\Session2_CL_20160307_193401_1bcfbb45_trace.jpg"
+						errthumb="images_Session2_CL_20160307_193401\Session2_CL_20160307_193401_1bcfbb45_trace_thumb.jpg">
+						<message>
+							Failed to find item 'Session2_CLRepository.CLMiami.Categories.spanQA'.<br/>No element found for path '/dom[@domain='miami.craigslist.org']/body/div/section/div/div[@class='jobs']/div/div/ul[#'jjj0']/li/a/span[@innertext='software / qa / dba']' within 1.1m.
+						</message>
+						<metainfo
+							stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at Session2_CL.Session2_CLRepositoryFolders.CategoriesFolder.get_spanQA() in c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\Session2_CLRepository.cs:line 204
+   at Session2_CL.ChooseCategory.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\ChooseCategory.cs:line 50
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\ChooseCategory.cs"
+							codeline="50"
+							type="repoitem"
+							path="/dom[@domain='miami.craigslist.org']/body/div/section/div/div[@class='jobs']/div/div/ul[#'jjj0']/li/a/span[@innertext='software / qa / dba']"
+							fullname="Session2_CLRepository.CLMiami.Categories.spanQA"
+							id="8f5789edb3244f01b45bf324ce5103b0"
+							timeout="63000"
+							loglvl="Error"/>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

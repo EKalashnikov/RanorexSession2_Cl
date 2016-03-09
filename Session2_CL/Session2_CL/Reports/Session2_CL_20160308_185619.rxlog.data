@@ -1,0 +1,701 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="bc3ab5e06b651a9"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="automation"
+		host="DESKTOP-IP0304R"
+		rxversion="5.4.0.24580"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1024x734"
+		timestamp="3/8/2016 6:56:19 PM"
+		timestampiso="2016-03-08T23:56:19"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="0ms"
+			durationms="0"
+			type="test suite"
+			rid="4ffd72c72625498"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="Session2_CL"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="0ms"
+				durationms="0"
+				type="test case"
+				rid="2dcd9eee60ed931d"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				testcasename="TestCase"
+				testcaseid="572a67b4-cf71-4fa4-9a48-d8e7704378ea"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="234ms"
+					durationms="234"
+					type="test module"
+					rid="47b00109faa9b36"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="OpenWebSite"
+					moduleid="9b78d80c-7370-470a-9b3c-7c683029ef41"
+					moduletype="UserCode">
+					<detail>
+					</detail>
+					<varbindings/>
+				</activity>
+				<activity
+					result="Success"
+					duration="5648ms"
+					durationms="5648"
+					type="test module"
+					rid="11bfd0b8e3b26eae"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="ChooseCategory"
+					moduleid="d60d95eb-bacf-44f2-950b-065a697dcf0e"
+					moduletype="UserCode">
+					<detail>
+					</detail>
+					<varbindings/>
+				</activity>
+				<activity
+					result="Failed"
+					duration="0ms"
+					durationms="0"
+					type="test module"
+					rid="e33b349a5be10a0"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="DisplayQAJobs"
+					moduleid="11988a37-fce2-45ba-b382-ef4ea500875f"
+					moduletype="UserCode">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:12.218"
+						timeRelativeToTestModuleStartTime="00:05.248"
+						timeWallClock="18:56:32"
+						time="00:12.218"
+						level="Info"
+						category="User">
+						<message>
+							Number of links (58) is equal to rangeTo (58)
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="71"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:14.546"
+						timeRelativeToTestModuleStartTime="00:07.576"
+						timeWallClock="18:56:34"
+						time="00:14.546"
+						level="Info"
+						category="User">
+						<message>
+							requirements: 
+Skills, knowledge and Experience:
+- Experience developing restfull API systems with NodeJS. 
+- NodeJS, Express, passport, NoSQL databases integration. (Mandatory) 
+- Knowledge or implementations using Couchbase is a BIG plus.
+- MySql for NodeJs is a plus.
+- PostgreSQL for NodeJs is a plus. 
+Functions and Responsibilities:
+- Responsible of developing new functions and end points in the back end systems.
+- Keep track of the availability of the services
+- Advise in programming approaches to create ef&#64257;cient functionality
+- Enhance and maintain code in the back end systems
+- Advise in data structure
+This is a Full tie and in-house position. THIRD PARTIES DO NOT APPLY!
+If you think you're the right candidate for this position, please send us your resume to hr@callpalapp.net
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="125"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:17.733"
+						timeRelativeToTestModuleStartTime="00:10.764"
+						timeWallClock="18:56:37"
+						time="00:17.733"
+						level="Info"
+						category="User">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="125"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:20.905"
+						timeRelativeToTestModuleStartTime="00:13.935"
+						timeWallClock="18:56:40"
+						time="00:20.905"
+						level="Info"
+						category="User">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="125"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:23.765"
+						timeRelativeToTestModuleStartTime="00:16.795"
+						timeWallClock="18:56:43"
+						time="00:23.765"
+						level="Info"
+						category="User">
+						<message>
+							requirements and develop fully tested software to meet established requirements. Success in this position involves working effectively with customers and users, application domain experts, and working within the established process framework. Customer-facing interpersonal skills and motivation are critical requirements, while demonstrating a set of fundamental software engineering skills that result in predictability in engineering, scheduling and the quality of products developed. Customer roll-out, &quot;go live&quot; activities, and software lifecycle support and evolution are also to be expected.
+Measures of Success:
+&#8226;	Integrates, tests, and supports Trimble solutions on-site with Trimble Agriculture customers.
+&#8226;	Works on software solutions with larger systems in-mind: Trimble software and hardware, customer data systems, physical equipment on agricultural land and related industrial sites.
+&#8226;	Drives to craft proposals and solutions given direct customer and sales-side input from sites remote relative to Trimble Development offices.
+&#8226;	Works at customer sites directly with end-users and remotely with various Trimble staff to identify, specify, design, and implement data-driven solutions.
+&#8226;	Performs software engineering within the process framework established for the project. This framework will describe how requirements are developed and analyzed, how changes are made to requirements, how engineering work will be planned and tracked, how testing will be performed, and the criteria by which the performance of the project will be measured. Contributes to the continuous improvement of these processes.
+&#8226;	Works with the project team, with the application domain experts (e.g., application engineers, technical marketing) and possibly with the customers, to establish achievable requirements.
+&#8226;	Works with the project team to identify/clarify project goals, establish useful milestones, and develop a breakdown of the engineering tasks to be performed. During the development process, develops engineering effort/schedule estimates to support overall project scheduling, project tracking, and change control decisions
+&#8226;	Creates software designs, and implements and tests those designs to meet established requirements
+&#8226;	Participates in technical/design reviews as required by the project framework
+&#8226;	Maintains and archives design documents, source code, and other work products necessary for the project
+&#8226;	As necessary, works independently or with quality assurance personnel to plan and execute product testing
+&#8226;	As necessary, performs or enables the ongoing support of software through the creation of design documentation or the performance of defect isolation and resolution
+&#8226;	Works with the author of product documentation to assist in the development and review of product documentation
+&#8226;	As necessary, provides engineering work products and documentation to manufacturing and document control as necessary for successful product release
+&#8226;	Other duties as required and requested by management
+Skills &amp; Experience Required:
+&#8226;	1 - 5 years of C# .NET Development
+&#8226;	Visual Studio 2012-2015
+&#8226;	Test Driven Development / Test First Development
+&#8226;	Web Services, WCF, WebAPI
+&#8226;	SQL/MySQL, data modelling
+&#8226;	Experience with TCP/IP, UDP, HTTP
+Trimble Navigation Limited is proud to be an Equal Opportunity and Affirmative Action Employer and considers qualified applicants for employment without regard to race, gender, age, color, religion, national origin, marital status, disability, sexual orientation, status as a covered veteran in accordance with applicable federal, state and local laws, or any other protected factor. EOE/M/F/V/D
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="125"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:27.290"
+						timeRelativeToTestModuleStartTime="00:20.320"
+						timeWallClock="18:56:47"
+						time="00:27.290"
+						level="Info"
+						category="User">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="125"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:30.311"
+						timeRelativeToTestModuleStartTime="00:23.342"
+						timeWallClock="18:56:50"
+						time="00:30.311"
+						level="Info"
+						category="User">
+						<message>
+							requirements for this opening.
+Job Purpose:
+Analyzes business needs and detailed system components, identifies, communicates, and resolves systems issues in support of core system functions. Performs systems analysis, design, coding, testing, documentation and implementation for application systems development software initiatives driven by business needs. Develops and enhances computer applications to support the implementation of difficult to complex business requirements. Performs specific assignments as part of a project team or works independently on small to medium-sized enhancements and production support assignments. May perform technical project management.
+Major Duties:
+Design/Programming
+&#8226; Interprets business requirements for system enhancements and projects, translates them into detailed design system specifications including process and data flows, screen and report specifications, stored procedures, batch scripts, and batch scheduling specifications.
+&#8226; Recommends technologies to be used in building the solution.
+&#8226; Develops system components based on business requirements and system specifications, codes, tests, and implements components in accordance with standards and procedures.
+&#8226; Responsible for unit testing components and supporting DEV and QA testing.
+&#8226; Performs design reviews and code reviews for other team initiatives.
+&#8226; Coordinates and executes integration testing for development efforts.
+&#8226; Develops implementation plans and supports migrations through the various environments.
+&#8226; Responsible for the coordination and implementation of small to medium-sized enhancements and production support assignments from end to end.
+&#8226; Prepares and maintains technical system documentation for system support and other needs.
+Analysis
+&#8226; Analyzes business needs and detailed system components, including input, process, and output requirements, data and system flows, and hardware and software requirements.
+&#8226; Identifies, communicates, and resolves systems issues in support of core system functions.
+&#8226; Identifies root cause of problems, provides options for resolution and documents outcome of analysis.
+&#8226; Evaluates existing systems to improve their effectiveness and efficiency, reducing operational costs, and providing solutions to resolve data and system issues.
+&#8226; Provides consultation in areas of expertise and/or 3rd party vendor software products.
+Project Management
+&#8226; Manages various technical aspects of small to medium-sized projects concurrently through the project lifecycle using the PMO process while managing to a budget, timeline and customer satisfaction and value.
+&#8226; Responsible for estimating, project planning, communicating status of projects, designing, analyzing, coding (where applicable), testing, and documentation and implementation of components in accordance with standards and procedures.
+&#8226; Works with management team to staff projects.
+&#8226; Provides objective feedback to management regarding team and individual performance.
+&#8226; Provides technical expertise and knowledge transfer for IT, PMO and Business user team members.
+Relationships
+&#8226; Establishes and/or maintains working relationships with both Business and IT partners to define, understand and evaluate business requirements and resolve production issues.
+&#8226; Provides support in a matrix-management fashion to other areas as needed.
+Leadership
+&#8226; Provides knowledge transfer to other technical peers.
+&#8226; Provides technical leadership and expertise to peers on small to medium-sized work efforts and production support.
+Required Education, Experience &amp; Skills:
+&#8226; Bachelor's degree and a minimum of 5 years IT programming experience or 5 years managing software development and/or technical project management experience.
+&#8226; In lieu of degree, additional work experience and/or trade school or applicable certifications required.
+&#8226; Solid understanding of IT Technical Architecture, and strong knowledge of the capabilities and constraints of large-scale, multi-processing computer systems.
+&#8226; In depth knowledge and experience with Relational Database Management Systems (RDBMS) that interact with batch and web applications.
+&#8226; In depth technical expertise in multiple platforms (i.e., UNIX/LINUX, Windows/Intel); multiple database technologies, (i.e., Oracle); multiple programming languages, (i.e., VB.Net, C#, ASP, PL/SQL, Java, Object oriented programming); and multiple batch operating environments (i.e., Unix/Shell Scripting, Windows).
+&#8226; Solid Communication Skills - ability to communicate clearly and concisely, both verbally and in writing, and to establish and maintain working relationships with both Business and IT partners as part of developing solutions and resolving business issues.
+&#8226; Solid Customer Service Skills - ability to identify and anticipate customer requirements and needs, and respond to and influence customer expectations.
+&#8226; In Depth Analytical Skills - ability to gather and analyze information, and draw logical conclusions while identifying the root cause of problems and providing options for resolution.
+&#8226; Programming Skills -- In depth knowledge of programming principles, techniques, standards and analytical ability to develop computer programs and systems.
+&#8226; Project Management Skills -- In depth understanding of project life cycle methodologies, estimating, and IT best practices with experience managing and implementing small to medium size projects.
+&#8226; Ability to multi-task, juggle multiple projects, and function in a flexible matrix-management environment.
+&#8226; In depth understanding of industry standard desktop software (e.g., Windows, Office, eMail, SharePoint, etc).
+Preferred Education, Experience, and Skills:
+&#8226; Bachelor's degree in computer information or related field.
+&#8226; Good working knowledge and understanding of NCCI business processes and systems.
+&#8226; Experience integrating 3rd party software.
+&#8226; MCSD or ORACLE Developer Certification.
+&#8226; PMI (Project Management Institute) Certification.
+As key contributors to our success, our team members enjoy working in a casual, collaborative environment that offers state-of-the-art resources, advanced technologies, and a superior benefits package.
+We require a drug screen and background check.
+EEO/Smoke Free environment
+Apply online:&#32;
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="125"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:33.984"
+						timeRelativeToTestModuleStartTime="00:27.014"
+						timeWallClock="18:56:53"
+						time="00:33.984"
+						level="Info"
+						category="User">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="125"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:36.999"
+						timeRelativeToTestModuleStartTime="00:30.029"
+						timeWallClock="18:56:56"
+						time="00:36.999"
+						level="Info"
+						category="User">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="125"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:40.265"
+						timeRelativeToTestModuleStartTime="00:33.295"
+						timeWallClock="18:57:00"
+						time="00:40.265"
+						level="Info"
+						category="User">
+						<message>
+							requirements, developing functional specification and developing applications. Programmer must be experienced with Microsoft development products such as .NET, C#, Active Server Pages, SQL, Access, and TFS. Knowledge of web development, HTML, Java, and MVC are required. In addition, ESRI products such as ArcSDE, ArcIMS, ArcGIS Server and interfacing with geographic databases are beneficial. 
+Required / Desired Skills
+&#8226;	.NET (Required 2 Years)
+&#8226;	C# (Required 2 Years)
+&#8226;	Active Server Pages (ASP) (Required 2 Years)
+&#8226;	SQL (Required 2 Years)
+&#8226;	Access (Required 2 Years)
+&#8226;	Team Foundation Server (TFS) (Required 2 Years)
+&#8226;	HTML (Required 2 Years)
+&#8226;	Java (Required 2 Years)
+&#8226;	MVC (Required 2 Years)
+&#8226;	ArcSDE (Highly Desired 1 Years)
+&#8226;	ArcIMS (Highly Desired 1 Years)
+&#8226;	ArcGIS Server (Highly Desired 1 Years)
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="125"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:43.593"
+						timeRelativeToTestModuleStartTime="00:36.623"
+						timeWallClock="18:57:03"
+						time="00:43.593"
+						level="Info"
+						category="User">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="125"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:46.874"
+						timeRelativeToTestModuleStartTime="00:39.905"
+						timeWallClock="18:57:06"
+						time="00:46.874"
+						level="Info"
+						category="User">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="125"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:49.987"
+						timeRelativeToTestModuleStartTime="00:43.017"
+						timeWallClock="18:57:09"
+						time="00:49.987"
+						level="Info"
+						category="User">
+						<message>
+							requirements, as project requires throughout various phases. 
+&#8226; Communicate project progress and formally obtain final acceptance and satisfaction at each critical milestone.
+&#8226; Gathering Business and Data Requirements, Analyzing and Documenting Requirements.
+&#8226; Testing applications (regression and load) and sound testing methodologies. 
+&#8226; Develop, research and evaluate project alternatives and provide recommendations to customer based on client's objectives. 
+MINIMUM EDUCATION &amp; EXPERIENCE REQUIRED:
+&#8226; Bachelor's degree in Computer Science, Management Information Systems, or related field 
+&#8226; Two years of supervising or managing analysis and programmers
+&#8226; Two years of applications development experience working with Microsoft development tools
+ESTIMATED START DATE: 02/21/2016
+DURATION: One year
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="125"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:53.202"
+						timeRelativeToTestModuleStartTime="00:46.232"
+						timeWallClock="18:57:13"
+						time="00:53.202"
+						level="Info"
+						category="User">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="125"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:56.453"
+						timeRelativeToTestModuleStartTime="00:49.483"
+						timeWallClock="18:57:16"
+						time="00:56.453"
+						level="Info"
+						category="User">
+						<message>
+							Requirements for CallPal Skilled DevOps Engineer:
+- Teamplayer
+- VMware - 3yrs Hands on exp
+- Pfsense - 2yrs Hands on exp
+- LINUX - 5yrs Hands on exp
+- Ansible - 2yrs Hands on exp
+- Jenkins - 2yrs Hands on exp
+- Nginx - 3yrs Hands on exp
+- HAproxy - 3yrs Hands on exp
+- Tcp/ip, Networking.. - 3yrs Hands on exp
+- Couchbase, MySql, PostgreSQL clusters - 3yrs Hands on exp - NodeJS, among others
+Functions &amp; Responsibilities:
+- Continued scaling and optimization of our cloud infrastructure: day-to-day management and development of new architecture to accommodate future growth.
+- Work with engineering team to determine how to best leverage tools and techniques involving infrastructure as code, configuration management and other DevOps-type techniques to improve delivery quality, speed and experience.
+- Develop and maintain tools for application deployment.
+- Develop and maintain automated tests to monitor and optimize platform.
+- Explore new technologies to keep ahead of the curve for effective systems deployment and
+monitoring.
+- Create custom tools to build, test, deploy and monitor systems in production and
+development.
+- Continuously improve our infrastructure to be easy to deploy, scalable, secure, and fault-
+tolerant.
+- Infrastructure cost containment, forecasting and budgeting.
+- Integration of software stacks and applicable components.
+If you think you're the right candidate for this position, send us your cv to hr@callpalapp.net&#10;
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="125"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:59.640"
+						timeRelativeToTestModuleStartTime="00:52.670"
+						timeWallClock="18:57:19"
+						time="00:59.640"
+						level="Info"
+						category="User">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="125"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:02.953"
+						timeRelativeToTestModuleStartTime="00:55.983"
+						timeWallClock="18:57:22"
+						time="01:02.953"
+						level="Info"
+						category="User">
+						<message>
+							requirements and/or necessary alterations
+Contributes in project planning and project management
+Manages and priorities multiple projects within design specifications and budget limitations
+Interacts with all internal and external sources necessary to successfully complete assignments
+Performs other related duties as assigned or requested
+Creates and updates computer programs to satisfy user requests.
+Discusses requests with users for clarification and recommends modifications to lower costs, enhance usability or expand functionality.
+Develops time and expense estimates to fulfill user requests.
+Develops test data and test plans for requested programs and systems.
+Creates and reviews program and system documentation and flow charts to ensure accuracy and consistency.
+Works with data center operations and data security personnel to move programs and systems from test to production status.
+Works with and supports sales/marketing functions.
+Provides labor material and cost estimates.
+Follows safety procedures as set forth by the company.
+Analyzes date and provides support to each department.
+Job Qualifications
+Minimum Education: Bachelor's Degree
+Minimum Field of Expertise: Information technology
+Minimum Experience: 5 Years
+Preferred Experience: 10+ Years
+Competencies
+Analysis
+Assessment/evaluation
+Attention to detail
+Communication -- written and oral skills
+Conflict resolution
+Consulting
+Creativity
+Organization
+Knowledge of relevant policies and procedures
+Problem identification and resolution
+Computer network and computer systems
+Works independently
+IOS; C+; C++; Android; HTML5
+Apply Now:&#32;
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="125"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:05.983"
+						timeRelativeToTestModuleStartTime="00:59.013"
+						timeWallClock="18:57:25"
+						time="01:05.983"
+						level="Info"
+						category="User">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="125"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:09.233"
+						timeRelativeToTestModuleStartTime="01:02.263"
+						timeWallClock="18:57:29"
+						time="01:09.233"
+						level="Info"
+						category="User">
+						<message>
+							requirements:
+Skills knowledge and Experience:
+- Experience developing restfull API systems with NodeJS.
+- NodeJS, Express, passport, NoSQL databases integration. (Mandatory)
+- Knowledge or implementations using Couchbase is a BIG plus.
+- MySql for NodeJs is a plus.
+- PostgreSQL for NodeJs is a plus.
+Functions and Responsibilities
+- Responsible of developing new functions and end points in the back end systems.
+- Keep track of the availability of the services
+- Advise in programming approaches to create efficient functionality
+- Enhance and maintain code in the back end systems
+- Advise in data structure 
+This is a full time and in-house position. 3rd Parties DO NOT APPLY!
+If you think you're the right candidate for this position, please send us your resume to hr@callpalapp.net&#10;
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="125"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:12.405"
+						timeRelativeToTestModuleStartTime="01:05.435"
+						timeWallClock="18:57:32"
+						time="01:12.405"
+						level="Info"
+						category="User">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="125"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:17.546"
+						timeRelativeToTestModuleStartTime="01:10.576"
+						timeWallClock="18:57:37"
+						time="01:17.546"
+						level="Info"
+						category="User">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="125"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:21.046"
+						timeRelativeToTestModuleStartTime="01:14.076"
+						timeWallClock="18:57:41"
+						time="01:21.046"
+						level="Info"
+						category="User">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="125"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:24.342"
+						timeRelativeToTestModuleStartTime="01:17.373"
+						timeWallClock="18:57:44"
+						time="01:24.342"
+						level="Info"
+						category="User">
+						<message>
+							requirements. This will require integration with other enterprise systems, developing new tools and functionality to improve planning, operations and reporting of utility infrastructure. Candidate will mainly focus on consent decree/CMOM initiatives. 
+Required / Desired Skills
+&#8226;	Visual Studio .Net C#/VB (Required 5 Years)
+&#8226;	JavaScript (Required 5 Years)
+&#8226;	JQuery (Required 5 Years)
+&#8226;	MVC MS Model (Required 5 Years)
+&#8226;	Razor Syntax (Required 5 Years)
+&#8226;	Ajax (Required 5 Years)
+&#8226;	Entity Framework (Required 5 Years)
+&#8226;	HTML (Required 5 Years)
+&#8226;	CSS (Required 5 Years)
+&#8226;	XML/XSL/XSLT (Required 5 Years)
+&#8226;	ASP (Required 5 Years)
+&#8226;	SSIS (Required 5 Years)
+&#8226;	SSRS (Required 5 Years)
+&#8226;	Web Services (Required 5 Years)
+&#8226;	MS .NET Framework 2.0+ and higher (Required 5 Years)
+&#8226;	TFS (Required 5 Years)
+&#8226;	IIS (Required 5 Years)
+&#8226;	SSL (Required 5 Years)
+&#8226;	SQL Server Management (Views, Stored Procedures, and Security) (Required 5 Years)
+&#8226;	Crystal Reports (Required 5 Years)
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="125"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:27.843"
+						timeRelativeToTestModuleStartTime="01:20.873"
+						timeWallClock="18:57:47"
+						time="01:27.843"
+						level="Info"
+						category="User">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="125"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:38.468"
+						timeRelativeToTestModuleStartTime="01:31.498"
+						timeWallClock="18:57:58"
+						time="01:38.468"
+						level="Error"
+						category="Module">
+						<message>
+							Test run was aborted by the user.
+						</message>
+						<metainfo
+							loglvl="Error"/>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

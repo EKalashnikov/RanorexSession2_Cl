@@ -47,7 +47,7 @@ namespace Session2_CL
             Keyboard.DefaultKeyPressTime = 100;
             Delay.SpeedFactor = 1.0;
             
-            repo.CLMiami.Categories.spanQA.Click();
+            repo.CLMiamiCat.Categories.spanQA.Click();
         }
     }
 }

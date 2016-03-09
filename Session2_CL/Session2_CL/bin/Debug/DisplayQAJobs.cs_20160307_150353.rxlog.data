@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="d954169d786ad70"
+		totalerrorcount="1"
+		totalwarningcount="2"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="automation"
+		host="DESKTOP-IP0304R"
+		rxversion="5.4.0.24580"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1636x978"
+		timestamp="3/7/2016 3:04:04 PM"
+		timestampiso="2016-03-07T20:04:04"
+		timeoutfactor="1"
+		module="DisplayQAJobs">
+		<detail>
+			DisplayQAJobs
+		</detail>
+		<errmsg>
+			Failed to find item 'Session2_CLRepository.WebDocumentIE.sectionPost'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.890"
+			timeRelativeToTestModuleStartTime="00:01.890"
+			timeWallClock="15:04:06"
+			time="00:01.890"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'inputSearch' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='miami.craigslist.org']/body/section/form/div/input[#'query']"
+				fullname="Session2_CLRepository.CLMiami.List.SearchForm.inputSearch"
+				id="dbfc1970be6743afa942c9e20486cb47"
+				timeout="93000"
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="59"
+				loglvl="Success"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.984"
+			timeRelativeToTestModuleStartTime="00:01.984"
+			timeWallClock="15:04:06"
+			time="00:01.984"
+			level="Info"
+			category="User">
+			<message>
+				Search Found
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="60"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.891"
+			timeRelativeToTestModuleStartTime="00:12.891"
+			timeWallClock="15:04:17"
+			time="00:12.891"
+			level="Info"
+			category="User">
+			<message>
+				56
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="71"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.555"
+			timeRelativeToTestModuleStartTime="00:15.555"
+			timeWallClock="15:04:19"
+			time="00:15.555"
+			level="Info"
+			category="User">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="86"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.609"
+			timeRelativeToTestModuleStartTime="00:22.609"
+			timeWallClock="15:04:27"
+			time="00:22.609"
+			level="Warn"
+			category="Repository">
+			<message>
+				Item 'Session2_CLRepository.WebDocumentIE.sectionPost' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'Session2_CLRepository.WebDocumentIE'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="83"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.656"
+			timeRelativeToTestModuleStartTime="00:22.656"
+			timeWallClock="15:04:27"
+			time="00:22.656"
+			level="Info"
+			category="User">
+			<message>
+				requirements and develop fully tested software to meet established requirements. Success in this position involves working effectively with customers and users, application domain experts, and working within the established process framework. Customer-facing interpersonal skills and motivation are critical requirements, while demonstrating a set of fundamental software engineering skills that result in predictability in engineering, scheduling and the quality of products developed. Customer roll-out, &quot;go live&quot; activities, and software lifecycle support and evolution are also to be expected.
+Measures of Success:
+&#8226;	Integrates, tests, and supports Trimble solutions on-site with Trimble Agriculture customers.
+&#8226;	Works on software solutions with larger systems in-mind: Trimble software and hardware, customer data systems, physical equipment on agricultural land and related industrial sites.
+&#8226;	Drives to craft proposals and solutions given direct customer and sales-side input from sites remote relative to Trimble Development offices.
+&#8226;	Works at customer sites directly with end-users and remotely with various Trimble staff to identify, specify, design, and implement data-driven solutions.
+&#8226;	Performs software engineering within the process framework established for the project. This framework will describe how requirements are developed and analyzed, how changes are made to requirements, how engineering work will be planned and tracked, how testing will be performed, and the criteria by which the performance of the project will be measured. Contributes to the continuous improvement of these processes.
+&#8226;	Works with the project team, with the application domain experts (e.g., application engineers, technical marketing) and possibly with the customers, to establish achievable requirements.
+&#8226;	Works with the project team to identify/clarify project goals, establish useful milestones, and develop a breakdown of the engineering tasks to be performed. During the development process, develops engineering effort/schedule estimates to support overall project scheduling, project tracking, and change control decisions
+&#8226;	Creates software designs, and implements and tests those designs to meet established requirements
+&#8226;	Participates in technical/design reviews as required by the project framework
+&#8226;	Maintains and archives design documents, source code, and other work products necessary for the project
+&#8226;	As necessary, works independently or with quality assurance personnel to plan and execute product testing
+&#8226;	As necessary, performs or enables the ongoing support of software through the creation of design documentation or the performance of defect isolation and resolution
+&#8226;	Works with the author of product documentation to assist in the development and review of product documentation
+&#8226;	As necessary, provides engineering work products and documentation to manufacturing and document control as necessary for successful product release
+&#8226;	Other duties as required and requested by management
+Skills &amp; Experience Required:
+&#8226;	1 - 5 years of C# .NET Development
+&#8226;	Visual Studio 2012-2015
+&#8226;	Test Driven Development / Test First Development
+&#8226;	Web Services, WCF, WebAPI
+&#8226;	SQL/MySQL, data modelling
+&#8226;	Experience with TCP/IP, UDP, HTTP
+Trimble Navigation Limited is proud to be an Equal Opportunity and Affirmative Action Employer and considers qualified applicants for employment without regard to race, gender, age, color, religion, national origin, marital status, disability, sexual orientation, status as a covered veteran in accordance with applicable federal, state and local laws, or any other protected factor. EOE/M/F/V/D
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="86"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:29.765"
+			timeRelativeToTestModuleStartTime="00:29.765"
+			timeWallClock="15:04:34"
+			time="00:29.765"
+			level="Warn"
+			category="Repository"
+			errimg=".\DisplayQAJobs.cs_20160307_150353_ea353d35_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160307_150353_ea353d35_trace_thumb.jpg">
+			<message>
+				Item 'Session2_CLRepository.WebDocumentIE.sectionPost' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'Session2_CLRepository.WebDocumentIE'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="83"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:29.828"
+			timeRelativeToTestModuleStartTime="00:29.828"
+			timeWallClock="15:04:34"
+			time="00:29.828"
+			level="Info"
+			category="User"
+			errimg=".\DisplayQAJobs.cs_20160307_150353_8fc09e1b_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160307_150353_8fc09e1b_trace_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="86"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:36.937"
+			timeRelativeToTestModuleStartTime="00:36.937"
+			timeWallClock="15:04:41"
+			time="00:36.937"
+			level="Error"
+			category="Module"
+			errimg=".\DisplayQAJobs.cs_20160307_150353_776b6243_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160307_150353_776b6243_trace_thumb.jpg">
+			<message>
+				Failed to find item 'Session2_CLRepository.WebDocumentIE.sectionPost'.<br/>No element found for path 'section/section/section/section[#'postingbody']' within 3000ms.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at Session2_CL.Session2_CLRepositoryFolders.WebDocumentIEAppFolder.get_sectionPost() in c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\Session2_CLRepository.cs:line 439
+   at Session2_CL.DisplayQAJobs.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs:line 83
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="83"
+				type="repoitem"
+				path="/dom[@domain~'miami.craigslist.org']/body/section/section/section/section[#'postingbody']"
+				fullname="Session2_CLRepository.WebDocumentIE.sectionPost"
+				id="05e3c7fc565b4b72ac9e02d13d9edc7b"
+				timeout="6000"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

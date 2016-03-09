@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1a38644d2da2d84d"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="automation"
+		host="DESKTOP-IP0304R"
+		rxversion="5.4.0.24580"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1916x1057"
+		timestamp="3/7/2016 4:34:21 PM"
+		timestampiso="2016-03-07T21:34:21"
+		timeoutfactor="1"
+		module="DisplayQAJobs">
+		<detail>
+			DisplayQAJobs
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.750"
+			timeRelativeToTestModuleStartTime="00:01.766"
+			timeWallClock="16:34:23"
+			time="00:01.750"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'spanRangeTo' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='miami.craigslist.org']/body/section/form/div[@class='search-legend']/div/span[@class='buttons']/span[@class~'pagenum']/span/span[@class='rangeTo']"
+				fullname="Session2_CLRepository.CLMiami.List.SearchLegend.spanRangeTo"
+				id="5633678b9f0b4246bf9a986e8ec51d06"
+				timeout="93000"
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="53"
+				loglvl="Success"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.875"
+			timeRelativeToTestModuleStartTime="00:01.891"
+			timeWallClock="16:34:23"
+			time="00:01.875"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'inputSearch' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='miami.craigslist.org']/body/section/form/div[@class='querybox']/input[#'query']"
+				fullname="Session2_CLRepository.CLMiami.List.SearchForm.inputSearch"
+				id="dbfc1970be6743afa942c9e20486cb47"
+				timeout="93000"
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="54"
+				loglvl="Success"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:55.656"
+			timeRelativeToTestModuleStartTime="00:55.671"
+			timeWallClock="16:35:17"
+			time="00:55.656"
+			level="Error"
+			category="Module">
+			<message>
+				Test run was aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

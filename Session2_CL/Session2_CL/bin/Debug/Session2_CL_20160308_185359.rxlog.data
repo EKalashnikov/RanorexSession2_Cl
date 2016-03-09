@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="189fcfad477f5b1e"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="automation"
+		host="DESKTOP-IP0304R"
+		rxversion="5.4.0.24580"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1024x734"
+		timestamp="3/8/2016 6:53:59 PM"
+		timestampiso="2016-03-08T23:53:59"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="45.17s"
+			durationms="45172"
+			type="test suite"
+			rid="56f993ef7759dc0"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="Session2_CL"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="45.12s"
+				durationms="45124"
+				type="test case"
+				rid="13aa50c3da27bf6c"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				testcasename="TestCase"
+				testcaseid="572a67b4-cf71-4fa4-9a48-d8e7704378ea"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="437ms"
+					durationms="437"
+					type="test module"
+					rid="1c2d896277ea6520"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="OpenWebSite"
+					moduleid="9b78d80c-7370-470a-9b3c-7c683029ef41"
+					moduletype="UserCode">
+					<detail>
+					</detail>
+					<varbindings/>
+				</activity>
+				<activity
+					result="Success"
+					duration="5362ms"
+					durationms="5362"
+					type="test module"
+					rid="5736b79364228e4"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="ChooseCategory"
+					moduleid="d60d95eb-bacf-44f2-950b-065a697dcf0e"
+					moduletype="UserCode">
+					<detail>
+					</detail>
+					<varbindings/>
+				</activity>
+				<activity
+					result="Failed"
+					duration="38.01s"
+					durationms="38012"
+					type="test module"
+					rid="c9f20ee448f21e6"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="DisplayQAJobs"
+					moduleid="11988a37-fce2-45ba-b382-ef4ea500875f"
+					moduletype="UserCode">
+					<detail>
+					</detail>
+					<errmsg>
+						Failed to wait for item to exist.
+					</errmsg>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:14.046"
+						timeRelativeToTestModuleStartTime="00:06.606"
+						timeWallClock="18:54:13"
+						time="00:14.046"
+						level="Info"
+						category="User"
+						errimg="images_Session2_CL_20160308_185359\Session2_CL_20160308_185359_b571699f_trace.jpg"
+						errthumb="images_Session2_CL_20160308_185359\Session2_CL_20160308_185359_b571699f_trace_thumb.jpg">
+						<message>
+							Number of links (58) is equal to rangeTo (58)
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="71"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:45.343"
+						timeRelativeToTestModuleStartTime="00:37.903"
+						timeWallClock="18:54:45"
+						time="00:45.343"
+						level="Error"
+						category="Module"
+						errimg="images_Session2_CL_20160308_185359\Session2_CL_20160308_185359_96a46510_trace.jpg"
+						errthumb="images_Session2_CL_20160308_185359\Session2_CL_20160308_185359_96a46510_trace_thumb.jpg">
+						<message>
+							Failed to wait for item to exist.<br/>Failed to find item 'Session2_CLRepository.CLMiamiDetail.sectionPost'.<br/>No element found for path '/dom[@domain~'miami.craigslist.org']/body/section/section/section/section[#'postingbody']' within 30s.
+						</message>
+						<metainfo
+							stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.WaitForExists(Duration waitTimeout)
+   at Session2_CL.DisplayQAJobs.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs:line 121
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="121"
+							loglvl="Error"/>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

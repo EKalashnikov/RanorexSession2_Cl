@@ -27,8 +27,9 @@ namespace Session2_CL
     public partial class Session2_CLRepository : RepoGenBaseFolder
     {
         static Session2_CLRepository instance = new Session2_CLRepository();
-        Session2_CLRepositoryFolders.CLMiamiAppFolder _clmiami;
-        Session2_CLRepositoryFolders.WebDocumentIEAppFolder _webdocumentie;
+        Session2_CLRepositoryFolders.CLMiamiCatAppFolder _clmiamicat;
+        Session2_CLRepositoryFolders.CLMiamiDetailAppFolder _clmiamidetail;
+        Session2_CLRepositoryFolders.CLMiamiListAppFolder _clmiamilist;
 
         /// <summary>
         /// Gets the singleton class instance representing the Session2_CLRepository element repository.
@@ -45,8 +46,9 @@ namespace Session2_CL
         public Session2_CLRepository() 
             : base("Session2_CLRepository", "/", null, 0, false, "c5501f00-a0ff-437c-bd9a-a7846c3cdd0d", ".\\RepositoryImages\\Session2_CLRepositoryc5501f00.rximgres")
         {
-            _clmiami = new Session2_CLRepositoryFolders.CLMiamiAppFolder(this);
-            _webdocumentie = new Session2_CLRepositoryFolders.WebDocumentIEAppFolder(this);
+            _clmiamicat = new Session2_CLRepositoryFolders.CLMiamiCatAppFolder(this);
+            _clmiamidetail = new Session2_CLRepositoryFolders.CLMiamiDetailAppFolder(this);
+            _clmiamilist = new Session2_CLRepositoryFolders.CLMiamiListAppFolder(this);
         }
 
 #region Variables
@@ -66,21 +68,30 @@ namespace Session2_CL
         }
 
         /// <summary>
-        /// The CLMiami folder.
+        /// The CLMiamiCat folder.
         /// </summary>
         [RepositoryFolder("1128d289-583d-45f0-a3c9-df1b05e5c333")]
-        public virtual Session2_CLRepositoryFolders.CLMiamiAppFolder CLMiami
+        public virtual Session2_CLRepositoryFolders.CLMiamiCatAppFolder CLMiamiCat
         {
-            get { return _clmiami; }
+            get { return _clmiamicat; }
         }
 
         /// <summary>
-        /// The WebDocumentIE folder.
+        /// The CLMiamiDetail folder.
         /// </summary>
         [RepositoryFolder("e219cc91-47fe-4ce9-af38-2ad51a06793f")]
-        public virtual Session2_CLRepositoryFolders.WebDocumentIEAppFolder WebDocumentIE
+        public virtual Session2_CLRepositoryFolders.CLMiamiDetailAppFolder CLMiamiDetail
         {
-            get { return _webdocumentie; }
+            get { return _clmiamidetail; }
+        }
+
+        /// <summary>
+        /// The CLMiamiList folder.
+        /// </summary>
+        [RepositoryFolder("b55163ff-4f51-454e-b42b-0180a61767d2")]
+        public virtual Session2_CLRepositoryFolders.CLMiamiListAppFolder CLMiamiList
+        {
+            get { return _clmiamilist; }
         }
     }
 
@@ -91,22 +102,20 @@ namespace Session2_CL
     public partial class Session2_CLRepositoryFolders
     {
         /// <summary>
-        /// The CLMiamiAppFolder folder.
+        /// The CLMiamiCatAppFolder folder.
         /// </summary>
         [RepositoryFolder("1128d289-583d-45f0-a3c9-df1b05e5c333")]
-        public partial class CLMiamiAppFolder : RepoGenBaseFolder
+        public partial class CLMiamiCatAppFolder : RepoGenBaseFolder
         {
             Session2_CLRepositoryFolders.CategoriesFolder _categories;
-            Session2_CLRepositoryFolders.ListFolder _list;
 
             /// <summary>
-            /// Creates a new CLMiami  folder.
+            /// Creates a new CLMiamiCat  folder.
             /// </summary>
-            public CLMiamiAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("CLMiami", "/dom[@domain='miami.craigslist.org']/body", parentFolder, 3000, null, true, "1128d289-583d-45f0-a3c9-df1b05e5c333", "")
+            public CLMiamiCatAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("CLMiamiCat", "/dom[@domain='miami.craigslist.org']/body", parentFolder, 3000, null, true, "1128d289-583d-45f0-a3c9-df1b05e5c333", "")
             {
                 _categories = new Session2_CLRepositoryFolders.CategoriesFolder(this);
-                _list = new Session2_CLRepositoryFolders.ListFolder(this);
             }
 
             /// <summary>
@@ -140,15 +149,6 @@ namespace Session2_CL
             public virtual Session2_CLRepositoryFolders.CategoriesFolder Categories
             {
                 get { return _categories; }
-            }
-
-            /// <summary>
-            /// The List folder.
-            /// </summary>
-            [RepositoryFolder("8d7753d7-7a62-4037-99d7-ee4e4a4e2f38")]
-            public virtual Session2_CLRepositoryFolders.ListFolder List
-            {
-                get { return _list; }
             }
         }
 
@@ -219,12 +219,157 @@ namespace Session2_CL
         }
 
         /// <summary>
+        /// The CLMiamiDetailAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("e219cc91-47fe-4ce9-af38-2ad51a06793f")]
+        public partial class CLMiamiDetailAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _someinputtagInfo;
+            RepoItemInfo _sectionpostInfo;
+
+            /// <summary>
+            /// Creates a new CLMiamiDetail  folder.
+            /// </summary>
+            public CLMiamiDetailAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("CLMiamiDetail", "/dom[@domain~'miami.craigslist.org']/body", parentFolder, 3000, null, false, "e219cc91-47fe-4ce9-af38-2ad51a06793f", "")
+            {
+                _someinputtagInfo = new RepoItemInfo(this, "SomeInputTag", ".//input[#'query']", 30000, null, "c4121c6f-9cfc-413a-97f9-e41d523a9371");
+                _sectionpostInfo = new RepoItemInfo(this, "sectionPost", "section/section/section/section[#'postingbody']", 3000, null, "05e3c7fc-565b-4b72-ac9e-02d13d9edc7b");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("e219cc91-47fe-4ce9-af38-2ad51a06793f")]
+            public virtual Ranorex.BodyTag Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.BodyTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("e219cc91-47fe-4ce9-af38-2ad51a06793f")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SomeInputTag item.
+            /// </summary>
+            [RepositoryItem("c4121c6f-9cfc-413a-97f9-e41d523a9371")]
+            public virtual Ranorex.InputTag SomeInputTag
+            {
+                get
+                {
+                    return _someinputtagInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SomeInputTag item info.
+            /// </summary>
+            [RepositoryItemInfo("c4121c6f-9cfc-413a-97f9-e41d523a9371")]
+            public virtual RepoItemInfo SomeInputTagInfo
+            {
+                get
+                {
+                    return _someinputtagInfo;
+                }
+            }
+
+            /// <summary>
+            /// The sectionPost item.
+            /// </summary>
+            [RepositoryItem("05e3c7fc-565b-4b72-ac9e-02d13d9edc7b")]
+            public virtual Ranorex.SectionTag sectionPost
+            {
+                get
+                {
+                    return _sectionpostInfo.CreateAdapter<Ranorex.SectionTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The sectionPost item info.
+            /// </summary>
+            [RepositoryItemInfo("05e3c7fc-565b-4b72-ac9e-02d13d9edc7b")]
+            public virtual RepoItemInfo sectionPostInfo
+            {
+                get
+                {
+                    return _sectionpostInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The CLMiamiListAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("b55163ff-4f51-454e-b42b-0180a61767d2")]
+        public partial class CLMiamiListAppFolder : RepoGenBaseFolder
+        {
+            Session2_CLRepositoryFolders.ListFolder _list;
+
+            /// <summary>
+            /// Creates a new CLMiamiList  folder.
+            /// </summary>
+            public CLMiamiListAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("CLMiamiList", "/dom[@domain='miami.craigslist.org']/body", parentFolder, 30000, null, false, "b55163ff-4f51-454e-b42b-0180a61767d2", "")
+            {
+                _list = new Session2_CLRepositoryFolders.ListFolder(this);
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("b55163ff-4f51-454e-b42b-0180a61767d2")]
+            public virtual Ranorex.BodyTag Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.BodyTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("b55163ff-4f51-454e-b42b-0180a61767d2")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The List folder.
+            /// </summary>
+            [RepositoryFolder("8d7753d7-7a62-4037-99d7-ee4e4a4e2f38")]
+            public virtual Session2_CLRepositoryFolders.ListFolder List
+            {
+                get { return _list; }
+            }
+        }
+
+        /// <summary>
         /// The ListFolder folder.
         /// </summary>
         [RepositoryFolder("8d7753d7-7a62-4037-99d7-ee4e4a4e2f38")]
         public partial class ListFolder : RepoGenBaseFolder
         {
             Session2_CLRepositoryFolders.SearchFormFolder _searchform;
+            Session2_CLRepositoryFolders.SearchLegendFolder _searchlegend;
+            RepoItemInfo _spanrangetoInfo;
 
             /// <summary>
             /// Creates a new List  folder.
@@ -233,6 +378,8 @@ namespace Session2_CL
                     base("List", "section/form", parentFolder, 30000, null, false, "8d7753d7-7a62-4037-99d7-ee4e4a4e2f38", "")
             {
                 _searchform = new Session2_CLRepositoryFolders.SearchFormFolder(this);
+                _searchlegend = new Session2_CLRepositoryFolders.SearchLegendFolder(this);
+                _spanrangetoInfo = new RepoItemInfo(this, "spanRangeTo", "div[@class='search-legend']/div/span[@class='buttons']/span[@class~'pagenum']/span/span[@class='rangeTo']", 30000, null, "5633678b-9f0b-4246-bf9a-986e8ec51d06");
             }
 
             /// <summary>
@@ -260,12 +407,45 @@ namespace Session2_CL
             }
 
             /// <summary>
+            /// The spanRangeTo item.
+            /// </summary>
+            [RepositoryItem("5633678b-9f0b-4246-bf9a-986e8ec51d06")]
+            public virtual Ranorex.SpanTag spanRangeTo
+            {
+                get
+                {
+                    return _spanrangetoInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The spanRangeTo item info.
+            /// </summary>
+            [RepositoryItemInfo("5633678b-9f0b-4246-bf9a-986e8ec51d06")]
+            public virtual RepoItemInfo spanRangeToInfo
+            {
+                get
+                {
+                    return _spanrangetoInfo;
+                }
+            }
+
+            /// <summary>
             /// The SearchForm folder.
             /// </summary>
             [RepositoryFolder("7fc0428d-0bf7-47ed-a819-d312f091eb4e")]
             public virtual Session2_CLRepositoryFolders.SearchFormFolder SearchForm
             {
                 get { return _searchform; }
+            }
+
+            /// <summary>
+            /// The SearchLegend folder.
+            /// </summary>
+            [RepositoryFolder("a282a32d-552c-4baf-93cb-6de04de1b237")]
+            public virtual Session2_CLRepositoryFolders.SearchLegendFolder SearchLegend
+            {
+                get { return _searchlegend; }
             }
         }
 
@@ -282,7 +462,7 @@ namespace Session2_CL
             /// Creates a new SearchForm  folder.
             /// </summary>
             public SearchFormFolder(RepoGenBaseFolder parentFolder) :
-                    base("SearchForm", "div", parentFolder, 30000, null, false, "7fc0428d-0bf7-47ed-a819-d312f091eb4e", "")
+                    base("SearchForm", "div[@class='querybox']", parentFolder, 30000, null, false, "7fc0428d-0bf7-47ed-a819-d312f091eb4e", "")
             {
                 _inputsearchInfo = new RepoItemInfo(this, "inputSearch", "input[#'query']", 30000, null, "dbfc1970-be67-43af-a942-c9e20486cb47");
                 _buttonsearchInfo = new RepoItemInfo(this, "buttonSearch", "button/span", 30000, null, "568f1cf5-0256-45db-bf5c-5c0512bb0d58");
@@ -362,93 +542,41 @@ namespace Session2_CL
         }
 
         /// <summary>
-        /// The WebDocumentIEAppFolder folder.
+        /// The SearchLegendFolder folder.
         /// </summary>
-        [RepositoryFolder("e219cc91-47fe-4ce9-af38-2ad51a06793f")]
-        public partial class WebDocumentIEAppFolder : RepoGenBaseFolder
+        [RepositoryFolder("a282a32d-552c-4baf-93cb-6de04de1b237")]
+        public partial class SearchLegendFolder : RepoGenBaseFolder
         {
-            RepoItemInfo _someinputtagInfo;
-            RepoItemInfo _sectionpostInfo;
 
             /// <summary>
-            /// Creates a new WebDocumentIE  folder.
+            /// Creates a new SearchLegend  folder.
             /// </summary>
-            public WebDocumentIEAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("WebDocumentIE", "/dom[@domain~'miami.craigslist.org']/body", parentFolder, 3000, null, true, "e219cc91-47fe-4ce9-af38-2ad51a06793f", "")
+            public SearchLegendFolder(RepoGenBaseFolder parentFolder) :
+                    base("SearchLegend", "div[@class='search-legend']/div/span[@class='buttons']", parentFolder, 60000, null, false, "a282a32d-552c-4baf-93cb-6de04de1b237", "")
             {
-                _someinputtagInfo = new RepoItemInfo(this, "SomeInputTag", ".//input[#'query']", 30000, null, "c4121c6f-9cfc-413a-97f9-e41d523a9371");
-                _sectionpostInfo = new RepoItemInfo(this, "sectionPost", "section/section/section/section[#'postingbody']", 3000, null, "05e3c7fc-565b-4b72-ac9e-02d13d9edc7b");
             }
 
             /// <summary>
             /// The Self item.
             /// </summary>
-            [RepositoryItem("e219cc91-47fe-4ce9-af38-2ad51a06793f")]
-            public virtual Ranorex.BodyTag Self
+            [RepositoryItem("a282a32d-552c-4baf-93cb-6de04de1b237")]
+            public virtual Ranorex.SpanTag Self
             {
                 get
                 {
-                    return _selfInfo.CreateAdapter<Ranorex.BodyTag>(true);
+                    return _selfInfo.CreateAdapter<Ranorex.SpanTag>(true);
                 }
             }
 
             /// <summary>
             /// The Self item info.
             /// </summary>
-            [RepositoryItemInfo("e219cc91-47fe-4ce9-af38-2ad51a06793f")]
+            [RepositoryItemInfo("a282a32d-552c-4baf-93cb-6de04de1b237")]
             public virtual RepoItemInfo SelfInfo
             {
                 get
                 {
                     return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The SomeInputTag item.
-            /// </summary>
-            [RepositoryItem("c4121c6f-9cfc-413a-97f9-e41d523a9371")]
-            public virtual Ranorex.InputTag SomeInputTag
-            {
-                get
-                {
-                    return _someinputtagInfo.CreateAdapter<Ranorex.InputTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The SomeInputTag item info.
-            /// </summary>
-            [RepositoryItemInfo("c4121c6f-9cfc-413a-97f9-e41d523a9371")]
-            public virtual RepoItemInfo SomeInputTagInfo
-            {
-                get
-                {
-                    return _someinputtagInfo;
-                }
-            }
-
-            /// <summary>
-            /// The sectionPost item.
-            /// </summary>
-            [RepositoryItem("05e3c7fc-565b-4b72-ac9e-02d13d9edc7b")]
-            public virtual Ranorex.SectionTag sectionPost
-            {
-                get
-                {
-                    return _sectionpostInfo.CreateAdapter<Ranorex.SectionTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The sectionPost item info.
-            /// </summary>
-            [RepositoryItemInfo("05e3c7fc-565b-4b72-ac9e-02d13d9edc7b")]
-            public virtual RepoItemInfo sectionPostInfo
-            {
-                get
-                {
-                    return _sectionpostInfo;
                 }
             }
         }

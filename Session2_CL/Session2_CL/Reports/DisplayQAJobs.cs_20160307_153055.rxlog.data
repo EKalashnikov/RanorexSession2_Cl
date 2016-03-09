@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1df365bc456ce7f1"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="automation"
+		host="DESKTOP-IP0304R"
+		rxversion="5.4.0.24580"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1916x1057"
+		timestamp="3/7/2016 3:31:05 PM"
+		timestampiso="2016-03-07T20:31:05"
+		timeoutfactor="1"
+		module="DisplayQAJobs">
+		<detail>
+			DisplayQAJobs
+		</detail>
+		<errmsg>
+			Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.718"
+			timeRelativeToTestModuleStartTime="00:01.718"
+			timeWallClock="15:31:07"
+			time="00:01.718"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'inputSearch' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='miami.craigslist.org']/body/section/form/div[@class='querybox']/input[#'query']"
+				fullname="Session2_CLRepository.CLMiami.List.SearchForm.inputSearch"
+				id="dbfc1970be6743afa942c9e20486cb47"
+				timeout="93000"
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="53"
+				loglvl="Success"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.766"
+			timeRelativeToTestModuleStartTime="00:01.766"
+			timeWallClock="15:31:07"
+			time="00:01.766"
+			level="Info"
+			category="User">
+			<message>
+				Search Found
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="54"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:38.766"
+			timeRelativeToTestModuleStartTime="01:38.766"
+			timeWallClock="15:32:44"
+			time="01:38.766"
+			level="Warn"
+			category="Repository">
+			<message>
+				Item 'Session2_CLRepository.CLMiami.List.SearchLegend.spanRangeTo' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'Session2_CLRepository.CLMiami'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="64"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:38.812"
+			timeRelativeToTestModuleStartTime="01:38.812"
+			timeWallClock="15:32:44"
+			time="01:38.812"
+			level="Info"
+			category="User">
+			<message>
+				21
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="64"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:38.828"
+			timeRelativeToTestModuleStartTime="01:38.828"
+			timeWallClock="15:32:44"
+			time="01:38.828"
+			level="Info"
+			category="User">
+			<message>
+				21
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="66"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:43.125"
+			timeRelativeToTestModuleStartTime="01:43.125"
+			timeWallClock="15:32:48"
+			time="01:43.125"
+			level="Info"
+			category="User">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="81"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:47.187"
+			timeRelativeToTestModuleStartTime="01:47.187"
+			timeWallClock="15:32:52"
+			time="01:47.187"
+			level="Info"
+			category="User">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="81"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:51.312"
+			timeRelativeToTestModuleStartTime="01:51.312"
+			timeWallClock="15:32:56"
+			time="01:51.312"
+			level="Info"
+			category="User"
+			errimg=".\DisplayQAJobs.cs_20160307_153055_929a69f6_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160307_153055_929a69f6_trace_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="81"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:57.078"
+			timeRelativeToTestModuleStartTime="01:57.078"
+			timeWallClock="15:33:02"
+			time="01:57.078"
+			level="Info"
+			category="User"
+			errimg=".\DisplayQAJobs.cs_20160307_153055_2b17156c_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160307_153055_2b17156c_trace_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="81"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:59.297"
+			timeRelativeToTestModuleStartTime="01:59.297"
+			timeWallClock="15:33:04"
+			time="01:59.297"
+			level="Error"
+			category="Module"
+			errimg=".\DisplayQAJobs.cs_20160307_153055_f78c8925_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160307_153055_f78c8925_trace_thumb.jpg">
+			<message>
+				Index was out of range. Must be non-negative and less than the size of the collection.<br/>Parameter name: index
+			</message>
+			<metainfo
+				stacktrace="   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Session2_CL.DisplayQAJobs.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs:line 75
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="75"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1131beae061eef80"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="automation"
+		host="DESKTOP-IP0304R"
+		rxversion="5.4.0.24580"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1280x1024"
+		timestamp="3/7/2016 10:54:47 PM"
+		timestampiso="2016-03-08T03:54:47"
+		timeoutfactor="1"
+		module="DisplayQAJobs">
+		<detail>
+			DisplayQAJobs
+		</detail>
+		<errmsg>
+			Object reference not set to an instance of an object.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.280"
+			timeRelativeToTestModuleStartTime="00:02.280"
+			timeWallClock="22:54:49"
+			time="00:02.280"
+			level="Info"
+			category="User">
+			<message>
+				Search Found
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="57"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.703"
+			timeRelativeToTestModuleStartTime="00:07.703"
+			timeWallClock="22:54:55"
+			time="00:07.703"
+			level="Info"
+			category="User">
+			<message>
+				Number of links (21) is equal to rangeTo (21)
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="71"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.719"
+			timeRelativeToTestModuleStartTime="00:07.719"
+			timeWallClock="22:54:55"
+			time="00:07.719"
+			level="Info"
+			category="User">
+			<message>
+				/dom[@domain='miami.craigslist.org']/body/section/form/div[@class='content']/p[1]/span/span/a[@href~'miami.cr']
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="83"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.546"
+			timeRelativeToTestModuleStartTime="00:10.546"
+			timeWallClock="22:54:58"
+			time="00:10.546"
+			level="Info"
+			category="User">
+			<message>
+				http://miami.craigslist.org/mdc/sof/5476461456.html
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="85"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.562"
+			timeRelativeToTestModuleStartTime="00:12.562"
+			timeWallClock="22:55:00"
+			time="00:12.562"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'sectionPost' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain~'miami.craigslist.org']/body/section/section/section/section[#'postingbody']"
+				fullname="Session2_CLRepository.CLMiamiDetail.sectionPost"
+				id="05e3c7fc565b4b72ac9e02d13d9edc7b"
+				timeout="6000"
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="87"
+				loglvl="Success"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.031"
+			timeRelativeToTestModuleStartTime="00:13.031"
+			timeWallClock="22:55:00"
+			time="00:13.031"
+			level="Info"
+			category="User"
+			errimg=".\DisplayQAJobs.cs_20160307_225442_319f8493_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160307_225442_319f8493_trace_thumb.jpg">
+			<message>
+				&#10;Position Summary:	Senior Python Developer that will participate in all aspects of architecting and developing new innovative applications as well as expanding existing applications code bases. This person will also mentor other developers and have a passionate and entrepreneurial personality to create clean and innovative products that solve business needs. Must be able to effectively communicate with engineering and business personnel to achieve product and operational goals.
+Positions open in San Diego, CA or St Thomas, VI
+Tech Skills Required:
+&#8226;	5+ years of Python, including experience with other languages and frameworks
+&#8226;	Experience creating and consuming Restful web services with JSON.
+&#8226;	Experience with message queues (ZeroMQ preferred).
+&#8226;	Solid CSS3/HTML5/Javascript/jQuery.
+&#8226;	Proficient with UNIX, bash scripts, basic system administration and performance tuning.
+&#8226;	Intimate knowledge of Git, Github, CDNs.
+&#8226;	MySQL
+&#8226;	Experience with ETL and Big Data operation 
+Desired Skills:
+&#8226;	Browser automation and data accumulation
+&#8226;	Ability to perform data analysis
+&#8226;	Ability to manage a software execution stack that runs continuously
+&#8226;	Understanding of data lifecycle issues 
+&#8226;	Truly full stack and also versed in the latest front end development pipeline - SASS, grunt, bower, etc.
+&#8226;	Experience setting up Continuous integration.
+influx.digital
+www.183media.com&#10;
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="92"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.047"
+			timeRelativeToTestModuleStartTime="00:15.047"
+			timeWallClock="22:55:02"
+			time="00:15.047"
+			level="Info"
+			category="User"
+			errimg=".\DisplayQAJobs.cs_20160307_225442_1922034f_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160307_225442_1922034f_trace_thumb.jpg">
+			<message>
+				/dom[@domain='miami.craigslist.org']/body/section/form/div[@class='content']/p[2]/span/span/a[@href~'miami.cr']
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="83"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.765"
+			timeRelativeToTestModuleStartTime="00:18.765"
+			timeWallClock="22:55:06"
+			time="00:18.765"
+			level="Error"
+			category="Module"
+			errimg=".\DisplayQAJobs.cs_20160307_225442_72375ccd_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160307_225442_72375ccd_trace_thumb.jpg">
+			<message>
+				Object reference not set to an instance of an object.
+			</message>
+			<metainfo
+				stacktrace="   at Session2_CL.DisplayQAJobs.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs:line 85
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="85"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

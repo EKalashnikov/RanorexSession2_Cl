@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2808dcb0faa55eee"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="automation"
+		host="DESKTOP-IP0304R"
+		rxversion="5.4.0.24580"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1024x768"
+		timestamp="3/7/2016 6:04:29 PM"
+		timestampiso="2016-03-07T23:04:29"
+		timeoutfactor="1"
+		module="DisplayQAJobs">
+		<detail>
+			DisplayQAJobs
+		</detail>
+		<errmsg>
+			Element for item 'Session2_CLRepository.CLMiami.List.SearchLegend.spanRangeTo' does exist.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.734"
+			timeRelativeToTestModuleStartTime="00:01.734"
+			timeWallClock="18:04:31"
+			time="00:01.734"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'inputSearch' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='miami.craigslist.org']/body/section/form/div[@class='querybox']/input[#'query']"
+				fullname="Session2_CLRepository.CLMiami.List.SearchForm.inputSearch"
+				id="dbfc1970be6743afa942c9e20486cb47"
+				timeout="93000"
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="54"
+				loglvl="Success"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.812"
+			timeRelativeToTestModuleStartTime="00:01.812"
+			timeWallClock="18:04:31"
+			time="00:01.812"
+			level="Info"
+			category="User">
+			<message>
+				Search Found
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="55"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:37.421"
+			timeRelativeToTestModuleStartTime="01:37.421"
+			timeWallClock="18:06:06"
+			time="01:37.421"
+			level="Warn"
+			category="Repository"
+			errimg=".\DisplayQAJobs.cs_20160307_180424_49414c35_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160307_180424_49414c35_trace_thumb.jpg">
+			<message>
+				Item 'Session2_CLRepository.CLMiami.List.SearchLegend.spanRangeTo' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'Session2_CLRepository.CLMiami'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="60"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:37.468"
+			timeRelativeToTestModuleStartTime="01:37.468"
+			timeWallClock="18:06:06"
+			time="01:37.468"
+			level="Failure"
+			category="Validation"
+			errimg=".\DisplayQAJobs.cs_20160307_180424_4c3d5ba3_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160307_180424_4c3d5ba3_trace_thumb.jpg">
+			<message>
+				Element for item 'Session2_CLRepository.CLMiami.List.SearchLegend.spanRangeTo' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='miami.craigslist.org']/body/section/form/div[@class='search-legend']/div/span[@class='buttons']/span[@class~'pagenum']/span/span[@class='rangeTo']"
+				fullname="Session2_CLRepository.CLMiami.List.SearchLegend.spanRangeTo"
+				id="5633678b9f0b4246bf9a986e8ec51d06"
+				timeout="93000"
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="60"
+				loglvl="Failure"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:37.515"
+			timeRelativeToTestModuleStartTime="01:37.515"
+			timeWallClock="18:06:06"
+			time="01:37.515"
+			level="Error"
+			category="Module"
+			errimg=".\DisplayQAJobs.cs_20160307_180424_4c3d5ba3_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160307_180424_4c3d5ba3_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Element for item 'Session2_CLRepository.CLMiami.List.SearchLegend.spanRangeTo' does exist.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.NotExists(RepoItemInfo itemInfo, String message, Options options)
+   at Ranorex.Validate.NotExists(RepoItemInfo itemInfo)
+   at Session2_CL.DisplayQAJobs.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs:line 60
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="60"
+				type="repoitem"
+				path="/dom[@domain='miami.craigslist.org']/body/section/form/div[@class='search-legend']/div/span[@class='buttons']/span[@class~'pagenum']/span/span[@class='rangeTo']"
+				fullname="Session2_CLRepository.CLMiami.List.SearchLegend.spanRangeTo"
+				id="5633678b9f0b4246bf9a986e8ec51d06"
+				timeout="93000"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

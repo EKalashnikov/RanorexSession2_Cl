@@ -1,0 +1,511 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="58109e148abea43"
+		totalerrorcount="1"
+		totalwarningcount="5"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="automation"
+		host="DESKTOP-IP0304R"
+		rxversion="5.4.0.24580"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1280x1024"
+		timestamp="3/7/2016 8:05:13 PM"
+		timestampiso="2016-03-08T01:05:13"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="0ms"
+			durationms="0"
+			type="test suite"
+			rid="335edf8103a9c5e"
+			totalerrorcount="1"
+			totalwarningcount="5"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="Session2_CL"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="0ms"
+				durationms="0"
+				type="test case"
+				rid="607de1d71aedfff"
+				totalerrorcount="1"
+				totalwarningcount="5"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				testcasename="TestCase"
+				testcaseid="572a67b4-cf71-4fa4-9a48-d8e7704378ea"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="406ms"
+					durationms="406"
+					type="test module"
+					rid="620491318710738"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="OpenWebSite"
+					moduleid="9b78d80c-7370-470a-9b3c-7c683029ef41"
+					moduletype="UserCode">
+					<detail>
+					</detail>
+					<varbindings/>
+				</activity>
+				<activity
+					result="Success"
+					duration="4380ms"
+					durationms="4380"
+					type="test module"
+					rid="117cce18a900ac35"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="ChooseCategory"
+					moduleid="d60d95eb-bacf-44f2-950b-065a697dcf0e"
+					moduletype="UserCode">
+					<detail>
+					</detail>
+					<varbindings/>
+				</activity>
+				<activity
+					result="Failed"
+					duration="0ms"
+					durationms="0"
+					type="test module"
+					rid="184dd399358b7312"
+					totalerrorcount="1"
+					totalwarningcount="5"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="DisplayQAJobs"
+					moduleid="11988a37-fce2-45ba-b382-ef4ea500875f"
+					moduletype="UserCode">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:07.969"
+						timeRelativeToTestModuleStartTime="00:00.562"
+						timeWallClock="20:05:21"
+						time="00:07.969"
+						level="Success"
+						category="Validation">
+						<message>
+							Element for item 'inputSearch' does exist.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='miami.craigslist.org']/body/section/form/div[@class='querybox']/input[#'query']"
+							fullname="Session2_CLRepository.CLMiamiList.List.SearchForm.inputSearch"
+							id="dbfc1970be6743afa942c9e20486cb47"
+							timeout="120000"
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="53"
+							loglvl="Success"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:08.062"
+						timeRelativeToTestModuleStartTime="00:00.655"
+						timeWallClock="20:05:21"
+						time="00:08.062"
+						level="Info"
+						category="User">
+						<message>
+							Search Found
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="54"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:13.500"
+						timeRelativeToTestModuleStartTime="00:06.094"
+						timeWallClock="20:05:26"
+						time="00:13.500"
+						level="Success"
+						category="Validation">
+						<message>
+							Element for path '/dom[@domain='miami.craigslist.org']/body/section/form/div[@class='search-legend']/div/span[@class='buttons']/span[@class~'pagenum']/span/span[@class='rangeTo']' does exist.
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="59"
+							loglvl="Success"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:13.656"
+						timeRelativeToTestModuleStartTime="00:06.249"
+						timeWallClock="20:05:27"
+						time="00:13.656"
+						level="Success"
+						category="Validation">
+						<message>
+							Element for item 'spanRangeTo' does exist.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='miami.craigslist.org']/body/section/form/div[@class='search-legend']/div/span[@class='buttons']/span[@class~'pagenum']/span/span[@class='rangeTo']"
+							fullname="Session2_CLRepository.CLMiamiList.List.SearchLegend.spanRangeTo"
+							id="5633678b9f0b4246bf9a986e8ec51d06"
+							timeout="120000"
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="61"
+							loglvl="Success"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:13.812"
+						timeRelativeToTestModuleStartTime="00:06.405"
+						timeWallClock="20:05:27"
+						time="00:13.812"
+						level="Success"
+						category="Validation">
+						<message>
+							Element for item 'spanRangeTo' does exist.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='miami.craigslist.org']/body/section/form/div[@class='search-legend']/div/span[@class='buttons']/span[@class~'pagenum']/span/span[@class='rangeTo']"
+							fullname="Session2_CLRepository.CLMiamiList.List.SearchLegend.spanRangeTo"
+							id="5633678b9f0b4246bf9a986e8ec51d06"
+							timeout="120000"
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="63"
+							loglvl="Success"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:15.563"
+						timeRelativeToTestModuleStartTime="00:08.156"
+						timeWallClock="20:05:29"
+						time="00:15.563"
+						level="Info"
+						category="User">
+						<message>
+							Number of links 56 is equal to rangeTo56
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="74"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:15.718"
+						timeRelativeToTestModuleStartTime="00:08.312"
+						timeWallClock="20:05:29"
+						time="00:15.718"
+						level="Info"
+						category="User">
+						<message>
+							56
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="82"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:15.766"
+						timeRelativeToTestModuleStartTime="00:08.359"
+						timeWallClock="20:05:29"
+						time="00:15.766"
+						level="Info"
+						category="User">
+						<message>
+							56
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="84"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:18.047"
+						timeRelativeToTestModuleStartTime="00:10.640"
+						timeWallClock="20:05:31"
+						time="00:18.047"
+						level="Info"
+						category="User">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="99"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:25.078"
+						timeRelativeToTestModuleStartTime="00:17.671"
+						timeWallClock="20:05:38"
+						time="00:25.078"
+						level="Warn"
+						category="Repository">
+						<message>
+							Item 'Session2_CLRepository.WebDocumentIE.sectionPost' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'Session2_CLRepository.WebDocumentIE'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="96"
+							loglvl="Warn"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:25.171"
+						timeRelativeToTestModuleStartTime="00:17.765"
+						timeWallClock="20:05:38"
+						time="00:25.171"
+						level="Info"
+						category="User">
+						<message>
+							requirements and develop fully tested software to meet established requirements. Success in this position involves working effectively with customers and users, application domain experts, and working within the established process framework. Customer-facing interpersonal skills and motivation are critical requirements, while demonstrating a set of fundamental software engineering skills that result in predictability in engineering, scheduling and the quality of products developed. Customer roll-out, &quot;go live&quot; activities, and software lifecycle support and evolution are also to be expected.
+Measures of Success:
+&#8226;	Integrates, tests, and supports Trimble solutions on-site with Trimble Agriculture customers.
+&#8226;	Works on software solutions with larger systems in-mind: Trimble software and hardware, customer data systems, physical equipment on agricultural land and related industrial sites.
+&#8226;	Drives to craft proposals and solutions given direct customer and sales-side input from sites remote relative to Trimble Development offices.
+&#8226;	Works at customer sites directly with end-users and remotely with various Trimble staff to identify, specify, design, and implement data-driven solutions.
+&#8226;	Performs software engineering within the process framework established for the project. This framework will describe how requirements are developed and analyzed, how changes are made to requirements, how engineering work will be planned and tracked, how testing will be performed, and the criteria by which the performance of the project will be measured. Contributes to the continuous improvement of these processes.
+&#8226;	Works with the project team, with the application domain experts (e.g., application engineers, technical marketing) and possibly with the customers, to establish achievable requirements.
+&#8226;	Works with the project team to identify/clarify project goals, establish useful milestones, and develop a breakdown of the engineering tasks to be performed. During the development process, develops engineering effort/schedule estimates to support overall project scheduling, project tracking, and change control decisions
+&#8226;	Creates software designs, and implements and tests those designs to meet established requirements
+&#8226;	Participates in technical/design reviews as required by the project framework
+&#8226;	Maintains and archives design documents, source code, and other work products necessary for the project
+&#8226;	As necessary, works independently or with quality assurance personnel to plan and execute product testing
+&#8226;	As necessary, performs or enables the ongoing support of software through the creation of design documentation or the performance of defect isolation and resolution
+&#8226;	Works with the author of product documentation to assist in the development and review of product documentation
+&#8226;	As necessary, provides engineering work products and documentation to manufacturing and document control as necessary for successful product release
+&#8226;	Other duties as required and requested by management
+Skills &amp; Experience Required:
+&#8226;	1 - 5 years of C# .NET Development
+&#8226;	Visual Studio 2012-2015
+&#8226;	Test Driven Development / Test First Development
+&#8226;	Web Services, WCF, WebAPI
+&#8226;	SQL/MySQL, data modelling
+&#8226;	Experience with TCP/IP, UDP, HTTP
+Trimble Navigation Limited is proud to be an Equal Opportunity and Affirmative Action Employer and considers qualified applicants for employment without regard to race, gender, age, color, religion, national origin, marital status, disability, sexual orientation, status as a covered veteran in accordance with applicable federal, state and local laws, or any other protected factor. EOE/M/F/V/D
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="99"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:32.406"
+						timeRelativeToTestModuleStartTime="00:24.999"
+						timeWallClock="20:05:45"
+						time="00:32.406"
+						level="Warn"
+						category="Repository">
+						<message>
+							Item 'Session2_CLRepository.WebDocumentIE.sectionPost' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'Session2_CLRepository.WebDocumentIE'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="96"
+							loglvl="Warn"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:32.484"
+						timeRelativeToTestModuleStartTime="00:25.078"
+						timeWallClock="20:05:45"
+						time="00:32.484"
+						level="Info"
+						category="User">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="99"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:39.484"
+						timeRelativeToTestModuleStartTime="00:32.078"
+						timeWallClock="20:05:52"
+						time="00:39.484"
+						level="Warn"
+						category="Repository">
+						<message>
+							Item 'Session2_CLRepository.WebDocumentIE.sectionPost' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'Session2_CLRepository.WebDocumentIE'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="96"
+							loglvl="Warn"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:39.546"
+						timeRelativeToTestModuleStartTime="00:32.140"
+						timeWallClock="20:05:53"
+						time="00:39.546"
+						level="Info"
+						category="User">
+						<message>
+							requirements for this opening.
+Job Purpose:
+Analyzes business needs and detailed system components, identifies, communicates, and resolves systems issues in support of core system functions. Performs systems analysis, design, coding, testing, documentation and implementation for application systems development software initiatives driven by business needs. Develops and enhances computer applications to support the implementation of difficult to complex business requirements. Performs specific assignments as part of a project team or works independently on small to medium-sized enhancements and production support assignments. May perform technical project management.
+Major Duties:
+Design/Programming
+&#8226; Interprets business requirements for system enhancements and projects, translates them into detailed design system specifications including process and data flows, screen and report specifications, stored procedures, batch scripts, and batch scheduling specifications.
+&#8226; Recommends technologies to be used in building the solution.
+&#8226; Develops system components based on business requirements and system specifications, codes, tests, and implements components in accordance with standards and procedures.
+&#8226; Responsible for unit testing components and supporting DEV and QA testing.
+&#8226; Performs design reviews and code reviews for other team initiatives.
+&#8226; Coordinates and executes integration testing for development efforts.
+&#8226; Develops implementation plans and supports migrations through the various environments.
+&#8226; Responsible for the coordination and implementation of small to medium-sized enhancements and production support assignments from end to end.
+&#8226; Prepares and maintains technical system documentation for system support and other needs.
+Analysis
+&#8226; Analyzes business needs and detailed system components, including input, process, and output requirements, data and system flows, and hardware and software requirements.
+&#8226; Identifies, communicates, and resolves systems issues in support of core system functions.
+&#8226; Identifies root cause of problems, provides options for resolution and documents outcome of analysis.
+&#8226; Evaluates existing systems to improve their effectiveness and efficiency, reducing operational costs, and providing solutions to resolve data and system issues.
+&#8226; Provides consultation in areas of expertise and/or 3rd party vendor software products.
+Project Management
+&#8226; Manages various technical aspects of small to medium-sized projects concurrently through the project lifecycle using the PMO process while managing to a budget, timeline and customer satisfaction and value.
+&#8226; Responsible for estimating, project planning, communicating status of projects, designing, analyzing, coding (where applicable), testing, and documentation and implementation of components in accordance with standards and procedures.
+&#8226; Works with management team to staff projects.
+&#8226; Provides objective feedback to management regarding team and individual performance.
+&#8226; Provides technical expertise and knowledge transfer for IT, PMO and Business user team members.
+Relationships
+&#8226; Establishes and/or maintains working relationships with both Business and IT partners to define, understand and evaluate business requirements and resolve production issues.
+&#8226; Provides support in a matrix-management fashion to other areas as needed.
+Leadership
+&#8226; Provides knowledge transfer to other technical peers.
+&#8226; Provides technical leadership and expertise to peers on small to medium-sized work efforts and production support.
+Required Education, Experience &amp; Skills:
+&#8226; Bachelor's degree and a minimum of 5 years IT programming experience or 5 years managing software development and/or technical project management experience.
+&#8226; In lieu of degree, additional work experience and/or trade school or applicable certifications required.
+&#8226; Solid understanding of IT Technical Architecture, and strong knowledge of the capabilities and constraints of large-scale, multi-processing computer systems.
+&#8226; In depth knowledge and experience with Relational Database Management Systems (RDBMS) that interact with batch and web applications.
+&#8226; In depth technical expertise in multiple platforms (i.e., UNIX/LINUX, Windows/Intel); multiple database technologies, (i.e., Oracle); multiple programming languages, (i.e., VB.Net, C#, ASP, PL/SQL, Java, Object oriented programming); and multiple batch operating environments (i.e., Unix/Shell Scripting, Windows).
+&#8226; Solid Communication Skills - ability to communicate clearly and concisely, both verbally and in writing, and to establish and maintain working relationships with both Business and IT partners as part of developing solutions and resolving business issues.
+&#8226; Solid Customer Service Skills - ability to identify and anticipate customer requirements and needs, and respond to and influence customer expectations.
+&#8226; In Depth Analytical Skills - ability to gather and analyze information, and draw logical conclusions while identifying the root cause of problems and providing options for resolution.
+&#8226; Programming Skills -- In depth knowledge of programming principles, techniques, standards and analytical ability to develop computer programs and systems.
+&#8226; Project Management Skills -- In depth understanding of project life cycle methodologies, estimating, and IT best practices with experience managing and implementing small to medium size projects.
+&#8226; Ability to multi-task, juggle multiple projects, and function in a flexible matrix-management environment.
+&#8226; In depth understanding of industry standard desktop software (e.g., Windows, Office, eMail, SharePoint, etc).
+Preferred Education, Experience, and Skills:
+&#8226; Bachelor's degree in computer information or related field.
+&#8226; Good working knowledge and understanding of NCCI business processes and systems.
+&#8226; Experience integrating 3rd party software.
+&#8226; MCSD or ORACLE Developer Certification.
+&#8226; PMI (Project Management Institute) Certification.
+As key contributors to our success, our team members enjoy working in a casual, collaborative environment that offers state-of-the-art resources, advanced technologies, and a superior benefits package.
+We require a drug screen and background check.
+EEO/Smoke Free environment
+Apply online:&#32;
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="99"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:46.719"
+						timeRelativeToTestModuleStartTime="00:39.312"
+						timeWallClock="20:06:00"
+						time="00:46.719"
+						level="Warn"
+						category="Repository">
+						<message>
+							Item 'Session2_CLRepository.WebDocumentIE.sectionPost' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'Session2_CLRepository.WebDocumentIE'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="96"
+							loglvl="Warn"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:46.797"
+						timeRelativeToTestModuleStartTime="00:39.390"
+						timeWallClock="20:06:00"
+						time="00:46.797"
+						level="Info"
+						category="User">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="99"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:53.781"
+						timeRelativeToTestModuleStartTime="00:46.374"
+						timeWallClock="20:06:07"
+						time="00:53.781"
+						level="Warn"
+						category="Repository">
+						<message>
+							Item 'Session2_CLRepository.WebDocumentIE.sectionPost' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'Session2_CLRepository.WebDocumentIE'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="96"
+							loglvl="Warn"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:53.875"
+						timeRelativeToTestModuleStartTime="00:46.468"
+						timeWallClock="20:06:07"
+						time="00:53.875"
+						level="Info"
+						category="User">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+							codeline="99"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:59.578"
+						timeRelativeToTestModuleStartTime="00:52.171"
+						timeWallClock="20:06:13"
+						time="00:59.578"
+						level="Error"
+						category="Module">
+						<message>
+							Test run was aborted by the user.
+						</message>
+						<metainfo
+							loglvl="Error"/>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

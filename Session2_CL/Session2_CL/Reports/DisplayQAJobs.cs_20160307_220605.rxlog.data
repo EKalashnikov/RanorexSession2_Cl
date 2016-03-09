@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="174c5ff830623e0"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="automation"
+		host="DESKTOP-IP0304R"
+		rxversion="5.4.0.24580"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1280x1024"
+		timestamp="3/7/2016 10:06:09 PM"
+		timestampiso="2016-03-08T03:06:09"
+		timeoutfactor="1"
+		module="DisplayQAJobs">
+		<detail>
+			DisplayQAJobs
+		</detail>
+		<errmsg>
+			Object reference not set to an instance of an object.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.234"
+			timeRelativeToTestModuleStartTime="00:02.234"
+			timeWallClock="22:06:12"
+			time="00:02.234"
+			level="Info"
+			category="User">
+			<message>
+				Search Found
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="57"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.703"
+			timeRelativeToTestModuleStartTime="00:08.703"
+			timeWallClock="22:06:18"
+			time="00:08.703"
+			level="Info"
+			category="User">
+			<message>
+				Number of links (21) is equal to rangeTo (21)
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="71"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.000"
+			timeRelativeToTestModuleStartTime="00:09.000"
+			timeWallClock="22:06:18"
+			time="00:09.000"
+			level="Info"
+			category="User">
+			<message>
+				http://miami.craigslist.org/mdc/sof/5476461456.html
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.836"
+			timeRelativeToTestModuleStartTime="00:10.836"
+			timeWallClock="22:06:20"
+			time="00:10.836"
+			level="Success"
+			category="Validation"
+			errimg=".\DisplayQAJobs.cs_20160307_220605_444fa5ec_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160307_220605_444fa5ec_trace_thumb.jpg">
+			<message>
+				Element for item 'sectionPost' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain~'miami.craigslist.org']/body/section/section/section/section[#'postingbody']"
+				fullname="Session2_CLRepository.CLMiamiDetail.sectionPost"
+				id="05e3c7fc565b4b72ac9e02d13d9edc7b"
+				timeout="6000"
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="84"
+				loglvl="Success"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.595"
+			timeRelativeToTestModuleStartTime="00:22.595"
+			timeWallClock="22:06:32"
+			time="00:22.595"
+			level="Info"
+			category="User"
+			errimg=".\DisplayQAJobs.cs_20160307_220605_ed089ec5_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160307_220605_ed089ec5_trace_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="92"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:32.531"
+			timeRelativeToTestModuleStartTime="00:32.531"
+			timeWallClock="22:06:42"
+			time="00:32.531"
+			level="Error"
+			category="Module"
+			errimg=".\DisplayQAJobs.cs_20160307_220605_8ae1e6e1_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160307_220605_8ae1e6e1_trace_thumb.jpg">
+			<message>
+				Object reference not set to an instance of an object.
+			</message>
+			<metainfo
+				stacktrace="   at Session2_CL.DisplayQAJobs.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs:line 82
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="82"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

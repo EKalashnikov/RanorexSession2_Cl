@@ -13,7 +13,7 @@ rxversion="5.4.0.24580">
 	isrooted="True"
 	usecache="True">
 		<appfolder
-		name="CLMiami"
+		name="CLMiamiCat"
 		id="1128d289-583d-45f0-a3c9-df1b05e5c333"
 		searchtimeout="3000ms"
 		capname="bodytag"
@@ -37,6 +37,42 @@ rxversion="5.4.0.24580">
 					/dom[@domain='miami.craigslist.org']/body/div/section/div/div[@class='jobs']
 				</basepath>
 			</folder>
+			<basepath>
+				/dom[@domain='miami.craigslist.org']/body
+			</basepath>
+		</appfolder>
+		<appfolder
+		name="CLMiamiDetail"
+		id="e219cc91-47fe-4ce9-af38-2ad51a06793f"
+		searchtimeout="3000ms"
+		capname="bodytag"
+		isrooted="True"
+		usecache="False">
+			<item
+			name="SomeInputTag"
+			id="c4121c6f-9cfc-413a-97f9-e41d523a9371"
+			searchtimeout="30000ms"
+			capname="inputtag">
+				/dom[@domain~'miami.craigslist.org']/body//input[#'query']
+			</item>
+			<item
+			name="sectionPost"
+			id="05e3c7fc-565b-4b72-ac9e-02d13d9edc7b"
+			searchtimeout="3000ms"
+			capname="sectiontag">
+				/dom[@domain~'miami.craigslist.org']/body/section/section/section/section[#'postingbody']
+			</item>
+			<basepath>
+				/dom[@domain~'miami.craigslist.org']/body
+			</basepath>
+		</appfolder>
+		<appfolder
+		name="CLMiamiList"
+		id="b55163ff-4f51-454e-b42b-0180a61767d2"
+		searchtimeout="30000ms"
+		capname="bodytag"
+		isrooted="True"
+		usecache="False">
 			<folder
 			name="List"
 			id="8d7753d7-7a62-4037-99d7-ee4e4a4e2f38"
@@ -56,50 +92,43 @@ rxversion="5.4.0.24580">
 					id="dbfc1970-be67-43af-a942-c9e20486cb47"
 					searchtimeout="30000ms"
 					capname="inputtag">
-						/dom[@domain='miami.craigslist.org']/body/section/form/div/input[#'query']
+						/dom[@domain='miami.craigslist.org']/body/section/form/div[@class='querybox']/input[#'query']
 					</item>
 					<item
 					name="buttonSearch"
 					id="568f1cf5-0256-45db-bf5c-5c0512bb0d58"
 					searchtimeout="30000ms"
 					capname="spantag">
-						/dom[@domain='miami.craigslist.org']/body/section/form/div/button/span
+						/dom[@domain='miami.craigslist.org']/body/section/form/div[@class='querybox']/button/span
 					</item>
 					<basepath>
-						/dom[@domain='miami.craigslist.org']/body/section/form/div
+						/dom[@domain='miami.craigslist.org']/body/section/form/div[@class='querybox']
 					</basepath>
 				</folder>
+				<folder
+				name="SearchLegend"
+				id="a282a32d-552c-4baf-93cb-6de04de1b237"
+				searchtimeout="60000ms"
+				capname="spantag"
+				isrooted="True"
+				usecache="False">
+					<basepath>
+						/dom[@domain='miami.craigslist.org']/body/section/form/div[@class='search-legend']/div/span[@class='buttons']
+					</basepath>
+				</folder>
+				<item
+				name="spanRangeTo"
+				id="5633678b-9f0b-4246-bf9a-986e8ec51d06"
+				searchtimeout="30000ms"
+				capname="spantag">
+					/dom[@domain='miami.craigslist.org']/body/section/form/div[@class='search-legend']/div/span[@class='buttons']/span[@class~'pagenum']/span/span[@class='rangeTo']
+				</item>
 				<basepath>
 					/dom[@domain='miami.craigslist.org']/body/section/form
 				</basepath>
 			</folder>
 			<basepath>
 				/dom[@domain='miami.craigslist.org']/body
-			</basepath>
-		</appfolder>
-		<appfolder
-		name="WebDocumentIE"
-		id="e219cc91-47fe-4ce9-af38-2ad51a06793f"
-		searchtimeout="3000ms"
-		capname="bodytag"
-		isrooted="True"
-		usecache="True">
-			<item
-			name="SomeInputTag"
-			id="c4121c6f-9cfc-413a-97f9-e41d523a9371"
-			searchtimeout="30000ms"
-			capname="inputtag">
-				/dom[@domain~'miami.craigslist.org']/body//input[#'query']
-			</item>
-			<item
-			name="sectionPost"
-			id="05e3c7fc-565b-4b72-ac9e-02d13d9edc7b"
-			searchtimeout="3000ms"
-			capname="sectiontag">
-				/dom[@domain~'miami.craigslist.org']/body/section/section/section/section[#'postingbody']
-			</item>
-			<basepath>
-				/dom[@domain~'miami.craigslist.org']/body
 			</basepath>
 		</appfolder>
 		<basepath/>

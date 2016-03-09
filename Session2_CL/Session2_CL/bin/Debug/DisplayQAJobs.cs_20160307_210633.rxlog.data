@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="297448113f88b4"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="automation"
+		host="DESKTOP-IP0304R"
+		rxversion="5.4.0.24580"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1280x1024"
+		timestamp="3/7/2016 9:06:38 PM"
+		timestampiso="2016-03-08T02:06:38"
+		timeoutfactor="1"
+		module="DisplayQAJobs">
+		<detail>
+			DisplayQAJobs
+		</detail>
+		<errmsg>
+			Element for item 'sectionPost' does not exist (Failed to find item 'Session2_CLRepository.CLMiamiDetail.sectionPost'. No element found for path '/dom[@domain~'miami.craigslist.org']/body/section/section/section/section[#'postingbody']' within 6000ms.).
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.702"
+			timeRelativeToTestModuleStartTime="00:01.702"
+			timeWallClock="21:06:40"
+			time="00:01.702"
+			level="Warn"
+			category="Internet Explorer">
+			<message>
+				Please make sure that you have the Ranorex Addon installed and enabled in Internet Explorer. Otherwise Ranorex UI element identification might be very slow.<br/>The following website provides more information on this technology limitation:<br/>http://www.ranorex.com/support/user-guide-20/technology-instrumentation/general-troubleshooting.html#c3253<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="55"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.140"
+			timeRelativeToTestModuleStartTime="00:02.140"
+			timeWallClock="21:06:40"
+			time="00:02.140"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'inputSearch' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='miami.craigslist.org']/body/section/form/div[@class='querybox']/input[#'query']"
+				fullname="Session2_CLRepository.CLMiamiList.List.SearchForm.inputSearch"
+				id="dbfc1970be6743afa942c9e20486cb47"
+				timeout="120000"
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="55"
+				loglvl="Success"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.156"
+			timeRelativeToTestModuleStartTime="00:02.156"
+			timeWallClock="21:06:40"
+			time="00:02.156"
+			level="Info"
+			category="User">
+			<message>
+				Search Found
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="56"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.094"
+			timeRelativeToTestModuleStartTime="00:06.094"
+			timeWallClock="21:06:44"
+			time="00:06.094"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'spanRangeTo' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='miami.craigslist.org']/body/section/form/div[@class='search-legend']/div/span[@class='buttons']/span[@class~'pagenum']/span/span[@class='rangeTo']"
+				fullname="Session2_CLRepository.CLMiamiList.List.SearchLegend.spanRangeTo"
+				id="5633678b9f0b4246bf9a986e8ec51d06"
+				timeout="120000"
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="61"
+				loglvl="Success"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.327"
+			timeRelativeToTestModuleStartTime="00:09.327"
+			timeWallClock="21:06:48"
+			time="00:09.327"
+			level="Info"
+			category="User">
+			<message>
+				Number of links (21) is equal to rangeTo (21)
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="70"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.578"
+			timeRelativeToTestModuleStartTime="00:14.578"
+			timeWallClock="21:06:53"
+			time="00:14.578"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'sectionPost' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain~'miami.craigslist.org']/body/section/section/section/section[#'postingbody']"
+				fullname="Session2_CLRepository.CLMiamiDetail.sectionPost"
+				id="05e3c7fc565b4b72ac9e02d13d9edc7b"
+				timeout="6000"
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="82"
+				loglvl="Success"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.015"
+			timeRelativeToTestModuleStartTime="00:15.015"
+			timeWallClock="21:06:53"
+			time="00:15.015"
+			level="Info"
+			category="User"
+			errimg=".\DisplayQAJobs.cs_20160307_210633_eb2f042a_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160307_210633_eb2f042a_trace_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="88"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.781"
+			timeRelativeToTestModuleStartTime="00:24.781"
+			timeWallClock="21:07:03"
+			time="00:24.781"
+			level="Failure"
+			category="Validation"
+			errimg=".\DisplayQAJobs.cs_20160307_210633_4012c90b_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160307_210633_4012c90b_trace_thumb.jpg">
+			<message>
+				Element for item 'sectionPost' does not exist (Failed to find item 'Session2_CLRepository.CLMiamiDetail.sectionPost'. No element found for path '/dom[@domain~'miami.craigslist.org']/body/section/section/section/section[#'postingbody']' within 6000ms.).
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain~'miami.craigslist.org']/body/section/section/section/section[#'postingbody']"
+				fullname="Session2_CLRepository.CLMiamiDetail.sectionPost"
+				id="05e3c7fc565b4b72ac9e02d13d9edc7b"
+				timeout="6000"
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="82"
+				loglvl="Failure"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.812"
+			timeRelativeToTestModuleStartTime="00:24.812"
+			timeWallClock="21:07:03"
+			time="00:24.812"
+			level="Error"
+			category="Module"
+			errimg=".\DisplayQAJobs.cs_20160307_210633_4012c90b_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160307_210633_4012c90b_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Element for item 'sectionPost' does not exist (Failed to find item 'Session2_CLRepository.CLMiamiDetail.sectionPost'. No element found for path '/dom[@domain~'miami.craigslist.org']/body/section/section/section/section[#'postingbody']' within 6000ms.).
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.Exists(RepoItemInfo itemInfo, String message, Options options)
+   at Ranorex.Validate.Exists(RepoItemInfo itemInfo)
+   at Session2_CL.DisplayQAJobs.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs:line 82
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="82"
+				type="repoitem"
+				path="/dom[@domain~'miami.craigslist.org']/body/section/section/section/section[#'postingbody']"
+				fullname="Session2_CLRepository.CLMiamiDetail.sectionPost"
+				id="05e3c7fc565b4b72ac9e02d13d9edc7b"
+				timeout="6000"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>
