@@ -71,27 +71,48 @@ namespace Session2_CL
                         + "equal to rangeTo ("+ iRangeTo.ToString() + ")");            
             
             //Opening all available positions and reporting requirements for them to the log
-            int i = 0;
             string strJobDescription;
-            string strLinkPath;
+            
             //Regex to search for requirements
             string strReqPatern = "[r|R]equirements(.*)";
-            for (i=1;i<iResultsNumber;i++){
-            	//Building xpath to find next link to click and clicking
-            	strLinkPath = repo.CLMiamiList.List.SelfInfo.AbsolutePath
-            		+ "/div[@class='content']/p[" + i.ToString() 
-            		+ "]/span/span/a[@href~'miami.cr']";
-            	IList<ATag> localResTemp = Host.Local.Find<ATag>(strLinkPath);
-            	localResTemp[0].Click();           	
-            	//Getting requirements for position and reporting to the log
+            
+            foreach (ATag job in localResults){
+            	
+            	//Opening job details in new tab
+            	Host.Local.PressKeys("{Control down}");
+            	job.Click();
+            	Host.Local.PressKeys("{Control up}");
+            	WebDocument wdJobDetail = "/dom[@pageurl='" + job.Href + "']";
+            	wdJobDetail.EnsureVisible();
             	repo.CLMiamiDetail.sectionPostInfo.WaitForExists(30000);
+            	
+            	//Getting requirements with regex
             	strJobDescription = repo.CLMiamiDetail.sectionPost.Element.GetAttributeValueText("InnerText");
             	Match matchReqs = Regex.Match(strJobDescription, strReqPatern, RegexOptions.Singleline);
             	Report.Info(matchReqs.Groups[0].Value);
-            	//Going back
-            	Host.Local.Click();
-            	Host.Local.PressKeys("{BACK}");            	
+            	
+            	//Closing job details
+            	wdJobDetail.Close();
             }
+            
+            //Old piece of code which works in the same tab and calculate xpath to the link
+            //every time in THeadTag loop.
+//            for (i=1;i<iResultsNumber;i++){
+//            	//Building xpath to find next link to click and clicking
+//            	strLinkPath = repo.CLMiamiList.List.SelfInfo.AbsolutePath
+//            		+ "/div[@class='content']/p[" + i.ToString()
+//            		+ "]/span/span/a[@href~'miami.cr']";
+//            	IList<ATag> localResTemp = Host.Local.Find<ATag>(strLinkPath);
+//            	localResTemp[0].Click();
+//            	//Getting requirements for position and reporting to the log
+//            	repo.CLMiamiDetail.sectionPostInfo.WaitForExists(30000);
+//            	strJobDescription = repo.CLMiamiDetail.sectionPost.Element.GetAttributeValueText("InnerText");
+//            	Match matchReqs = Regex.Match(strJobDescription, strReqPatern, RegexOptions.Singleline);
+//            	Report.Info(matchReqs.Groups[0].Value);
+//            	//Going back
+//            	Host.Local.Click();
+//            	Host.Local.PressKeys("{BACK}");
+//            }
         }
     }
 }

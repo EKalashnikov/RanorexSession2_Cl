@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="3d383a1073fb7e9d"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="automation"
+		host="DESKTOP-IP0304R"
+		rxversion="5.4.0.24580"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1024x768"
+		timestamp="3/9/2016 7:11:53 PM"
+		timestampiso="2016-03-10T00:11:53"
+		timeoutfactor="1"
+		module="DisplayQAJobs">
+		<detail>
+			DisplayQAJobs
+		</detail>
+		<errmsg>
+			Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.187"
+			timeRelativeToTestModuleStartTime="00:06.187"
+			timeWallClock="19:11:59"
+			time="00:06.187"
+			level="Info"
+			category="User"
+			errimg=".\DisplayQAJobs.cs_20160309_191148_e90636b8_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160309_191148_e90636b8_trace_thumb.jpg">
+			<message>
+				Number of links (23) is equal to rangeTo (23)
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="70"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.410"
+			timeRelativeToTestModuleStartTime="00:07.410"
+			timeWallClock="19:12:00"
+			time="00:07.410"
+			level="Error"
+			category="Module"
+			errimg=".\DisplayQAJobs.cs_20160309_191148_cf55236c_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160309_191148_cf55236c_trace_thumb.jpg">
+			<message>
+				Index was out of range. Must be non-negative and less than the size of the collection.<br/>Parameter name: index
+			</message>
+			<metainfo
+				stacktrace="   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Session2_CL.DisplayQAJobs.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs:line 88
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="88"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

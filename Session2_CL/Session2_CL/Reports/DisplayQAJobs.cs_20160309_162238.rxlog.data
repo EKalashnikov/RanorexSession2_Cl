@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2d16e7d12d2101f5"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="automation"
+		host="DESKTOP-IP0304R"
+		rxversion="5.4.0.24580"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1280x720"
+		timestamp="3/9/2016 4:22:43 PM"
+		timestampiso="2016-03-09T21:22:43"
+		timeoutfactor="1"
+		module="DisplayQAJobs">
+		<detail>
+			DisplayQAJobs
+		</detail>
+		<errmsg>
+			Failed to open URL 'http://miami.craigslist.org/mdc/sof/5482116015.html' with browser chrome.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.140"
+			timeRelativeToTestModuleStartTime="00:06.140"
+			timeWallClock="16:22:49"
+			time="00:06.140"
+			level="Info"
+			category="User"
+			errimg=".\DisplayQAJobs.cs_20160309_162238_603a37aa_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160309_162238_603a37aa_trace_thumb.jpg">
+			<message>
+				Number of links (23) is equal to rangeTo (23)
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="70"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.609"
+			timeRelativeToTestModuleStartTime="00:10.609"
+			timeWallClock="16:22:54"
+			time="00:10.609"
+			level="Info"
+			category="User"
+			errimg=".\DisplayQAJobs.cs_20160309_162238_61f9fccf_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160309_162238_61f9fccf_trace_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="90"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.531"
+			timeRelativeToTestModuleStartTime="00:11.531"
+			timeWallClock="16:22:55"
+			time="00:11.531"
+			level="Error"
+			category="Module"
+			errimg=".\DisplayQAJobs.cs_20160309_162238_efbc6fc8_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160309_162238_efbc6fc8_trace_thumb.jpg">
+			<message>
+				Failed to open URL 'http://miami.craigslist.org/mdc/sof/5482116015.html' with browser chrome.<br/>Access is denied
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Host.OpenBrowser(String url, String browserName, String browserArgs, Boolean killExisting, Boolean maximized, Boolean clearCache, Boolean incognitoMode, Boolean clearCookies)
+   at Ranorex.Host.OpenBrowser(String url, String browserName, Boolean killExisting, Boolean maximized)
+   at Session2_CL.DisplayQAJobs.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs:line 86
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="86"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

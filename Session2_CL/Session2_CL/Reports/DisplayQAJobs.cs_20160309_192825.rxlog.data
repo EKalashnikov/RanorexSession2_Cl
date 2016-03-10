@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1a1e121221cb5f20"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="automation"
+		host="DESKTOP-IP0304R"
+		rxversion="5.4.0.24580"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1024x768"
+		timestamp="3/9/2016 7:28:29 PM"
+		timestampiso="2016-03-10T00:28:29"
+		timeoutfactor="1"
+		module="DisplayQAJobs">
+		<detail>
+			DisplayQAJobs
+		</detail>
+		<errmsg>
+			Failed to wait for item to exist.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.874"
+			timeRelativeToTestModuleStartTime="00:10.874"
+			timeWallClock="19:28:40"
+			time="00:10.874"
+			level="Error"
+			category="Module"
+			errimg=".\DisplayQAJobs.cs_20160309_192825_17683fbc_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160309_192825_17683fbc_trace_thumb.jpg">
+			<message>
+				Failed to wait for item to exist.<br/>Failed to find item 'Session2_CLRepository.CLMiamiList.List.SearchForm.inputSearch'.<br/>No element found for path '/dom[@domain='miami.craigslist.org']/body/section/form/div[@class='querybox']/input[#'query']' within 10s.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.WaitForExists(Duration waitTimeout)
+   at Session2_CL.DisplayQAJobs.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs:line 55
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="55"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

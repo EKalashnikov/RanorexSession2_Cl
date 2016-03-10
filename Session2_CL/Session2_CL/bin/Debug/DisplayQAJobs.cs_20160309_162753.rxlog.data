@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="57ed5d7cfd3bb42"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="automation"
+		host="DESKTOP-IP0304R"
+		rxversion="5.4.0.24580"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1280x720"
+		timestamp="3/9/2016 4:27:58 PM"
+		timestampiso="2016-03-09T21:27:58"
+		timeoutfactor="1"
+		module="DisplayQAJobs">
+		<detail>
+			DisplayQAJobs
+		</detail>
+		<errmsg>
+			Failed to open URL 'http://miami.craigslist.org/mdc/sof/5465329476.html' with browser chrome.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.079"
+			timeRelativeToTestModuleStartTime="00:06.079"
+			timeWallClock="16:28:04"
+			time="00:06.079"
+			level="Info"
+			category="User">
+			<message>
+				Number of links (23) is NOT equal to rangeTo (16)
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="70"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.937"
+			timeRelativeToTestModuleStartTime="00:20.937"
+			timeWallClock="16:28:19"
+			time="00:20.937"
+			level="Info"
+			category="User">
+			<message>
+				requirements: 
+Skills, knowledge and Experience:
+- Experience developing restfull API systems with NodeJS. 
+- NodeJS, Express, passport, NoSQL databases integration. (Mandatory) 
+- Knowledge or implementations using Couchbase is a BIG plus.
+- MySql for NodeJs is a plus.
+- PostgreSQL for NodeJs is a plus. 
+Functions and Responsibilities:
+- Responsible of developing new functions and end points in the back end systems.
+- Keep track of the availability of the services
+- Advise in programming approaches to create ef&#64257;cient functionality
+- Enhance and maintain code in the back end systems
+- Advise in data structure
+This is a Full tie and in-house position. THIRD PARTIES DO NOT APPLY!
+If you think you're the right candidate for this position, please send us your resume to hr@callpalapp.net
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="90"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:38.733"
+			timeRelativeToTestModuleStartTime="00:38.733"
+			timeWallClock="16:28:36"
+			time="00:38.733"
+			level="Info"
+			category="User">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="90"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:00.176"
+			timeRelativeToTestModuleStartTime="01:00.176"
+			timeWallClock="16:28:58"
+			time="01:00.176"
+			level="Info"
+			category="User">
+			<message>
+				requirements, developing functional specification and developing applications. Programmer must be experienced with Microsoft development products such as .NET, C#, Active Server Pages, SQL, Access, and TFS. Knowledge of web development, HTML, Java, and MVC are required. In addition, ESRI products such as ArcSDE, ArcIMS, ArcGIS Server and interfacing with geographic databases are beneficial. 
+Required / Desired Skills
+&#8226;	.NET (Required 2 Years)
+&#8226;	C# (Required 2 Years)
+&#8226;	Active Server Pages (ASP) (Required 2 Years)
+&#8226;	SQL (Required 2 Years)
+&#8226;	Access (Required 2 Years)
+&#8226;	Team Foundation Server (TFS) (Required 2 Years)
+&#8226;	HTML (Required 2 Years)
+&#8226;	Java (Required 2 Years)
+&#8226;	MVC (Required 2 Years)
+&#8226;	ArcSDE (Highly Desired 1 Years)
+&#8226;	ArcIMS (Highly Desired 1 Years)
+&#8226;	ArcGIS Server (Highly Desired 1 Years)
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="90"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:13.265"
+			timeRelativeToTestModuleStartTime="01:13.265"
+			timeWallClock="16:29:11"
+			time="01:13.265"
+			level="Info"
+			category="User"
+			errimg=".\DisplayQAJobs.cs_20160309_162753_08caa358_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160309_162753_08caa358_trace_thumb.jpg">
+			<message>
+				requirements:
+Skills knowledge and Experience:
+- Experience developing restfull API systems with NodeJS.
+- NodeJS, Express, passport, NoSQL databases integration. (Mandatory)
+- Knowledge or implementations using Couchbase is a BIG plus.
+- MySql for NodeJs is a plus.
+- PostgreSQL for NodeJs is a plus.
+Functions and Responsibilities
+- Responsible of developing new functions and end points in the back end systems.
+- Keep track of the availability of the services
+- Advise in programming approaches to create efficient functionality
+- Enhance and maintain code in the back end systems
+- Advise in data structure 
+This is a full time and in-house position. 3rd Parties DO NOT APPLY!
+If you think you're the right candidate for this position, please send us your resume to hr@callpalapp.net&#10;
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="90"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:22.843"
+			timeRelativeToTestModuleStartTime="01:22.843"
+			timeWallClock="16:29:21"
+			time="01:22.843"
+			level="Info"
+			category="User"
+			errimg=".\DisplayQAJobs.cs_20160309_162753_cc3f2393_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160309_162753_cc3f2393_trace_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="90"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:23.904"
+			timeRelativeToTestModuleStartTime="01:23.904"
+			timeWallClock="16:29:22"
+			time="01:23.904"
+			level="Error"
+			category="Module"
+			errimg=".\DisplayQAJobs.cs_20160309_162753_df5d93cd_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160309_162753_df5d93cd_trace_thumb.jpg">
+			<message>
+				Failed to open URL 'http://miami.craigslist.org/mdc/sof/5465329476.html' with browser chrome.<br/>Access is denied
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Host.OpenBrowser(String url, String browserName, String browserArgs, Boolean killExisting, Boolean maximized, Boolean clearCache, Boolean incognitoMode, Boolean clearCookies)
+   at Ranorex.Host.OpenBrowser(String url, String browserName, Boolean killExisting, Boolean maximized)
+   at Session2_CL.DisplayQAJobs.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs:line 86
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="86"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

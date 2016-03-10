@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="475656423c98176"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="automation"
+		host="DESKTOP-IP0304R"
+		rxversion="5.4.0.24580"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1024x768"
+		timestamp="3/9/2016 7:36:13 PM"
+		timestampiso="2016-03-10T00:36:13"
+		timeoutfactor="1"
+		module="DisplayQAJobs">
+		<detail>
+			DisplayQAJobs
+		</detail>
+		<errmsg>
+			No element found for path '/dom[@pageurl='http://miami.craigslist.org/mdc/sof/5476461456.html']' within 10s.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.000"
+			timeRelativeToTestModuleStartTime="00:06.000"
+			timeWallClock="19:36:19"
+			time="00:06.000"
+			level="Info"
+			category="User">
+			<message>
+				Number of links (23) is equal to rangeTo (23)
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="70"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.249"
+			timeRelativeToTestModuleStartTime="00:10.249"
+			timeWallClock="19:36:23"
+			time="00:10.249"
+			level="Info"
+			category="User"
+			errimg=".\DisplayQAJobs.cs_20160309_193608_96b715d6_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160309_193608_96b715d6_trace_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="92"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.765"
+			timeRelativeToTestModuleStartTime="00:14.765"
+			timeWallClock="19:36:27"
+			time="00:14.765"
+			level="Info"
+			category="User"
+			errimg=".\DisplayQAJobs.cs_20160309_193608_4e0e84c4_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160309_193608_4e0e84c4_trace_thumb.jpg">
+			<message>
+				requirements: 
+Skills, knowledge and Experience:
+- Experience developing restfull API systems with NodeJS. 
+- NodeJS, Express, passport, NoSQL databases integration. (Mandatory) 
+- Knowledge or implementations using Couchbase is a BIG plus.
+- MySql for NodeJs is a plus.
+- PostgreSQL for NodeJs is a plus. 
+Functions and Responsibilities:
+- Responsible of developing new functions and end points in the back end systems.
+- Keep track of the availability of the services
+- Advise in programming approaches to create ef&#64257;cient functionality
+- Enhance and maintain code in the back end systems
+- Advise in data structure
+This is a Full tie and in-house position. THIRD PARTIES DO NOT APPLY!
+If you think you're the right candidate for this position, please send us your resume to hr@callpalapp.net
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="92"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.081"
+			timeRelativeToTestModuleStartTime="00:26.081"
+			timeWallClock="19:36:39"
+			time="00:26.081"
+			level="Error"
+			category="Module"
+			errimg=".\DisplayQAJobs.cs_20160309_193608_5e049774_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160309_193608_5e049774_trace_thumb.jpg">
+			<message>
+				No element found for path '/dom[@pageurl='http://miami.craigslist.org/mdc/sof/5476461456.html']' within 10s.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Element.FindSingle(RxPath path, Duration timeout)
+   at Ranorex.Core.Element.FromPath(String path)
+   at Ranorex.WebDocument.op_Implicit(String path)
+   at Session2_CL.DisplayQAJobs.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs:line 86
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="86"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

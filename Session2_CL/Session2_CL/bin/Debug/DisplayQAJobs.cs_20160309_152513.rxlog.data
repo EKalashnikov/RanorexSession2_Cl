@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="15d66345a1f85a54"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="automation"
+		host="DESKTOP-IP0304R"
+		rxversion="5.4.0.24580"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1280x720"
+		timestamp="3/9/2016 3:25:19 PM"
+		timestampiso="2016-03-09T20:25:19"
+		timeoutfactor="1"
+		module="DisplayQAJobs">
+		<detail>
+			DisplayQAJobs
+		</detail>
+		<errmsg>
+			'ctrl' is not a valid member of the System.Windows.Forms.Keys enumeration.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.521"
+			timeRelativeToTestModuleStartTime="00:06.537"
+			timeWallClock="15:25:25"
+			time="00:06.521"
+			level="Info"
+			category="User"
+			errimg=".\DisplayQAJobs.cs_20160309_152513_85441946_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160309_152513_85441946_trace_thumb.jpg">
+			<message>
+				Number of links (23) is equal to rangeTo (23)
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="70"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.416"
+			timeRelativeToTestModuleStartTime="00:09.432"
+			timeWallClock="15:25:28"
+			time="00:09.416"
+			level="Info"
+			category="User"
+			errimg=".\DisplayQAJobs.cs_20160309_152513_4d10e375_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160309_152513_4d10e375_trace_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="90"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.971"
+			timeRelativeToTestModuleStartTime="00:09.988"
+			timeWallClock="15:25:29"
+			time="00:09.971"
+			level="Error"
+			category="Module"
+			errimg=".\DisplayQAJobs.cs_20160309_152513_e5168bae_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160309_152513_e5168bae_trace_thumb.jpg">
+			<message>
+				'ctrl' is not a valid member of the System.Windows.Forms.Keys enumeration.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Keyboard.HandleEscapeGroup(String characters, Int32&amp; index)&#13;&#10;   at Ranorex.Keyboard.Parse(String sequence)&#13;&#10;   at Ranorex.Keyboard.Press(String sequence)&#13;&#10;   at Session2_CL.DisplayQAJobs.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs:line 92&#13;&#10;   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="92"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

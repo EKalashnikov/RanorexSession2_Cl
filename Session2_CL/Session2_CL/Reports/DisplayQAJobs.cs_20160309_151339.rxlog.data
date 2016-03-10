@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="390d9a504627fe60"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="automation"
+		host="DESKTOP-IP0304R"
+		rxversion="5.4.0.24580"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1280x720"
+		timestamp="3/9/2016 3:13:47 PM"
+		timestampiso="2016-03-09T20:13:47"
+		timeoutfactor="1"
+		module="DisplayQAJobs">
+		<detail>
+			DisplayQAJobs
+		</detail>
+		<errmsg>
+			Failed to find item 'Session2_CLRepository.CLMiamiDetail.sectionPost'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:52.452"
+			timeRelativeToTestModuleStartTime="00:52.452"
+			timeWallClock="15:14:40"
+			time="00:52.452"
+			level="Info"
+			category="User"
+			errimg=".\DisplayQAJobs.cs_20160309_151339_da08c53e_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160309_151339_da08c53e_trace_thumb.jpg">
+			<message>
+				Number of links (23) is NOT equal to rangeTo (16)
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="70"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:21.422"
+			timeRelativeToTestModuleStartTime="01:21.422"
+			timeWallClock="15:15:09"
+			time="01:21.422"
+			level="Error"
+			category="Module"
+			errimg=".\DisplayQAJobs.cs_20160309_151339_7479af2b_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160309_151339_7479af2b_trace_thumb.jpg">
+			<message>
+				Failed to find item 'Session2_CLRepository.CLMiamiDetail.sectionPost'.<br/>No element found for path '/dom[@domain~'miami.craigslist.org']/body/section/section/section/section[#'postingbody']' within 6000ms.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at Session2_CL.Session2_CLRepositoryFolders.CLMiamiDetailAppFolder.get_sectionPost() in c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\Session2_CLRepository.cs:line 296
+   at Session2_CL.DisplayQAJobs.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs:line 88
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="88"
+				type="repoitem"
+				path="/dom[@domain~'miami.craigslist.org']/body/section/section/section/section[#'postingbody']"
+				fullname="Session2_CLRepository.CLMiamiDetail.sectionPost"
+				id="05e3c7fc565b4b72ac9e02d13d9edc7b"
+				timeout="6000"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>
