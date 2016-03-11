@@ -57,10 +57,13 @@
     <Compile Include="AssemblyInfo.cs">
       <id>9184c8eb-d861-4533-ac78-251cb6a7fafa</id>
     </Compile>
+    <Compile Include="CheckJobsRange.cs">
+      <id>4951fddb-74c3-4c01-bf5d-ea946d05b51c</id>
+    </Compile>
     <Compile Include="ChooseCategory.cs">
       <id>047201ac-2da8-436e-9abe-db265208c308</id>
     </Compile>
-    <Compile Include="DisplayQAJobs.cs">
+    <Compile Include="FilterJobs.cs">
       <id>452f2530-be17-46d3-99d2-8e879ad30769</id>
     </Compile>
     <Compile Include="OpenWebSite.cs">
@@ -80,6 +83,9 @@
       <DependentUpon>Recording1.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>0a851cbb-0b87-4ba7-b1c8-c2de472e0689</id>
+    </Compile>
+    <Compile Include="ReportingJobsReqs.cs">
+      <id>7512e37b-8a92-4161-a0de-47472c6c9ce0</id>
     </Compile>
     <Compile Include="Session2_CLRepository.cs">
       <BoundTo>c02daca8-19aa-4d16-af4f-87324a057c33</BoundTo>

@@ -28,9 +28,19 @@ reportlevel="Info;20">
 			ref="d60d95eb-bacf-44f2-950b-065a697dcf0e"
 			type="UserCode"/>
 			<testmodule
-			name="DisplayQAJobs"
+			name="FilterJobs"
 			id="132525c4-878d-4cd7-a6f4-a5cd8fc2c4e2"
 			ref="11988a37-fce2-45ba-b382-ef4ea500875f"
+			type="UserCode"/>
+			<testmodule
+			name="CheckJobsRange"
+			id="eb81b67d-d465-4e52-aa4a-9fb8a95f6fdd"
+			ref="b88760fc-de8a-414d-85a9-3570ef2806ed"
+			type="UserCode"/>
+			<testmodule
+			name="ReportingJobsReqs"
+			id="2ceec9a8-3cc4-4b26-a3f3-adb7ce661dd3"
+			ref="9dd8c4a6-e1da-4349-88e9-32142dc2700b"
 			type="UserCode"/>
 		</testcase>
 	</content>
