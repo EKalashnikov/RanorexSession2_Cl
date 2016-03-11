@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="e792ed03e360f50"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="automation"
+		host="DESKTOP-IP0304R"
+		rxversion="5.4.0.24580"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1024x768"
+		timestamp="3/10/2016 1:11:34 PM"
+		timestampiso="2016-03-10T18:11:34"
+		timeoutfactor="1"
+		module="DisplayQAJobs">
+		<detail>
+			DisplayQAJobs
+		</detail>
+		<errmsg>
+			Failed to wait for item to exist.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.952"
+			timeRelativeToTestModuleStartTime="00:06.952"
+			timeWallClock="13:11:41"
+			time="00:06.952"
+			level="Info"
+			category="User"
+			errimg=".\DisplayQAJobs.cs_20160310_131126_36cefeb9_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160310_131126_36cefeb9_trace_thumb.jpg">
+			<message>
+				Number of links (24) is equal to rangeTo (24)
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="70"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:07.168"
+			timeRelativeToTestModuleStartTime="01:07.168"
+			timeWallClock="13:12:41"
+			time="01:07.168"
+			level="Error"
+			category="Module"
+			errimg=".\DisplayQAJobs.cs_20160310_131126_e06474b4_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160310_131126_e06474b4_trace_thumb.jpg">
+			<message>
+				Failed to wait for item to exist.<br/>Failed to find item 'Session2_CLRepository.CLMiamiDetail.sectionPost'.<br/>No element found for path '/dom[@domain~'miami.craigslist.org']/body/section/section/section/section[#'postingbody']' within 30s.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.WaitForExists(Duration waitTimeout)
+   at Session2_CL.DisplayQAJobs.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs:line 89
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="89"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="223b1b4c6e0f720"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="automation"
+		host="DESKTOP-IP0304R"
+		rxversion="5.4.0.24580"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1024x768"
+		timestamp="3/10/2016 11:42:40 AM"
+		timestampiso="2016-03-10T16:42:40"
+		timeoutfactor="1"
+		module="DisplayQAJobs">
+		<detail>
+			DisplayQAJobs
+		</detail>
+		<errmsg>
+			No element found for path '/dom[@pageurl='http://miami.craigslist.org/pbc/sof/5474709039.html']' within 10s.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.249"
+			timeRelativeToTestModuleStartTime="00:06.249"
+			timeWallClock="11:42:47"
+			time="00:06.249"
+			level="Info"
+			category="User">
+			<message>
+				Number of links (24) is equal to rangeTo (24)
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="70"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.750"
+			timeRelativeToTestModuleStartTime="00:10.750"
+			timeWallClock="11:42:51"
+			time="00:10.750"
+			level="Info"
+			category="User">
+			<message>
+				requirements to: max@customplay.com
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="92"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.781"
+			timeRelativeToTestModuleStartTime="00:15.781"
+			timeWallClock="11:42:56"
+			time="00:15.781"
+			level="Info"
+			category="User">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="92"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.641"
+			timeRelativeToTestModuleStartTime="00:20.641"
+			timeWallClock="11:43:01"
+			time="00:20.641"
+			level="Info"
+			category="User"
+			errimg=".\DisplayQAJobs.cs_20160310_114236_b00c0bb6_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160310_114236_b00c0bb6_trace_thumb.jpg">
+			<message>
+				requirements: 
+Skills, knowledge and Experience:
+- Experience developing restfull API systems with NodeJS. 
+- NodeJS, Express, passport, NoSQL databases integration. (Mandatory) 
+- Knowledge or implementations using Couchbase is a BIG plus.
+- MySql for NodeJs is a plus.
+- PostgreSQL for NodeJs is a plus. 
+Functions and Responsibilities:
+- Responsible of developing new functions and end points in the back end systems.
+- Keep track of the availability of the services
+- Advise in programming approaches to create ef&#64257;cient functionality
+- Enhance and maintain code in the back end systems
+- Advise in data structure
+This is a Full tie and in-house position. THIRD PARTIES DO NOT APPLY!
+If you think you're the right candidate for this position, please send us your resume to hr@callpalapp.net
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="92"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.171"
+			timeRelativeToTestModuleStartTime="00:25.171"
+			timeWallClock="11:43:06"
+			time="00:25.171"
+			level="Info"
+			category="User"
+			errimg=".\DisplayQAJobs.cs_20160310_114236_eac7aa98_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160310_114236_eac7aa98_trace_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="92"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:36.429"
+			timeRelativeToTestModuleStartTime="00:36.429"
+			timeWallClock="11:43:17"
+			time="00:36.429"
+			level="Error"
+			category="Module"
+			errimg=".\DisplayQAJobs.cs_20160310_114236_7d81c6f2_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160310_114236_7d81c6f2_trace_thumb.jpg">
+			<message>
+				No element found for path '/dom[@pageurl='http://miami.craigslist.org/pbc/sof/5474709039.html']' within 10s.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Element.FindSingle(RxPath path, Duration timeout)
+   at Ranorex.Core.Element.FromPath(String path)
+   at Ranorex.WebDocument.op_Implicit(String path)
+   at Session2_CL.DisplayQAJobs.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs:line 85
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="85"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

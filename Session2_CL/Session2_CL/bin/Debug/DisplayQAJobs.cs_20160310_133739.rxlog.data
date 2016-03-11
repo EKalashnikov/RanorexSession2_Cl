@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="5d35af65df11eef"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="automation"
+		host="DESKTOP-IP0304R"
+		rxversion="5.4.0.24580"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1024x768"
+		timestamp="3/10/2016 1:37:44 PM"
+		timestampiso="2016-03-10T18:37:44"
+		timeoutfactor="1"
+		module="DisplayQAJobs">
+		<detail>
+			DisplayQAJobs
+		</detail>
+		<errmsg>
+			Invalid RxPath '/dom[@caption~'Loading...']''.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.280"
+			timeRelativeToTestModuleStartTime="00:06.280"
+			timeWallClock="13:37:50"
+			time="00:06.280"
+			level="Info"
+			category="User"
+			errimg=".\DisplayQAJobs.cs_20160310_133739_21b4f4c5_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160310_133739_21b4f4c5_trace_thumb.jpg">
+			<message>
+				Number of links (24) is equal to rangeTo (24)
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="70"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.354"
+			timeRelativeToTestModuleStartTime="00:15.354"
+			timeWallClock="13:38:00"
+			time="00:15.354"
+			level="Error"
+			category="Module"
+			errimg=".\DisplayQAJobs.cs_20160310_133739_fe0b7045_trace.jpg"
+			errthumb=".\DisplayQAJobs.cs_20160310_133739_fe0b7045_trace_thumb.jpg">
+			<message>
+				Invalid RxPath '/dom[@caption~'Loading...']''.<br/>Invalid character at character position 27.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.RxPath..ctor(String path)
+   at Ranorex.Core.Element.FromPath(String path)
+   at Ranorex.WebDocument.op_Implicit(String path)
+   at Session2_CL.DisplayQAJobs.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs:line 113
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="113"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>
