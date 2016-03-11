@@ -226,6 +226,7 @@ namespace Session2_CL
         {
             RepoItemInfo _someinputtagInfo;
             RepoItemInfo _sectionpostInfo;
+            RepoItemInfo _linkclInfo;
 
             /// <summary>
             /// Creates a new CLMiamiDetail  folder.
@@ -235,6 +236,7 @@ namespace Session2_CL
             {
                 _someinputtagInfo = new RepoItemInfo(this, "SomeInputTag", ".//input[#'query']", 30000, null, "c4121c6f-9cfc-413a-97f9-e41d523a9371");
                 _sectionpostInfo = new RepoItemInfo(this, "sectionPost", "section/section/section/section[#'postingbody']", 3000, null, "05e3c7fc-565b-4b72-ac9e-02d13d9edc7b");
+                _linkclInfo = new RepoItemInfo(this, "linkCL", "section/header[@class='global-header']/a[@innertext='CL']", 30000, null, "5baba088-5410-4043-a542-536ff4f36275");
             }
 
             /// <summary>
@@ -306,6 +308,30 @@ namespace Session2_CL
                 get
                 {
                     return _sectionpostInfo;
+                }
+            }
+
+            /// <summary>
+            /// The linkCL item.
+            /// </summary>
+            [RepositoryItem("5baba088-5410-4043-a542-536ff4f36275")]
+            public virtual Ranorex.ATag linkCL
+            {
+                get
+                {
+                    return _linkclInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The linkCL item info.
+            /// </summary>
+            [RepositoryItemInfo("5baba088-5410-4043-a542-536ff4f36275")]
+            public virtual RepoItemInfo linkCLInfo
+            {
+                get
+                {
+                    return _linkclInfo;
                 }
             }
         }

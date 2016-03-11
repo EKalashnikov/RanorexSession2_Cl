@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1fa2c7d1f59ad116"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="automation"
+		host="DESKTOP-IP0304R"
+		rxversion="5.4.0.24580"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1024x768"
+		timestamp="3/11/2016 12:47:16 PM"
+		timestampiso="2016-03-11T17:47:16"
+		timeoutfactor="1"
+		module="DisplayQAJobs">
+		<detail>
+			DisplayQAJobs
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:50.281"
+			timeRelativeToTestModuleStartTime="00:50.281"
+			timeWallClock="12:48:06"
+			time="00:50.281"
+			level="Info"
+			category="User">
+			<message>
+				Number of links (24) is equal to rangeTo (24)
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="70"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:10.916"
+			timeRelativeToTestModuleStartTime="01:10.916"
+			timeWallClock="12:48:27"
+			time="01:10.916"
+			level="Info"
+			category="User">
+			<message>
+				Not able to open job detail for http://miami.craigslist.org/pbc/sof/5484863354.html
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="117"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:32.232"
+			timeRelativeToTestModuleStartTime="01:32.232"
+			timeWallClock="12:48:48"
+			time="01:32.232"
+			level="Info"
+			category="User">
+			<message>
+				Not able to open job detail for http://miami.craigslist.org/brw/sof/5483973079.html
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="117"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:49.524"
+			timeRelativeToTestModuleStartTime="01:49.524"
+			timeWallClock="12:49:05"
+			time="01:49.524"
+			level="Info"
+			category="User">
+			<message>
+				Not able to open job detail for http://miami.craigslist.org/mdc/sof/5482116015.html
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="117"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:11.045"
+			timeRelativeToTestModuleStartTime="02:11.046"
+			timeWallClock="12:49:27"
+			time="02:11.045"
+			level="Error"
+			category="Module">
+			<message>
+				Test run was aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

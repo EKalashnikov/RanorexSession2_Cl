@@ -84,15 +84,28 @@ namespace Session2_CL
 					Host.Local.PressKeys("{Control down}");
 					job.Click();
 					Host.Local.PressKeys("{Control up}");
-					repo.CLMiamiDetail.sectionPostInfo.WaitForExists(5000);
 					WebDocument wdJobDetail = "/dom[@pageurl='" + job.Href + "']";
 					wdJobDetail.EnsureVisible();
+					repo.CLMiamiDetail.sectionPostInfo.WaitForExists(5000);
+					
+					
+					//check if the page is loaded correctly.
+					//This code won't fail and re-attempt one time to close failed to load tab and do again.
+					if (!repo.CLMiamiDetail.linkCLInfo.Exists(5000)){
+						wdJobDetail.Close();
+						Host.Local.PressKeys("{Control down}");
+						job.Click();
+						Host.Local.PressKeys("{Control up}");
+						wdJobDetail = "/dom[@pageurl='" + job.Href + "']";
+						wdJobDetail.EnsureVisible();
+						repo.CLMiamiDetail.sectionPostInfo.WaitForExists(30000);
+					}
 					
 					//Getting requirements with regex
 					strJobDescription = repo.CLMiamiDetail.sectionPost.Element.GetAttributeValueText("InnerText");
 					Match matchReqs = Regex.Match(strJobDescription, strReqPatern, RegexOptions.Singleline);
 					Report.Info(matchReqs.Groups[0].Value);
-					Delay.Milliseconds(1000);
+					//Delay.Milliseconds(1000);
 					//Closing job details
 					wdJobDetail.Close();
 				}

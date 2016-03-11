@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="14c2c467789aba62"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="automation"
+		host="DESKTOP-IP0304R"
+		rxversion="5.4.0.24580"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1024x768"
+		timestamp="3/11/2016 1:44:19 PM"
+		timestampiso="2016-03-11T18:44:19"
+		timeoutfactor="1"
+		module="DisplayQAJobs">
+		<detail>
+			DisplayQAJobs
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.000"
+			timeRelativeToTestModuleStartTime="00:07.000"
+			timeWallClock="13:44:26"
+			time="00:07.000"
+			level="Info"
+			category="User">
+			<message>
+				Number of links (24) is equal to rangeTo (24)
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="70"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.359"
+			timeRelativeToTestModuleStartTime="00:12.359"
+			timeWallClock="13:44:31"
+			time="00:12.359"
+			level="Info"
+			category="User">
+			<message>
+				requirements to: max@customplay.com
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="107"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.203"
+			timeRelativeToTestModuleStartTime="00:18.203"
+			timeWallClock="13:44:37"
+			time="00:18.203"
+			level="Info"
+			category="User">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="107"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.140"
+			timeRelativeToTestModuleStartTime="00:23.140"
+			timeWallClock="13:44:42"
+			time="00:23.140"
+			level="Info"
+			category="User">
+			<message>
+				requirements: 
+Skills, knowledge and Experience:
+- Experience developing restfull API systems with NodeJS. 
+- NodeJS, Express, passport, NoSQL databases integration. (Mandatory) 
+- Knowledge or implementations using Couchbase is a BIG plus.
+- MySql for NodeJs is a plus.
+- PostgreSQL for NodeJs is a plus. 
+Functions and Responsibilities:
+- Responsible of developing new functions and end points in the back end systems.
+- Keep track of the availability of the services
+- Advise in programming approaches to create ef&#64257;cient functionality
+- Enhance and maintain code in the back end systems
+- Advise in data structure
+This is a Full tie and in-house position. THIRD PARTIES DO NOT APPLY!
+If you think you're the right candidate for this position, please send us your resume to hr@callpalapp.net
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="107"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:28.093"
+			timeRelativeToTestModuleStartTime="00:28.093"
+			timeWallClock="13:44:47"
+			time="00:28.093"
+			level="Info"
+			category="User">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="107"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:33.797"
+			timeRelativeToTestModuleStartTime="00:33.797"
+			timeWallClock="13:44:53"
+			time="00:33.797"
+			level="Info"
+			category="User">
+			<message>
+				requirements for this opening.
+Job Purpose:
+Analyzes business needs and detailed system components, identifies, communicates, and resolves systems issues in support of core system functions. Performs systems analysis, design, coding, testing, documentation and implementation for application systems development software initiatives driven by business needs. Develops and enhances computer applications to support the implementation of difficult to complex business requirements. Performs specific assignments as part of a project team or works independently on small to medium-sized enhancements and production support assignments. May perform technical project management.
+Major Duties:
+Design/Programming
+&#8226; Interprets business requirements for system enhancements and projects, translates them into detailed design system specifications including process and data flows, screen and report specifications, stored procedures, batch scripts, and batch scheduling specifications.
+&#8226; Recommends technologies to be used in building the solution.
+&#8226; Develops system components based on business requirements and system specifications, codes, tests, and implements components in accordance with standards and procedures.
+&#8226; Responsible for unit testing components and supporting DEV and QA testing.
+&#8226; Performs design reviews and code reviews for other team initiatives.
+&#8226; Coordinates and executes integration testing for development efforts.
+&#8226; Develops implementation plans and supports migrations through the various environments.
+&#8226; Responsible for the coordination and implementation of small to medium-sized enhancements and production support assignments from end to end.
+&#8226; Prepares and maintains technical system documentation for system support and other needs.
+Analysis
+&#8226; Analyzes business needs and detailed system components, including input, process, and output requirements, data and system flows, and hardware and software requirements.
+&#8226; Identifies, communicates, and resolves systems issues in support of core system functions.
+&#8226; Identifies root cause of problems, provides options for resolution and documents outcome of analysis.
+&#8226; Evaluates existing systems to improve their effectiveness and efficiency, reducing operational costs, and providing solutions to resolve data and system issues.
+&#8226; Provides consultation in areas of expertise and/or 3rd party vendor software products.
+Project Management
+&#8226; Manages various technical aspects of small to medium-sized projects concurrently through the project lifecycle using the PMO process while managing to a budget, timeline and customer satisfaction and value.
+&#8226; Responsible for estimating, project planning, communicating status of projects, designing, analyzing, coding (where applicable), testing, and documentation and implementation of components in accordance with standards and procedures.
+&#8226; Works with management team to staff projects.
+&#8226; Provides objective feedback to management regarding team and individual performance.
+&#8226; Provides technical expertise and knowledge transfer for IT, PMO and Business user team members.
+Relationships
+&#8226; Establishes and/or maintains working relationships with both Business and IT partners to define, understand and evaluate business requirements and resolve production issues.
+&#8226; Provides support in a matrix-management fashion to other areas as needed.
+Leadership
+&#8226; Provides knowledge transfer to other technical peers.
+&#8226; Provides technical leadership and expertise to peers on small to medium-sized work efforts and production support.
+Required Education, Experience &amp; Skills:
+&#8226; Bachelor's degree and a minimum of 5 years IT programming experience or 5 years managing software development and/or technical project management experience.
+&#8226; In lieu of degree, additional work experience and/or trade school or applicable certifications required.
+&#8226; Solid understanding of IT Technical Architecture, and strong knowledge of the capabilities and constraints of large-scale, multi-processing computer systems.
+&#8226; In depth knowledge and experience with Relational Database Management Systems (RDBMS) that interact with batch and web applications.
+&#8226; In depth technical expertise in multiple platforms (i.e., UNIX/LINUX, Windows/Intel); multiple database technologies, (i.e., Oracle); multiple programming languages, (i.e., VB.Net, C#, ASP, PL/SQL, Java, Object oriented programming); and multiple batch operating environments (i.e., Unix/Shell Scripting, Windows).
+&#8226; Solid Communication Skills - ability to communicate clearly and concisely, both verbally and in writing, and to establish and maintain working relationships with both Business and IT partners as part of developing solutions and resolving business issues.
+&#8226; Solid Customer Service Skills - ability to identify and anticipate customer requirements and needs, and respond to and influence customer expectations.
+&#8226; In Depth Analytical Skills - ability to gather and analyze information, and draw logical conclusions while identifying the root cause of problems and providing options for resolution.
+&#8226; Programming Skills -- In depth knowledge of programming principles, techniques, standards and analytical ability to develop computer programs and systems.
+&#8226; Project Management Skills -- In depth understanding of project life cycle methodologies, estimating, and IT best practices with experience managing and implementing small to medium size projects.
+&#8226; Ability to multi-task, juggle multiple projects, and function in a flexible matrix-management environment.
+&#8226; In depth understanding of industry standard desktop software (e.g., Windows, Office, eMail, SharePoint, etc).
+Preferred Education, Experience, and Skills:
+&#8226; Bachelor's degree in computer information or related field.
+&#8226; Good working knowledge and understanding of NCCI business processes and systems.
+&#8226; Experience integrating 3rd party software.
+&#8226; MCSD or ORACLE Developer Certification.
+&#8226; PMI (Project Management Institute) Certification.
+As key contributors to our success, our team members enjoy working in a casual, collaborative environment that offers state-of-the-art resources, advanced technologies, and a superior benefits package.
+We require a drug screen and background check.
+EEO/Smoke Free environment
+Apply online:&#32;
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="107"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:45.947"
+			timeRelativeToTestModuleStartTime="00:45.947"
+			timeWallClock="13:45:05"
+			time="00:45.947"
+			level="Info"
+			category="User">
+			<message>
+				Not able to open job detail for http://miami.craigslist.org/mdc/sof/5472935856.html
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="117"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:00.059"
+			timeRelativeToTestModuleStartTime="01:00.059"
+			timeWallClock="13:45:19"
+			time="01:00.059"
+			level="Info"
+			category="User">
+			<message>
+				Not able to open job detail for http://miami.craigslist.org/mdc/sof/5466234997.html
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="117"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:13.109"
+			timeRelativeToTestModuleStartTime="01:13.109"
+			timeWallClock="13:45:32"
+			time="01:13.109"
+			level="Info"
+			category="User">
+			<message>
+				Not able to open job detail for http://miami.craigslist.org/mdc/sof/5466145870.html
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="117"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:26.828"
+			timeRelativeToTestModuleStartTime="01:26.828"
+			timeWallClock="13:45:46"
+			time="01:26.828"
+			level="Info"
+			category="User">
+			<message>
+				Not able to open job detail for http://miami.craigslist.org/mdc/sof/5465329476.html
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="117"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:39.480"
+			timeRelativeToTestModuleStartTime="01:39.480"
+			timeWallClock="13:45:58"
+			time="01:39.480"
+			level="Info"
+			category="User">
+			<message>
+				Not able to open job detail for http://miami.craigslist.org/mdc/sof/5463985756.html
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="117"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:50.654"
+			timeRelativeToTestModuleStartTime="01:50.654"
+			timeWallClock="13:46:10"
+			time="01:50.654"
+			level="Info"
+			category="User">
+			<message>
+				Not able to open job detail for http://miami.craigslist.org/mdc/sof/5459825070.html
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="117"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:02.129"
+			timeRelativeToTestModuleStartTime="02:02.129"
+			timeWallClock="13:46:21"
+			time="02:02.129"
+			level="Info"
+			category="User">
+			<message>
+				Not able to open job detail for http://miami.craigslist.org/mdc/sof/5455381391.html
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="117"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:13.915"
+			timeRelativeToTestModuleStartTime="02:13.915"
+			timeWallClock="13:46:33"
+			time="02:13.915"
+			level="Info"
+			category="User">
+			<message>
+				Not able to open job detail for http://miami.craigslist.org/mdc/sof/5452484921.html
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="117"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:25.378"
+			timeRelativeToTestModuleStartTime="02:25.378"
+			timeWallClock="13:46:44"
+			time="02:25.378"
+			level="Info"
+			category="User">
+			<message>
+				Not able to open job detail for http://miami.craigslist.org/pbc/sof/5451519949.html
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="117"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:36.679"
+			timeRelativeToTestModuleStartTime="02:36.679"
+			timeWallClock="13:46:56"
+			time="02:36.679"
+			level="Info"
+			category="User">
+			<message>
+				Not able to open job detail for http://miami.craigslist.org/mdc/sof/5450797448.html
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="117"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:47.911"
+			timeRelativeToTestModuleStartTime="02:47.911"
+			timeWallClock="13:47:07"
+			time="02:47.911"
+			level="Info"
+			category="User">
+			<message>
+				Not able to open job detail for http://miami.craigslist.org/mdc/sof/5448610473.html
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="117"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:59.033"
+			timeRelativeToTestModuleStartTime="02:59.033"
+			timeWallClock="13:47:18"
+			time="02:59.033"
+			level="Info"
+			category="User">
+			<message>
+				Not able to open job detail for http://miami.craigslist.org/pbc/sof/5454983491.html
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="117"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="03:10.408"
+			timeRelativeToTestModuleStartTime="03:10.408"
+			timeWallClock="13:47:29"
+			time="03:10.408"
+			level="Info"
+			category="User">
+			<message>
+				Not able to open job detail for http://miami.craigslist.org/mdc/sof/5445379394.html
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="117"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="03:21.733"
+			timeRelativeToTestModuleStartTime="03:21.733"
+			timeWallClock="13:47:41"
+			time="03:21.733"
+			level="Info"
+			category="User">
+			<message>
+				Not able to open job detail for http://miami.craigslist.org/mdc/sof/5452754279.html
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="117"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="03:33.318"
+			timeRelativeToTestModuleStartTime="03:33.318"
+			timeWallClock="13:47:52"
+			time="03:33.318"
+			level="Info"
+			category="User">
+			<message>
+				Not able to open job detail for http://miami.craigslist.org/pbc/sof/5440293347.html
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="117"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="03:44.692"
+			timeRelativeToTestModuleStartTime="03:44.692"
+			timeWallClock="13:48:04"
+			time="03:44.692"
+			level="Info"
+			category="User">
+			<message>
+				Not able to open job detail for http://miami.craigslist.org/mdc/sof/5439363101.html
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="117"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="03:55.931"
+			timeRelativeToTestModuleStartTime="03:55.931"
+			timeWallClock="13:48:15"
+			time="03:55.931"
+			level="Info"
+			category="User">
+			<message>
+				Not able to open job detail for http://miami.craigslist.org/pbc/sof/5439310483.html
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="117"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="04:07.206"
+			timeRelativeToTestModuleStartTime="04:07.206"
+			timeWallClock="13:48:26"
+			time="04:07.206"
+			level="Info"
+			category="User">
+			<message>
+				Not able to open job detail for http://miami.craigslist.org/brw/sof/5438682282.html
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="117"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="04:18.435"
+			timeRelativeToTestModuleStartTime="04:18.435"
+			timeWallClock="13:48:37"
+			time="04:18.435"
+			level="Info"
+			category="User">
+			<message>
+				Not able to open job detail for http://miami.craigslist.org/mdc/sof/5440877068.html
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="117"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

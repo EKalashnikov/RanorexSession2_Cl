@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="14189e3362b3fb8c"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="automation"
+		host="DESKTOP-IP0304R"
+		rxversion="5.4.0.24580"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1024x768"
+		timestamp="3/11/2016 12:56:16 PM"
+		timestampiso="2016-03-11T17:56:16"
+		timeoutfactor="1"
+		module="DisplayQAJobs">
+		<detail>
+			DisplayQAJobs
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.943"
+			timeRelativeToTestModuleStartTime="00:09.943"
+			timeWallClock="12:56:26"
+			time="00:09.943"
+			level="Info"
+			category="User">
+			<message>
+				Number of links (0) is NOT equal to rangeTo (24)
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\DisplayQAJobs.cs"
+				codeline="70"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

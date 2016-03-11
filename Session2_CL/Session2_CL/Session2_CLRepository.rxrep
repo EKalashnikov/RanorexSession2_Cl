@@ -62,6 +62,13 @@ rxversion="5.4.0.24580">
 			capname="sectiontag">
 				/dom[@domain~'miami.craigslist.org']/body/section/section/section/section[#'postingbody']
 			</item>
+			<item
+			name="linkCL"
+			id="5baba088-5410-4043-a542-536ff4f36275"
+			searchtimeout="30000ms"
+			capname="atag">
+				/dom[@domain~'miami.craigslist.org']/body/section/header[@class='global-header']/a[@innertext='CL']
+			</item>
 			<basepath>
 				/dom[@domain~'miami.craigslist.org']/body
 			</basepath>
