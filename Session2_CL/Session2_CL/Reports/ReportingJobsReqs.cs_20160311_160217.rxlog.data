@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="284c628d9e5d2a64"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="automation"
+		host="DESKTOP-IP0304R"
+		rxversion="5.4.0.24580"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1024x768"
+		timestamp="3/11/2016 4:02:21 PM"
+		timestampiso="2016-03-11T21:02:21"
+		timeoutfactor="1"
+		module="ReportingJobsReqs">
+		<detail>
+			ReportingJobsReqs
+		</detail>
+		<errmsg>
+			No element found for path '/form[@title='Untitled - Google Chrome']'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.802"
+			timeRelativeToTestModuleStartTime="00:04.802"
+			timeWallClock="16:02:26"
+			time="00:04.802"
+			level="Error"
+			category="Module"
+			errimg=".\ReportingJobsReqs.cs_20160311_160217_fa5923a1_trace.jpg"
+			errthumb=".\ReportingJobsReqs.cs_20160311_160217_fa5923a1_trace_thumb.jpg">
+			<message>
+				No element found for path '/form[@title='Untitled - Google Chrome']'.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Element.FindSingle(RxPath path)
+   at Ranorex.Adapter.FindSingle(RxPath path)
+   at Session2_CL.ReportingJobsReqs.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs:line 102
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+				codeline="102"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

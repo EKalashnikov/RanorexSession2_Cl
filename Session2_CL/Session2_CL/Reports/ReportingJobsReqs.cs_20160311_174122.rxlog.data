@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="37163509bceb3ce"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="automation"
+		host="DESKTOP-IP0304R"
+		rxversion="5.4.0.24580"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1024x768"
+		timestamp="3/11/2016 5:41:27 PM"
+		timestampiso="2016-03-11T22:41:27"
+		timeoutfactor="1"
+		module="ReportingJobsReqs">
+		<detail>
+			ReportingJobsReqs
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.640"
+			timeRelativeToTestModuleStartTime="00:08.640"
+			timeWallClock="17:41:36"
+			time="00:08.640"
+			level="Info"
+			category="User">
+			<message>
+				requirements to: max@customplay.com
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+				codeline="81"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.827"
+			timeRelativeToTestModuleStartTime="00:15.827"
+			timeWallClock="17:41:43"
+			time="00:15.827"
+			level="Info"
+			category="User">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+				codeline="81"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.750"
+			timeRelativeToTestModuleStartTime="00:20.750"
+			timeWallClock="17:41:48"
+			time="00:20.750"
+			level="Info"
+			category="User">
+			<message>
+				requirements: 
+Skills, knowledge and Experience:
+- Experience developing restfull API systems with NodeJS. 
+- NodeJS, Express, passport, NoSQL databases integration. (Mandatory) 
+- Knowledge or implementations using Couchbase is a BIG plus.
+- MySql for NodeJs is a plus.
+- PostgreSQL for NodeJs is a plus. 
+Functions and Responsibilities:
+- Responsible of developing new functions and end points in the back end systems.
+- Keep track of the availability of the services
+- Advise in programming approaches to create ef&#64257;cient functionality
+- Enhance and maintain code in the back end systems
+- Advise in data structure
+This is a Full tie and in-house position. THIRD PARTIES DO NOT APPLY!
+If you think you're the right candidate for this position, please send us your resume to hr@callpalapp.net
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+				codeline="81"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.125"
+			timeRelativeToTestModuleStartTime="00:26.125"
+			timeWallClock="17:41:54"
+			time="00:26.125"
+			level="Info"
+			category="User">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+				codeline="81"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.780"
+			timeRelativeToTestModuleStartTime="00:31.780"
+			timeWallClock="17:41:59"
+			time="00:31.780"
+			level="Info"
+			category="User">
+			<message>
+				requirements for this opening.
+Job Purpose:
+Analyzes business needs and detailed system components, identifies, communicates, and resolves systems issues in support of core system functions. Performs systems analysis, design, coding, testing, documentation and implementation for application systems development software initiatives driven by business needs. Develops and enhances computer applications to support the implementation of difficult to complex business requirements. Performs specific assignments as part of a project team or works independently on small to medium-sized enhancements and production support assignments. May perform technical project management.
+Major Duties:
+Design/Programming
+&#8226; Interprets business requirements for system enhancements and projects, translates them into detailed design system specifications including process and data flows, screen and report specifications, stored procedures, batch scripts, and batch scheduling specifications.
+&#8226; Recommends technologies to be used in building the solution.
+&#8226; Develops system components based on business requirements and system specifications, codes, tests, and implements components in accordance with standards and procedures.
+&#8226; Responsible for unit testing components and supporting DEV and QA testing.
+&#8226; Performs design reviews and code reviews for other team initiatives.
+&#8226; Coordinates and executes integration testing for development efforts.
+&#8226; Develops implementation plans and supports migrations through the various environments.
+&#8226; Responsible for the coordination and implementation of small to medium-sized enhancements and production support assignments from end to end.
+&#8226; Prepares and maintains technical system documentation for system support and other needs.
+Analysis
+&#8226; Analyzes business needs and detailed system components, including input, process, and output requirements, data and system flows, and hardware and software requirements.
+&#8226; Identifies, communicates, and resolves systems issues in support of core system functions.
+&#8226; Identifies root cause of problems, provides options for resolution and documents outcome of analysis.
+&#8226; Evaluates existing systems to improve their effectiveness and efficiency, reducing operational costs, and providing solutions to resolve data and system issues.
+&#8226; Provides consultation in areas of expertise and/or 3rd party vendor software products.
+Project Management
+&#8226; Manages various technical aspects of small to medium-sized projects concurrently through the project lifecycle using the PMO process while managing to a budget, timeline and customer satisfaction and value.
+&#8226; Responsible for estimating, project planning, communicating status of projects, designing, analyzing, coding (where applicable), testing, and documentation and implementation of components in accordance with standards and procedures.
+&#8226; Works with management team to staff projects.
+&#8226; Provides objective feedback to management regarding team and individual performance.
+&#8226; Provides technical expertise and knowledge transfer for IT, PMO and Business user team members.
+Relationships
+&#8226; Establishes and/or maintains working relationships with both Business and IT partners to define, understand and evaluate business requirements and resolve production issues.
+&#8226; Provides support in a matrix-management fashion to other areas as needed.
+Leadership
+&#8226; Provides knowledge transfer to other technical peers.
+&#8226; Provides technical leadership and expertise to peers on small to medium-sized work efforts and production support.
+Required Education, Experience &amp; Skills:
+&#8226; Bachelor's degree and a minimum of 5 years IT programming experience or 5 years managing software development and/or technical project management experience.
+&#8226; In lieu of degree, additional work experience and/or trade school or applicable certifications required.
+&#8226; Solid understanding of IT Technical Architecture, and strong knowledge of the capabilities and constraints of large-scale, multi-processing computer systems.
+&#8226; In depth knowledge and experience with Relational Database Management Systems (RDBMS) that interact with batch and web applications.
+&#8226; In depth technical expertise in multiple platforms (i.e., UNIX/LINUX, Windows/Intel); multiple database technologies, (i.e., Oracle); multiple programming languages, (i.e., VB.Net, C#, ASP, PL/SQL, Java, Object oriented programming); and multiple batch operating environments (i.e., Unix/Shell Scripting, Windows).
+&#8226; Solid Communication Skills - ability to communicate clearly and concisely, both verbally and in writing, and to establish and maintain working relationships with both Business and IT partners as part of developing solutions and resolving business issues.
+&#8226; Solid Customer Service Skills - ability to identify and anticipate customer requirements and needs, and respond to and influence customer expectations.
+&#8226; In Depth Analytical Skills - ability to gather and analyze information, and draw logical conclusions while identifying the root cause of problems and providing options for resolution.
+&#8226; Programming Skills -- In depth knowledge of programming principles, techniques, standards and analytical ability to develop computer programs and systems.
+&#8226; Project Management Skills -- In depth understanding of project life cycle methodologies, estimating, and IT best practices with experience managing and implementing small to medium size projects.
+&#8226; Ability to multi-task, juggle multiple projects, and function in a flexible matrix-management environment.
+&#8226; In depth understanding of industry standard desktop software (e.g., Windows, Office, eMail, SharePoint, etc).
+Preferred Education, Experience, and Skills:
+&#8226; Bachelor's degree in computer information or related field.
+&#8226; Good working knowledge and understanding of NCCI business processes and systems.
+&#8226; Experience integrating 3rd party software.
+&#8226; MCSD or ORACLE Developer Certification.
+&#8226; PMI (Project Management Institute) Certification.
+As key contributors to our success, our team members enjoy working in a casual, collaborative environment that offers state-of-the-art resources, advanced technologies, and a superior benefits package.
+We require a drug screen and background check.
+EEO/Smoke Free environment
+Apply online:&#32;
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+				codeline="81"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:37.734"
+			timeRelativeToTestModuleStartTime="00:37.734"
+			timeWallClock="17:42:05"
+			time="00:37.734"
+			level="Info"
+			category="User">
+			<message>
+				requirements, developing functional specification and developing applications. Programmer must be experienced with Microsoft development products such as .NET, C#, Active Server Pages, SQL, Access, and TFS. Knowledge of web development, HTML, Java, and MVC are required. In addition, ESRI products such as ArcSDE, ArcIMS, ArcGIS Server and interfacing with geographic databases are beneficial. 
+Required / Desired Skills
+&#8226;	.NET (Required 2 Years)
+&#8226;	C# (Required 2 Years)
+&#8226;	Active Server Pages (ASP) (Required 2 Years)
+&#8226;	SQL (Required 2 Years)
+&#8226;	Access (Required 2 Years)
+&#8226;	Team Foundation Server (TFS) (Required 2 Years)
+&#8226;	HTML (Required 2 Years)
+&#8226;	Java (Required 2 Years)
+&#8226;	MVC (Required 2 Years)
+&#8226;	ArcSDE (Highly Desired 1 Years)
+&#8226;	ArcIMS (Highly Desired 1 Years)
+&#8226;	ArcGIS Server (Highly Desired 1 Years)
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+				codeline="81"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:42.796"
+			timeRelativeToTestModuleStartTime="00:42.796"
+			timeWallClock="17:42:10"
+			time="00:42.796"
+			level="Info"
+			category="User">
+			<message>
+				requirements:
+Skills knowledge and Experience:
+- Experience developing restfull API systems with NodeJS.
+- NodeJS, Express, passport, NoSQL databases integration. (Mandatory)
+- Knowledge or implementations using Couchbase is a BIG plus.
+- MySql for NodeJs is a plus.
+- PostgreSQL for NodeJs is a plus.
+Functions and Responsibilities
+- Responsible of developing new functions and end points in the back end systems.
+- Keep track of the availability of the services
+- Advise in programming approaches to create efficient functionality
+- Enhance and maintain code in the back end systems
+- Advise in data structure 
+This is a full time and in-house position. 3rd Parties DO NOT APPLY!
+If you think you're the right candidate for this position, please send us your resume to hr@callpalapp.net&#10;
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+				codeline="81"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:48.578"
+			timeRelativeToTestModuleStartTime="00:48.578"
+			timeWallClock="17:42:16"
+			time="00:48.578"
+			level="Info"
+			category="User">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+				codeline="81"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:53.718"
+			timeRelativeToTestModuleStartTime="00:53.718"
+			timeWallClock="17:42:21"
+			time="00:53.718"
+			level="Info"
+			category="User">
+			<message>
+				requirements. This will require integration with other enterprise systems, developing new tools and functionality to improve planning, operations and reporting of utility infrastructure. Candidate will mainly focus on consent decree/CMOM initiatives. 
+Required / Desired Skills
+&#8226;	Visual Studio .Net C#/VB (Required 5 Years)
+&#8226;	JavaScript (Required 5 Years)
+&#8226;	JQuery (Required 5 Years)
+&#8226;	MVC MS Model (Required 5 Years)
+&#8226;	Razor Syntax (Required 5 Years)
+&#8226;	Ajax (Required 5 Years)
+&#8226;	Entity Framework (Required 5 Years)
+&#8226;	HTML (Required 5 Years)
+&#8226;	CSS (Required 5 Years)
+&#8226;	XML/XSL/XSLT (Required 5 Years)
+&#8226;	ASP (Required 5 Years)
+&#8226;	SSIS (Required 5 Years)
+&#8226;	SSRS (Required 5 Years)
+&#8226;	Web Services (Required 5 Years)
+&#8226;	MS .NET Framework 2.0+ and higher (Required 5 Years)
+&#8226;	TFS (Required 5 Years)
+&#8226;	IIS (Required 5 Years)
+&#8226;	SSL (Required 5 Years)
+&#8226;	SQL Server Management (Views, Stored Procedures, and Security) (Required 5 Years)
+&#8226;	Crystal Reports (Required 5 Years)
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+				codeline="81"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:58.718"
+			timeRelativeToTestModuleStartTime="00:58.718"
+			timeWallClock="17:42:26"
+			time="00:58.718"
+			level="Info"
+			category="User">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+				codeline="81"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:04.515"
+			timeRelativeToTestModuleStartTime="01:04.515"
+			timeWallClock="17:42:32"
+			time="01:04.515"
+			level="Info"
+			category="User">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+				codeline="81"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:09.484"
+			timeRelativeToTestModuleStartTime="01:09.484"
+			timeWallClock="17:42:37"
+			time="01:09.484"
+			level="Info"
+			category="User">
+			<message>
+				requirements
+&#183; Configure and scales dev, QA and prod environments
+&#183; Manages and documents codebase
+&#183; Leads development team as it grows
+&#183; Manages QA team
+&#183; Contributes to software roadmap
+Requirements
+&#183; Intermediate knowledge of .NET. Minimum three years of experience required
+&#183; Intermediate knowledge of IOS programming environment. Minimum three years of experience required
+&#183; Intermediate knowledge of HTML &amp; JavaScript. Minimum two years of experience required
+&#183; Knowledge of Adobe Photoshop. Minimum one year of experience required
+&#183; Knowledge of Google Analytics or similar analytics tool. Minimum two years of experience required.
+&#183; Experience integrating customer payment gateway. Minimum two years of experience required.
+&#183; Be located in Miami, FL
+Other Skills/Abilities
+&#183; Independent
+&#183; Process-driven
+&#183; Ordered
+&#183; Thinks outside the box to solve issues. Able to suggest workarounds. 
+&#183; Contributes to process
+&#183; Accountable
+&#183; Enjoys fast-pace
+&#183; Able to communicate promptly
+TO APPLY: Please email your resume &amp; mobile app portfolio to David Levy 
+NOTE: This job description is not intended to be all-inclusive. Candidate may perform other related duties as negotiated to meet the ongoing needs of the organization.
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+				codeline="81"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:14.452"
+			timeRelativeToTestModuleStartTime="01:14.452"
+			timeWallClock="17:42:42"
+			time="01:14.452"
+			level="Info"
+			category="User">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+				codeline="81"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:19.562"
+			timeRelativeToTestModuleStartTime="01:19.562"
+			timeWallClock="17:42:47"
+			time="01:19.562"
+			level="Info"
+			category="User">
+			<message>
+				requirements and to upgrade interfaces and improve performance.
+&#8226;	Consult with customers or other departments on project status, proposals, or technical issues, such as software system design or maintenance.
+&#8226;	Design, develop and modify software systems, using scientific analysis and mathematical models to predict and measure outcome and consequences of design.
+&#8226;	Utilize established design and development tools, guidelines and conventions including Visual Studio, VB, VC++, COM, VB.Net, ASP.Net, ADO.Net WPF, WCF ASP.ET, Entity Framework, CSS, Angular JS, NET.COM interop, SQL server.
+&#8226;	Concurrent Programming using TPL (Task Parallel Library) 
+&#8226;	Provide optimized code implementation conforming to established development standards 
+&#8226;	Establish development standards, patterns and perform design codes. 
+&#8226;	Implement unit tests using Visual Studio Test System and Moq.
+&#8226;	Confer with systems analysts, engineers, programmers and others to design system and to obtain information on project limitations and capabilities, performance requirements and interfaces.
+&#8226;	Monitor functioning of equipment to ensure system operates in conformance with specifications.
+&#8226;	Delivers quality software by possessing a working knowledge of Object Orientated-programming techniques.
+&#8226;	Analyze user needs and software requirements to determine feasibility of design within time and cost constraints.
+&#8226;	Define programming standards and propose technical solutions for projects and write design documents.
+&#8226;	Writes functional and technical design specifications and software estimates.
+&#8226;	Prepare work flow charts and diagrams to illustrate sequential of programming steps.
+&#8226;	Supervise and assign work to fellow programmers, designers, technologists and technicians involved in the development process.
+&#8226;	Store, retrieve, and manipulate data for analysis of system capabilities and requirements.
+&#8226;	Migrating changes and implementing them in multiple environments.
+&#8226;	Identifying system deficiencies and recommending solutions.
+&#8226;	Creating prototypes for business user approval using tools like MS Visio.
+&#8226;	Creating and executing unit, integration and system test scripts, manual and automated.
+&#8226;	Creates, modifies, and manages installation/maintenance guides, where applicable. 
+&#8226;	Creates weekly status report of assigned project status, system events, and evaluations. 
+&#8226;	Provides technical support and on call duties for applications in production.
+&#8226;	Determine system performance standards
+Education Requirements: 
+Master of Science (or its foreign equivalent) in Computer Science. Employer will accept combination of degrees. 
+Experience Requirements: 
+Two years of experience in the job offered or in the related occupations of Software Analyst or Sr. Software Consultant. 
+Experience to include, experience in: concurrent Programming using TPL (Task Parallel Library); establish development standards, patterns and perform design codes; and provide optimized code implementation conforming to established development standards. Experience working with Visual Studio, VB, VC++, COM and NET.COM interop.
+Certification: Microsoft Certified Solution Developer for Microsoft. NET
+Work Location: 480 Tall Pines Road, West Palm Beach, FL 33413
+Mail Resume: 
+ATTN: HR Department, 
+Naztec International Group LLC,
+8983 Okeechobee Blvd, Suite 202-125
+West Palm Beach, FL 33411
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+				codeline="81"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="03:54.515"
+			timeRelativeToTestModuleStartTime="03:54.515"
+			timeWallClock="17:45:22"
+			time="03:54.515"
+			level="Error"
+			category="Module">
+			<message>
+				Test run was aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

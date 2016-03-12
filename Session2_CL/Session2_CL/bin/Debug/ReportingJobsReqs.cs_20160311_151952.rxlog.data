@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="29e7ec84eb9adb7"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="automation"
+		host="DESKTOP-IP0304R"
+		rxversion="5.4.0.24580"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1024x768"
+		timestamp="3/11/2016 3:19:57 PM"
+		timestampiso="2016-03-11T20:19:57"
+		timeoutfactor="1"
+		module="ReportingJobsReqs">
+		<detail>
+			ReportingJobsReqs
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.947"
+			timeRelativeToTestModuleStartTime="00:09.947"
+			timeWallClock="15:20:07"
+			time="00:09.947"
+			level="Info"
+			category="User">
+			<message>
+				Not able to open job detail for http://miami.craigslist.org/pbc/sof/5484863354.html
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+				codeline="104"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.529"
+			timeRelativeToTestModuleStartTime="00:14.529"
+			timeWallClock="15:20:12"
+			time="00:14.529"
+			level="Info"
+			category="User">
+			<message>
+				requirements to: max@customplay.com
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+				codeline="93"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.312"
+			timeRelativeToTestModuleStartTime="00:17.312"
+			timeWallClock="15:20:15"
+			time="00:17.312"
+			level="Info"
+			category="User">
+			<message>
+				requirements to: max@customplay.com
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+				codeline="93"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.655"
+			timeRelativeToTestModuleStartTime="00:22.655"
+			timeWallClock="15:20:20"
+			time="00:22.655"
+			level="Info"
+			category="User">
+			<message>
+				requirements to: max@customplay.com
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+				codeline="93"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.666"
+			timeRelativeToTestModuleStartTime="00:25.666"
+			timeWallClock="15:20:23"
+			time="00:25.666"
+			level="Info"
+			category="User">
+			<message>
+				requirements to: max@customplay.com
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+				codeline="93"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.850"
+			timeRelativeToTestModuleStartTime="00:30.850"
+			timeWallClock="15:20:28"
+			time="00:30.850"
+			level="Error"
+			category="Module">
+			<message>
+				Test run was aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

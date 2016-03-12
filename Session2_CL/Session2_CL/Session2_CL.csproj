@@ -72,18 +72,6 @@
     <Compile Include="Program.cs">
       <id>7103e22d-213f-4f0f-b602-66fa7fcb56c9</id>
     </Compile>
-    <Compile Include="Recording1.cs">
-      <BoundTo>9cef800d-dd6b-4b7e-881b-fdd04375a7c0</BoundTo>
-      <DependentUpon>Recording1.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>15861d70-7cc1-42fe-92c9-83a6d359d04b</id>
-    </Compile>
-    <Compile Include="Recording1.UserCode.cs">
-      <BoundTo>9cef800d-dd6b-4b7e-881b-fdd04375a7c0</BoundTo>
-      <DependentUpon>Recording1.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>0a851cbb-0b87-4ba7-b1c8-c2de472e0689</id>
-    </Compile>
     <Compile Include="ReportingJobsReqs.cs">
       <id>7512e37b-8a92-4161-a0de-47472c6c9ce0</id>
     </Compile>
@@ -95,11 +83,6 @@
     </Compile>
     <None Include="app.config">
       <id>ac0da998-e1f4-48b4-8dc0-b3937a5de9ec</id>
-    </None>
-    <None Include="Recording1.rxrec">
-      <BoundTo>c02daca8-19aa-4d16-af4f-87324a057c33</BoundTo>
-      <id>9cef800d-dd6b-4b7e-881b-fdd04375a7c0</id>
-      <recordtableid>9320f11b-e117-4404-b9af-b2815d8f38a4</recordtableid>
     </None>
     <None Include="Session2_CLRepository.rximg">
       <BoundTo>c02daca8-19aa-4d16-af4f-87324a057c33</BoundTo>

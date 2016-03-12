@@ -31,14 +31,14 @@ rxversion="5.4.0.24580">
 				id="8f5789ed-b324-4f01-b45b-f324ce5103b0"
 				searchtimeout="30000ms"
 				capname="spantag">
-					/dom[@domain='miami.craigslist.org']/body/div/section/div/div[@class='jobs']/div/div/ul[#'jjj0']/li/a/span[@innertext='software / qa / dba']
+					/dom[@domain~'craigslist.org']/body/div/section/div/div[@class='jobs']/div/div/ul[#'jjj0']/li/a/span[@innertext='software / qa / dba']
 				</item>
 				<basepath>
-					/dom[@domain='miami.craigslist.org']/body/div/section/div/div[@class='jobs']
+					/dom[@domain~'craigslist.org']/body/div/section/div/div[@class='jobs']
 				</basepath>
 			</folder>
 			<basepath>
-				/dom[@domain='miami.craigslist.org']/body
+				/dom[@domain~'craigslist.org']/body
 			</basepath>
 		</appfolder>
 		<appfolder
@@ -53,24 +53,24 @@ rxversion="5.4.0.24580">
 			id="c4121c6f-9cfc-413a-97f9-e41d523a9371"
 			searchtimeout="30000ms"
 			capname="inputtag">
-				/dom[@domain~'miami.craigslist.org']/body//input[#'query']
+				/dom[@domain~'craigslist.org']/body//input[#'query']
 			</item>
 			<item
 			name="sectionPost"
 			id="05e3c7fc-565b-4b72-ac9e-02d13d9edc7b"
 			searchtimeout="3000ms"
 			capname="sectiontag">
-				/dom[@domain~'miami.craigslist.org']/body/section/section/section/section[#'postingbody']
+				/dom[@domain~'craigslist.org']/body/section/section/section/section[#'postingbody']
 			</item>
 			<item
 			name="linkCL"
 			id="5baba088-5410-4043-a542-536ff4f36275"
 			searchtimeout="30000ms"
 			capname="atag">
-				/dom[@domain~'miami.craigslist.org']/body/section/header[@class='global-header']/a[@innertext='CL']
+				/dom[@domain~'craigslist.org']/body/section/header[@class='global-header']/a[@innertext='CL']
 			</item>
 			<basepath>
-				/dom[@domain~'miami.craigslist.org']/body
+				/dom[@domain~'craigslist.org']/body
 			</basepath>
 		</appfolder>
 		<appfolder
@@ -99,17 +99,17 @@ rxversion="5.4.0.24580">
 					id="dbfc1970-be67-43af-a942-c9e20486cb47"
 					searchtimeout="30000ms"
 					capname="inputtag">
-						/dom[@domain='miami.craigslist.org']/body/section/form/div[@class='querybox']/input[#'query']
+						/dom[@domain~'craigslist.org']/body/section/form/div[@class='querybox']/input[#'query']
 					</item>
 					<item
 					name="buttonSearch"
 					id="568f1cf5-0256-45db-bf5c-5c0512bb0d58"
 					searchtimeout="30000ms"
 					capname="spantag">
-						/dom[@domain='miami.craigslist.org']/body/section/form/div[@class='querybox']/button/span
+						/dom[@domain~'craigslist.org']/body/section/form/div[@class='querybox']/button/span
 					</item>
 					<basepath>
-						/dom[@domain='miami.craigslist.org']/body/section/form/div[@class='querybox']
+						/dom[@domain~'craigslist.org']/body/section/form/div[@class='querybox']
 					</basepath>
 				</folder>
 				<folder
@@ -120,7 +120,7 @@ rxversion="5.4.0.24580">
 				isrooted="True"
 				usecache="False">
 					<basepath>
-						/dom[@domain='miami.craigslist.org']/body/section/form/div[@class='search-legend']/div/span[@class='buttons']
+						/dom[@domain~'craigslist.org']/body/section/form/div[@class='search-legend']/div/span[@class='buttons']
 					</basepath>
 				</folder>
 				<item
@@ -128,14 +128,14 @@ rxversion="5.4.0.24580">
 				id="5633678b-9f0b-4246-bf9a-986e8ec51d06"
 				searchtimeout="30000ms"
 				capname="spantag">
-					/dom[@domain='miami.craigslist.org']/body/section/form/div[@class='search-legend']/div/span[@class='buttons']/span[@class~'pagenum']/span/span[@class='rangeTo']
+					/dom[@domain~'craigslist.org']/body/section/form/div[@class='search-legend']/div/span[@class='buttons']/span[@class~'pagenum']/span/span[@class='rangeTo']
 				</item>
 				<basepath>
-					/dom[@domain='miami.craigslist.org']/body/section/form
+					/dom[@domain~'craigslist.org']/body/section/form
 				</basepath>
 			</folder>
 			<basepath>
-				/dom[@domain='miami.craigslist.org']/body
+				/dom[@domain~'craigslist.org']/body
 			</basepath>
 		</appfolder>
 		<basepath/>

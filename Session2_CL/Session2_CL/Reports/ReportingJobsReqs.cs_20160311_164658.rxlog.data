@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="3206c63a230f3d5c"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="automation"
+		host="DESKTOP-IP0304R"
+		rxversion="5.4.0.24580"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1024x768"
+		timestamp="3/11/2016 4:47:04 PM"
+		timestampiso="2016-03-11T21:47:04"
+		timeoutfactor="1"
+		module="ReportingJobsReqs">
+		<detail>
+			ReportingJobsReqs
+		</detail>
+		<errmsg>
+			No element found for path '/form[@title~'Loading']'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.219"
+			timeRelativeToTestModuleStartTime="00:08.219"
+			timeWallClock="16:47:12"
+			time="00:08.219"
+			level="Info"
+			category="User">
+			<message>
+				requirements to: max@customplay.com
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+				codeline="94"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.078"
+			timeRelativeToTestModuleStartTime="00:14.078"
+			timeWallClock="16:47:18"
+			time="00:14.078"
+			level="Info"
+			category="User"
+			errimg=".\ReportingJobsReqs.cs_20160311_164658_a494cb97_trace.jpg"
+			errthumb=".\ReportingJobsReqs.cs_20160311_164658_a494cb97_trace_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+				codeline="94"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.500"
+			timeRelativeToTestModuleStartTime="00:19.500"
+			timeWallClock="16:47:23"
+			time="00:19.500"
+			level="Info"
+			category="User"
+			errimg=".\ReportingJobsReqs.cs_20160311_164658_83be612d_trace.jpg"
+			errthumb=".\ReportingJobsReqs.cs_20160311_164658_83be612d_trace_thumb.jpg">
+			<message>
+				requirements: 
+Skills, knowledge and Experience:
+- Experience developing restfull API systems with NodeJS. 
+- NodeJS, Express, passport, NoSQL databases integration. (Mandatory) 
+- Knowledge or implementations using Couchbase is a BIG plus.
+- MySql for NodeJs is a plus.
+- PostgreSQL for NodeJs is a plus. 
+Functions and Responsibilities:
+- Responsible of developing new functions and end points in the back end systems.
+- Keep track of the availability of the services
+- Advise in programming approaches to create ef&#64257;cient functionality
+- Enhance and maintain code in the back end systems
+- Advise in data structure
+This is a Full tie and in-house position. THIRD PARTIES DO NOT APPLY!
+If you think you're the right candidate for this position, please send us your resume to hr@callpalapp.net
+			</message>
+			<metainfo
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+				codeline="94"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.142"
+			timeRelativeToTestModuleStartTime="00:30.142"
+			timeWallClock="16:47:34"
+			time="00:30.142"
+			level="Error"
+			category="Module"
+			errimg=".\ReportingJobsReqs.cs_20160311_164658_c06bf5ce_trace.jpg"
+			errthumb=".\ReportingJobsReqs.cs_20160311_164658_c06bf5ce_trace_thumb.jpg">
+			<message>
+				No element found for path '/form[@title~'Loading']'.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Element.FindSingle(RxPath path)
+   at Ranorex.Adapter.FindSingle(RxPath path)
+   at Session2_CL.ReportingJobsReqs.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs:line 102
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\automation\Documents\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+				codeline="102"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

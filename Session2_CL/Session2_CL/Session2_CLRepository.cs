@@ -113,7 +113,7 @@ namespace Session2_CL
             /// Creates a new CLMiamiCat  folder.
             /// </summary>
             public CLMiamiCatAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("CLMiamiCat", "/dom[@domain='miami.craigslist.org']/body", parentFolder, 3000, null, true, "1128d289-583d-45f0-a3c9-df1b05e5c333", "")
+                    base("CLMiamiCat", "/dom[@domain~'craigslist.org']/body", parentFolder, 3000, null, true, "1128d289-583d-45f0-a3c9-df1b05e5c333", "")
             {
                 _categories = new Session2_CLRepositoryFolders.CategoriesFolder(this);
             }
@@ -232,7 +232,7 @@ namespace Session2_CL
             /// Creates a new CLMiamiDetail  folder.
             /// </summary>
             public CLMiamiDetailAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("CLMiamiDetail", "/dom[@domain~'miami.craigslist.org']/body", parentFolder, 3000, null, false, "e219cc91-47fe-4ce9-af38-2ad51a06793f", "")
+                    base("CLMiamiDetail", "/dom[@domain~'craigslist.org']/body", parentFolder, 3000, null, false, "e219cc91-47fe-4ce9-af38-2ad51a06793f", "")
             {
                 _someinputtagInfo = new RepoItemInfo(this, "SomeInputTag", ".//input[#'query']", 30000, null, "c4121c6f-9cfc-413a-97f9-e41d523a9371");
                 _sectionpostInfo = new RepoItemInfo(this, "sectionPost", "section/section/section/section[#'postingbody']", 3000, null, "05e3c7fc-565b-4b72-ac9e-02d13d9edc7b");
@@ -348,7 +348,7 @@ namespace Session2_CL
             /// Creates a new CLMiamiList  folder.
             /// </summary>
             public CLMiamiListAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("CLMiamiList", "/dom[@domain='miami.craigslist.org']/body", parentFolder, 30000, null, false, "b55163ff-4f51-454e-b42b-0180a61767d2", "")
+                    base("CLMiamiList", "/dom[@domain~'craigslist.org']/body", parentFolder, 30000, null, false, "b55163ff-4f51-454e-b42b-0180a61767d2", "")
             {
                 _list = new Session2_CLRepositoryFolders.ListFolder(this);
             }
