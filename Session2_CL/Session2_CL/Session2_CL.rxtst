@@ -9,10 +9,42 @@ placescreenshotsinfolder="True"
 ReportTime="RelativeToTestSuiteStartTime"
 reportwriteinterval="30000ms"
 reportcompress="False"
+progressdialog="False"
 enabletracingscreenshots="True"
 TracingScreenshotMode="Foreground"
 TracingScreenshotQuality="40"
 reportlevel="Info;20">
+	<datasources>
+		<dataConnector
+		name="ConnectiorToMyFirstDataSource"
+		type="Ranorex.Core.Data.SimpleDataConnector"
+		id="d378f087-c817-4197-8dce-33e898de7fb4"
+		lastknownrowcount="2">
+			<lastknowncolumns>
+				<column>
+					DataSourceVar
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns/>
+			<table>
+				<tr>
+					<th>
+						DataSourceVar
+					</th>
+				</tr>
+				<tr>
+					<td>
+						1717
+					</td>
+				</tr>
+				<tr>
+					<td>
+						1818
+					</td>
+				</tr>
+			</table>
+		</dataConnector>
+	</datasources>
 	<content>
 		<testcase
 		name="TestCase"
@@ -43,14 +75,61 @@ reportlevel="Info;20">
 			ref="9dd8c4a6-e1da-4349-88e9-32142dc2700b"
 			type="UserCode"/>
 		</testcase>
+		<testcase
+		name="AnyName"
+		id="906df63a-eb7c-4b0d-975f-8b72f00a9e89"
+		datasource="ConnectiorToMyFirstDataSource">
+			<testmodule
+			name="SettingVar2PassBetween"
+			id="35c57112-6840-490c-92d2-9f8958ddead5"
+			ref="411ca77e-e438-45bb-8f6e-9b47d5d9c64c"
+			type="UserCode">
+				<databinding>
+					<var
+					variablename="NewModuleVariable"
+					variableid="d6769e35-edc9-4654-a2be-a389c83cd7fc"
+					dataname="DataSourceVar"
+					datasourceid="d378f087-c817-4197-8dce-33e898de7fb4"/>
+				</databinding>
+			</testmodule>
+			<testmodule
+			name="SettingVar2PB_2"
+			id="07b0f5a7-be60-4cf3-b2b0-9a6c27a1e85d"
+			ref="0ad812f0-cca7-4f85-9fff-b589e4b8d3a7"
+			type="UserCode">
+				<databinding>
+					<var
+					variablename="ModuleVariableInSecondClass"
+					variableid="a80f894f-9b40-402a-bcf6-ff2325c8bcf8"
+					dataname="DataSourceVar"
+					datasourceid="d378f087-c817-4197-8dce-33e898de7fb4"/>
+				</databinding>
+			</testmodule>
+			<testmodule
+			name="Exploring_C_Sharp"
+			id="42bf9c58-0152-45aa-b61f-e1e97c565a0f"
+			ref="c5978b9c-ab4f-46a4-bdc1-b86060da2757"
+			type="UserCode"/>
+		</testcase>
 	</content>
 	<testconfigurations
-	default="TestRun">
+	default="DailyRun">
 		<testconfiguration
-		name="TestRun">
+		name="DailyRun">
 			<testcase
 			id="572a67b4-cf71-4fa4-9a48-d8e7704378ea"/>
+			<testcase
+			id="c22fc7e4-247d-49da-b5fc-eb8b83e3c9f3"/>
 		</testconfiguration>
+		<testconfiguration
+		name="NightlyRun">
+			<testcase
+			id="906df63a-eb7c-4b0d-975f-8b72f00a9e89"/>
+			<testcase
+			id="c22fc7e4-247d-49da-b5fc-eb8b83e3c9f3"/>
+		</testconfiguration>
+		<testconfiguration
+		name="TestRun"/>
 	</testconfigurations>
 	<references/>
 </testsuite>

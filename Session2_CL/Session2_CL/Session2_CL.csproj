@@ -81,6 +81,15 @@
       <RepositoryCode>true</RepositoryCode>
       <id>cc9d85ce-0c56-4ab0-8a42-783108c5882c</id>
     </Compile>
+    <Compile Include="SettingVar2PassBetween.cs">
+      <id>6bc65f16-a7f9-4c62-8add-fdbf16c42580</id>
+    </Compile>
+    <Compile Include="SettingVar2PB_2.cs">
+      <id>b38b1a41-4a91-4f8b-94b8-546990e2b9a8</id>
+    </Compile>
+    <Compile Include="Exploring_C_Sharp.cs">
+      <id>e119ed49-5198-45f1-a9f6-782d3c0af654</id>
+    </Compile>
     <None Include="app.config">
       <id>ac0da998-e1f4-48b4-8dc0-b3937a5de9ec</id>
     </None>

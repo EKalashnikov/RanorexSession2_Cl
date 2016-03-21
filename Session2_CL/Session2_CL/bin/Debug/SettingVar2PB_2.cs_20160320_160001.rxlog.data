@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="19fdf752be7d9380"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="automation"
+		host="DESKTOP-IP0304R"
+		rxversion="5.4.0.24580"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1024x768"
+		timestamp="3/20/2016 4:00:06 PM"
+		timestampiso="2016-03-20T20:00:06"
+		timeoutfactor="1"
+		module="SettingVar2PB_2">
+		<detail>
+			SettingVar2PB_2
+		</detail>
+		<errmsg>
+			Input string was not in a correct format.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.500"
+			timeRelativeToTestModuleStartTime="00:00.500"
+			timeWallClock="16:00:07"
+			time="00:00.500"
+			level="Error"
+			category="Module"
+			errimg=".\SettingVar2PB_2.cs_20160320_160001_7c89c11a_trace.jpg"
+			errthumb=".\SettingVar2PB_2.cs_20160320_160001_7c89c11a_trace_thumb.jpg">
+			<message>
+				Input string was not in a correct format.
+			</message>
+			<metainfo
+				stacktrace="   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)&#13;&#10;   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)&#13;&#10;   at System.Int32.Parse(String s)&#13;&#10;   at Session2_CL.SettingVar2PB_2.Ranorex.Core.Testing.ITestModule.Run() in c:\RanorexSession2_Cl\Session2_CL\Session2_CL\SettingVar2PB_2.cs:line 49&#13;&#10;   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\SettingVar2PB_2.cs"
+				codeline="49"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

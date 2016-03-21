@@ -53,6 +53,18 @@ namespace Session2_CL
 
 #region Variables
 
+        string _repoGlobalVar = "";
+
+        /// <summary>
+        /// Gets or sets the value of variable repoGlobalVar.
+        /// </summary>
+        [TestVariable("81bb1405-9575-45bb-b701-f8ea3d93a92c")]
+        public string repoGlobalVar
+        {
+            get { return _repoGlobalVar; }
+            set { _repoGlobalVar = value; }
+        }
+
 #endregion
 
         /// <summary>

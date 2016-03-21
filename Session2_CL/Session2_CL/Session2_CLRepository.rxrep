@@ -140,5 +140,10 @@ rxversion="5.4.0.24580">
 		</appfolder>
 		<basepath/>
 	</rootfolder>
-	<variables/>
+	<variables>
+		<var
+		name="repoGlobalVar"
+		id="81bb1405-9575-45bb-b701-f8ea3d93a92c">
+		</var>
+	</variables>
 </repository>

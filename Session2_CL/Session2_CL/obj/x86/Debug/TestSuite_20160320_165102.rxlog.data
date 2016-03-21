@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="c98ec5102e1e0eb"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="automation"
+		host="DESKTOP-IP0304R"
+		rxversion="5.4.0.24580"
+		osversion="Windows 10 64bit"
+		runtimeversion="2.0.50727.8670"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1024x768"
+		timestamp="3/20/2016 4:51:02 PM"
+		timestampiso="2016-03-20T20:51:02"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.015"
+			timeRelativeToTestModuleStartTime="00:00.015"
+			timeWallClock="16:51:02"
+			time="00:00.015"
+			level="Error"
+			category="User">
+			<message>
+				Unexpected exception occurred: Ranorex.RanorexException: Could not find test suite file 'C:\RanorexSession2_Cl\Session2_CL\Session2_CL\obj\x86\Debug\Session2_CL.rxtst'.<br/>   at Ranorex.Core.Testing.TestSuiteRunner.GetTestSuiteXml(Type containerType, String fileName)<br/>   at Ranorex.Core.Testing.TestSuiteRunner.Run(Type containerType, String cmdLineArgs, String testSuiteXml)<br/>   at Ranorex.Core.Testing.TestSuiteRunner.Run(Type containerType, String cmdLineArgs)<br/>   at Session2_CL.Program.Main(String[] args) in c:\RanorexSession2_Cl\Session2_CL\Session2_CL\Program.cs:line 39
+			</message>
+			<metainfo
+				codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\Program.cs"
+				codeline="43"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="304edf6faa42bc10"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="automation"
+		host="DESKTOP-IP0304R"
+		rxversion="5.4.0.24580"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1024x768"
+		timestamp="3/20/2016 4:01:59 PM"
+		timestampiso="2016-03-20T20:01:59"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="6078ms"
+			durationms="6078"
+			type="test suite"
+			rid="16141ae6c2e93245"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			testsuitename="Session2_CL"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="2">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Success"
+				duration="6015ms"
+				durationms="6015"
+				type="test case"
+				rid="d79aba2c764fcfa"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				testcasename="AnyName"
+				testcaseid="906df63a-eb7c-4b0d-975f-8b72f00a9e89"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="0ms"
+					durationms="0"
+					type="test module"
+					rid="e7a388e9a3bc272"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="SettingVar2PassBetween"
+					moduleid="411ca77e-e438-45bb-8f6e-9b47d5d9c64c"
+					moduletype="UserCode">
+					<detail>
+					</detail>
+					<varbindings/>
+				</activity>
+				<activity
+					result="Success"
+					duration="5968ms"
+					durationms="5968"
+					type="test module"
+					rid="60b4cb166e074ac"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="SettingVar2PB_2"
+					moduleid="0ad812f0-cca7-4f85-9fff-b589e4b8d3a7"
+					moduletype="UserCode">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:06.265"
+						timeRelativeToTestModuleStartTime="00:05.843"
+						timeWallClock="16:02:06"
+						time="00:06.265"
+						level="Info"
+						category="User">
+						<message>
+							17
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\SettingVar2PB_2.cs"
+							codeline="51"
+							loglvl="Info"/>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

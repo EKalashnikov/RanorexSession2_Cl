@@ -19,6 +19,5 @@ C:\RanorexSession2_Cl\Session2_CL\Session2_CL\bin\Debug\Session2_CL.rxtst
 C:\RanorexSession2_Cl\Session2_CL\Session2_CL\bin\Debug\Session2_CL.exe.config
 C:\RanorexSession2_Cl\Session2_CL\Session2_CL\bin\Debug\Session2_CL.exe
 C:\RanorexSession2_Cl\Session2_CL\Session2_CL\bin\Debug\Session2_CL.pdb
-C:\RanorexSession2_Cl\Session2_CL\Session2_CL\obj\x86\Debug\Session2_CL.csprojResolveAssemblyReference.cache
 C:\RanorexSession2_Cl\Session2_CL\Session2_CL\obj\x86\Debug\Session2_CL.exe
 C:\RanorexSession2_Cl\Session2_CL\Session2_CL\obj\x86\Debug\Session2_CL.pdb

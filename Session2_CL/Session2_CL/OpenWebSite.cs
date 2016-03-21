@@ -12,6 +12,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Drawing;
 using System.Threading;
+using System.IO; //Added
 using WinForms = System.Windows.Forms;
 
 using Ranorex;
@@ -47,6 +48,7 @@ namespace Session2_CL
             Delay.SpeedFactor = 1.0;
             
             Host.Local.OpenBrowser("http://miami.craigslist.org/","chrome",true, true);
+            
         }
     }
 }

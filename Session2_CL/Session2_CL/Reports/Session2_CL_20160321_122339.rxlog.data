@@ -1,0 +1,1297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2db3616c1ce06d8"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="automation"
+		host="DESKTOP-IP0304R"
+		rxversion="5.4.0.24580"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1024x768"
+		timestamp="3/21/2016 12:23:39 PM"
+		timestampiso="2016-03-21T16:23:39"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="4.2m"
+			durationms="250140"
+			type="test suite"
+			rid="15c9ab8d4bcedaf2"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			testsuitename="Session2_CL"
+			runconfigname="DailyRun"
+			runlabel=""
+			maxchildren="2">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Success"
+				duration="4.2m"
+				durationms="249907"
+				type="test case"
+				rid="d201bf4f77a6170"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				testcasename="TestCase"
+				testcaseid="572a67b4-cf71-4fa4-9a48-d8e7704378ea"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="250ms"
+					durationms="250"
+					type="test module"
+					rid="311d48c46fef1a0"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="OpenWebSite"
+					moduleid="9b78d80c-7370-470a-9b3c-7c683029ef41"
+					moduletype="UserCode">
+					<detail>
+					</detail>
+					<varbindings/>
+				</activity>
+				<activity
+					result="Success"
+					duration="6533ms"
+					durationms="6533"
+					type="test module"
+					rid="d4b39224bd91b9c"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="ChooseCategory"
+					moduleid="d60d95eb-bacf-44f2-950b-065a697dcf0e"
+					moduletype="UserCode">
+					<detail>
+					</detail>
+					<varbindings/>
+				</activity>
+				<activity
+					result="Success"
+					duration="5269ms"
+					durationms="5269"
+					type="test module"
+					rid="e028f092e39d325"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="FilterJobs"
+					moduleid="11988a37-fce2-45ba-b382-ef4ea500875f"
+					moduletype="UserCode">
+					<detail>
+					</detail>
+					<varbindings/>
+				</activity>
+				<activity
+					result="Success"
+					duration="2187ms"
+					durationms="2187"
+					type="test module"
+					rid="1737e1595b520050"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="CheckJobsRange"
+					moduleid="b88760fc-de8a-414d-85a9-3570ef2806ed"
+					moduletype="UserCode">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:14.452"
+						timeRelativeToTestModuleStartTime="00:02.109"
+						timeWallClock="12:23:53"
+						time="00:14.452"
+						level="Info"
+						category="User">
+						<message>
+							Number of links (53) is equal to rangeTo (53)
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\CheckJobsRange.cs"
+							codeline="61"
+							loglvl="Info"/>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="3.9m"
+					durationms="235499"
+					type="test module"
+					rid="ebfe52cf2214d91"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="ReportingJobsReqs"
+					moduleid="9dd8c4a6-e1da-4349-88e9-32142dc2700b"
+					moduletype="UserCode">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:19.921"
+						timeRelativeToTestModuleStartTime="00:05.375"
+						timeWallClock="12:23:59"
+						time="00:19.921"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/brw/sof/5497186558.html :&#32;
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:23.702"
+						timeRelativeToTestModuleStartTime="00:09.155"
+						timeWallClock="12:24:02"
+						time="00:23.702"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/mdc/sof/5496537517.html :&#32;
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:31.437"
+						timeRelativeToTestModuleStartTime="00:16.890"
+						timeWallClock="12:24:10"
+						time="00:31.437"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/mdc/sof/5496671606.html :&#32;
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:36.671"
+						timeRelativeToTestModuleStartTime="00:22.125"
+						timeWallClock="12:24:15"
+						time="00:36.671"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/pbc/sof/5495346054.html :&#32;
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:41.593"
+						timeRelativeToTestModuleStartTime="00:27.047"
+						timeWallClock="12:24:20"
+						time="00:41.593"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/mdc/sof/5494778738.html : requirements by developing Orion BI, SSRS, YSR, and Excel PowerPivot reports for Accounting, Operational, and Investor end-users 
+EXPERIENCE: 
+The ideal candidate will have a minimum of: 
+&#8226;	2-5 years Yardi Voyager 7s administrator experience (including administration and set-up) 
+&#8226;	5-plus years of experience interacting with users customers while managing projects on accounting, business process, property management, or real estate software 
+&#8226;	2+ years professional experience in financial analysis or information technology 
+&#8226;	Experience working in property management is highly desirable 
+&#8226;	Experience training and supporting other Yardi users 
+&#8226;	SQL report writing experience with proven track record of implementing modules, creating custom reporting, and data conversions. 
+&#8226;	A working knowledge of Yardi scripting and report types (Orion BI, SSRS, YSR, and Excel PowerPivot) 
+&#8226;	Experience with residential single and multi-family properties 
+&#8226;	Advanced Excel skills &amp; general knowledge of financial and accounting concepts 
+&#8226;	Ability to correlate the use of Yardi to business objectives and procedures to streamline workflow. 
+&#8226;	Ability to manage multiple priorities in a deadline-driven environment 
+&#8226;	Strong organizational skills &amp; interpersonal skills with team player attitude 
+&#8226;	Flexibility to work with both technical and non-technical software users 
+&#8226;	Excellent verbal and written communication skills 
+&#8226;	Experience working in software support and system administration 
+&#8226;	Bachelor's degree preferable in Accounting, Business, Real Estate, Computer Science or related field, or equivalent experience 
+Additional training on site at various Yardi training facilities, at PIA Group headquarters via Yardi trainers and consultants, and online via Yardi's Client Central portal and webinars will also be provided. PIA Group is committed to enhancing the skill set of its critical-need employees.
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:45.779"
+						timeRelativeToTestModuleStartTime="00:31.233"
+						timeWallClock="12:24:25"
+						time="00:45.779"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/mdc/sof/5494187204.html :&#32;
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:50.859"
+						timeRelativeToTestModuleStartTime="00:36.312"
+						timeWallClock="12:24:30"
+						time="00:50.859"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/mdc/sof/5494016874.html : requirements
+&#8226;	Responsible for selection, documentation, implementation, testing, and management of Development, QA, and production environments for applications development, data virtualization/abstraction, information integration, and web services, using lightweight service-oriented architecture (SOA) or enterprise service bus (ESB) methodologies.
+&#8226;	Ownership and management of all processes and services to extract, transfer, and load (ETL) data to/from vendors and third parties, including legacy and future SQL Server Integration Services (SSIS) data integration and workflow applications, and assisting the Business Intelligence/Web and Application Managers, as needed, for internal system ETLs.
+&#8226;	Linking enterprise applications together in order to simplify and automate business processes to the greatest extent possible, while avoiding unnecessary changes to the existing applications or data structures. 
+&#8226;	Management of relationships, oversight, and data availability for all third party companies
+&#8226;	Assist in formulating the specific solutions to address prioritized gaps in data and system architecture.
+&#8226;	Identification and implementation of process improvements, working with the larger IT team and external departments to ensure quality of projects. 
+&#8226;	Provide project and task leadership and assume accountability of project delivery.
+&#8226;	Participation in the entire product lifecycle: attend and/or lead requirement definition meetings to provide technical insight; provide scope and resource estimates as well as technical design specification; produce workflow diagrams; code applications and/or changes; conduct unit acceptance testing; and deploy and support production systems.
+JOB QUALIFICATIONS:
+&#8226;	Minimum five (5) years .NET, including previous senior-level experience in design and developing complex systems
+&#8226;	Experience building large-scale, high-traffic server and client server applications
+&#8226;	Expert level understanding of XML, JSON and Web Services
+&#8226;	Experience with cloud-based servers and architectures (AWS, Rackspace, etc.)
+&#8226;	Expert level understanding of SOA, ETLs, ESB, XML, JSON, HTTP POST, and other Web Services
+&#8226;	Experience with project development/methodologies required: full system development lifecycle, Agile, Scrum, etc., including proficiency in source code management practices 
+&#8226;	Good technical problem solving and interpersonal skills necessary to assist others in problem resolution
+&#8226;	Able to work in a fast paced, team environment
+&#8226;	Good technical problem solving and interpersonal skills necessary to assist others in problem resolution
+&#8226;	Must be able to work with end users and communicate effectively
+&#8226;	Excellent written and verbal communication skills required
+&#8226;	Highly motivated, detail oriented team player with a great attitude
+&#8226;	Must be able to work with end users and communicate effectively
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:57.687"
+						timeRelativeToTestModuleStartTime="00:43.140"
+						timeWallClock="12:24:36"
+						time="00:57.687"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/mdc/sof/5493508512.html :&#32;
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:04.296"
+						timeRelativeToTestModuleStartTime="00:49.749"
+						timeWallClock="12:24:43"
+						time="01:04.296"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/brw/sof/5492222158.html :&#32;
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:10.468"
+						timeRelativeToTestModuleStartTime="00:55.921"
+						timeWallClock="12:24:49"
+						time="01:10.468"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/pbc/sof/5492142974.html : Requirements 
+&#8226; Bachelor's Degree or equivalent work experience or over 4+ year of experience in LAMP development. Linux Operating
+System environments.
+&#8226;	PHP Developer Requirements: Object Oriented Programming, PHP 5+, jQuery, CSS3, Ajax, JSON, HTML, JavaScript 
+coding and experience with MVC Pattern.
+&#8226;	MySQL - Ad-hoc MySQL queries to manage transactions to database.
+&#8226;	Other skills which are a plus: HTML5, MS-SQL, PHP frameworks, CMS systems such as WordPress
+&#8226;	Experience with advanced IDEs, SSH console &amp; remote tools
+&#8226;	Version Control Systems integration: Bit Bucket
+&#8226;	Experience integrating with 3rd party APIs
+&#8226;	Light Linux Administration capabilities a plus
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:14.875"
+						timeRelativeToTestModuleStartTime="01:00.328"
+						timeWallClock="12:24:54"
+						time="01:14.875"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/mdc/sof/5492071151.html :&#32;
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:18.359"
+						timeRelativeToTestModuleStartTime="01:03.812"
+						timeWallClock="12:24:57"
+						time="01:18.359"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/mdc/sof/5492063673.html :&#32;
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:22.265"
+						timeRelativeToTestModuleStartTime="01:07.718"
+						timeWallClock="12:25:01"
+						time="01:22.265"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/pbc/sof/5491904676.html :&#32;
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:25.796"
+						timeRelativeToTestModuleStartTime="01:11.249"
+						timeWallClock="12:25:05"
+						time="01:25.796"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/pbc/sof/5491891954.html :&#32;
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:29.608"
+						timeRelativeToTestModuleStartTime="01:15.062"
+						timeWallClock="12:25:08"
+						time="01:29.608"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/mdc/sof/5490670016.html :&#32;
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:32.921"
+						timeRelativeToTestModuleStartTime="01:18.374"
+						timeWallClock="12:25:12"
+						time="01:32.921"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/pbc/sof/5490571225.html : requirements: Knowledge with XML, XSLT (specifically XSL 1.0), some design- and HTML/CSS skills oriented towards mobile. Ability to work independently.
+Project 2: Back-end club editor
+We have a website powered by Apache, PHP and MySQL. We have a back-end framework which is driven by JavaScript and communicates with the server using XHR with any language capable of producing XML. At the moment we are using PHP, perl and compiled C/C++ but adding Ruby, Java or JavaScript via nodejs would not be a problem.
+What we need is an experienced developer to create tools for us such as location management (a location is a club or restaurant or similar, with entries in the database). A PSD comp or two can be provided if necessary, there are also several existing tools/applications already integrated in the back-end for reference. The JavaScript used should be as free from external dependencies as possible, ie. not reliant on jQuery, Angular or anything similar. For this particular tool (location management), we see the server-side script/program mostly used as a transport for the database information, so nothing complex.
+We expect the developer to work independently as much as possible but we will provide resources and short Q&amp;A-sessions if required.
+Developer requirements: Knowledge in JavaScript for web applications, as well as one or more server-side languages for communication purposes. Some UI design skills. Ability to work independently.
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:36.422"
+						timeRelativeToTestModuleStartTime="01:21.875"
+						timeWallClock="12:25:15"
+						time="01:36.422"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/mdc/sof/5489876414.html :&#32;
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:39.922"
+						timeRelativeToTestModuleStartTime="01:25.375"
+						timeWallClock="12:25:19"
+						time="01:39.922"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/mdc/sof/5488080296.html :&#32;
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:44.093"
+						timeRelativeToTestModuleStartTime="01:29.547"
+						timeWallClock="12:25:23"
+						time="01:44.093"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/brw/sof/5487126650.html :&#32;
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:55.874"
+						timeRelativeToTestModuleStartTime="01:41.327"
+						timeWallClock="12:25:35"
+						time="01:55.874"
+						level="Info"
+						category="User">
+						<message>
+							Not able to open job detail for http://miami.craigslist.org/brw/sof/5486532365.html
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="101"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:04.562"
+						timeRelativeToTestModuleStartTime="01:50.015"
+						timeWallClock="12:25:43"
+						time="02:04.562"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/brw/sof/5486532365.html :&#32;
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:07.843"
+						timeRelativeToTestModuleStartTime="01:53.297"
+						timeWallClock="12:25:47"
+						time="02:07.843"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/pbc/sof/5484863354.html : requirements to: max@customplay.com
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:11.218"
+						timeRelativeToTestModuleStartTime="01:56.671"
+						timeWallClock="12:25:50"
+						time="02:11.218"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/brw/sof/5483973079.html :&#32;
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:14.468"
+						timeRelativeToTestModuleStartTime="01:59.922"
+						timeWallClock="12:25:53"
+						time="02:14.468"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/mdc/sof/5482116015.html : requirements: 
+Skills, knowledge and Experience:
+- Experience developing restfull API systems with NodeJS. 
+- NodeJS, Express, passport, NoSQL databases integration. (Mandatory) 
+- Knowledge or implementations using Couchbase is a BIG plus.
+- MySql for NodeJs is a plus.
+- PostgreSQL for NodeJs is a plus. 
+Functions and Responsibilities:
+- Responsible of developing new functions and end points in the back end systems.
+- Keep track of the availability of the services
+- Advise in programming approaches to create ef&#64257;cient functionality
+- Enhance and maintain code in the back end systems
+- Advise in data structure
+This is a Full tie and in-house position. THIRD PARTIES DO NOT APPLY!
+If you think you're the right candidate for this position, please send us your resume to hr@callpalapp.net
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:17.953"
+						timeRelativeToTestModuleStartTime="02:03.406"
+						timeWallClock="12:25:57"
+						time="02:17.953"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/brw/sof/5482010038.html :&#32;
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:21.328"
+						timeRelativeToTestModuleStartTime="02:06.781"
+						timeWallClock="12:26:00"
+						time="02:21.328"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/pbc/sof/5480471983.html :&#32;
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:25.765"
+						timeRelativeToTestModuleStartTime="02:11.219"
+						timeWallClock="12:26:04"
+						time="02:25.765"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/pbc/sof/5480273731.html : requirements and develop fully tested software to meet established requirements. Success in this position involves working effectively with customers and users, application domain experts, and working within the established process framework. Customer-facing interpersonal skills and motivation are critical requirements, while demonstrating a set of fundamental software engineering skills that result in predictability in engineering, scheduling and the quality of products developed. Customer roll-out, &quot;go live&quot; activities, and software lifecycle support and evolution are also to be expected.
+Measures of Success:
+&#8226;	Integrates, tests, and supports Trimble solutions on-site with Trimble Agriculture customers.
+&#8226;	Works on software solutions with larger systems in-mind: Trimble software and hardware, customer data systems, physical equipment on agricultural land and related industrial sites.
+&#8226;	Drives to craft proposals and solutions given direct customer and sales-side input from sites remote relative to Trimble Development offices.
+&#8226;	Works at customer sites directly with end-users and remotely with various Trimble staff to identify, specify, design, and implement data-driven solutions.
+&#8226;	Performs software engineering within the process framework established for the project. This framework will describe how requirements are developed and analyzed, how changes are made to requirements, how engineering work will be planned and tracked, how testing will be performed, and the criteria by which the performance of the project will be measured. Contributes to the continuous improvement of these processes.
+&#8226;	Works with the project team, with the application domain experts (e.g., application engineers, technical marketing) and possibly with the customers, to establish achievable requirements.
+&#8226;	Works with the project team to identify/clarify project goals, establish useful milestones, and develop a breakdown of the engineering tasks to be performed. During the development process, develops engineering effort/schedule estimates to support overall project scheduling, project tracking, and change control decisions
+&#8226;	Creates software designs, and implements and tests those designs to meet established requirements
+&#8226;	Participates in technical/design reviews as required by the project framework
+&#8226;	Maintains and archives design documents, source code, and other work products necessary for the project
+&#8226;	As necessary, works independently or with quality assurance personnel to plan and execute product testing
+&#8226;	As necessary, performs or enables the ongoing support of software through the creation of design documentation or the performance of defect isolation and resolution
+&#8226;	Works with the author of product documentation to assist in the development and review of product documentation
+&#8226;	As necessary, provides engineering work products and documentation to manufacturing and document control as necessary for successful product release
+&#8226;	Other duties as required and requested by management
+Skills &amp; Experience Required:
+&#8226;	1 - 5 years of C# .NET Development
+&#8226;	Visual Studio 2012-2015
+&#8226;	Test Driven Development / Test First Development
+&#8226;	Web Services, WCF, WebAPI
+&#8226;	SQL/MySQL, data modelling
+&#8226;	Experience with TCP/IP, UDP, HTTP
+Trimble Navigation Limited is proud to be an Equal Opportunity and Affirmative Action Employer and considers qualified applicants for employment without regard to race, gender, age, color, religion, national origin, marital status, disability, sexual orientation, status as a covered veteran in accordance with applicable federal, state and local laws, or any other protected factor. EOE/M/F/V/D
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:29.801"
+						timeRelativeToTestModuleStartTime="02:15.254"
+						timeWallClock="12:26:09"
+						time="02:29.801"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/mdc/sof/5476461456.html :&#32;
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:33.171"
+						timeRelativeToTestModuleStartTime="02:18.624"
+						timeWallClock="12:26:12"
+						time="02:33.171"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/pbc/sof/5474709039.html : requirements for this opening.
+Job Purpose:
+Analyzes business needs and detailed system components, identifies, communicates, and resolves systems issues in support of core system functions. Performs systems analysis, design, coding, testing, documentation and implementation for application systems development software initiatives driven by business needs. Develops and enhances computer applications to support the implementation of difficult to complex business requirements. Performs specific assignments as part of a project team or works independently on small to medium-sized enhancements and production support assignments. May perform technical project management.
+Major Duties:
+Design/Programming
+&#8226; Interprets business requirements for system enhancements and projects, translates them into detailed design system specifications including process and data flows, screen and report specifications, stored procedures, batch scripts, and batch scheduling specifications.
+&#8226; Recommends technologies to be used in building the solution.
+&#8226; Develops system components based on business requirements and system specifications, codes, tests, and implements components in accordance with standards and procedures.
+&#8226; Responsible for unit testing components and supporting DEV and QA testing.
+&#8226; Performs design reviews and code reviews for other team initiatives.
+&#8226; Coordinates and executes integration testing for development efforts.
+&#8226; Develops implementation plans and supports migrations through the various environments.
+&#8226; Responsible for the coordination and implementation of small to medium-sized enhancements and production support assignments from end to end.
+&#8226; Prepares and maintains technical system documentation for system support and other needs.
+Analysis
+&#8226; Analyzes business needs and detailed system components, including input, process, and output requirements, data and system flows, and hardware and software requirements.
+&#8226; Identifies, communicates, and resolves systems issues in support of core system functions.
+&#8226; Identifies root cause of problems, provides options for resolution and documents outcome of analysis.
+&#8226; Evaluates existing systems to improve their effectiveness and efficiency, reducing operational costs, and providing solutions to resolve data and system issues.
+&#8226; Provides consultation in areas of expertise and/or 3rd party vendor software products.
+Project Management
+&#8226; Manages various technical aspects of small to medium-sized projects concurrently through the project lifecycle using the PMO process while managing to a budget, timeline and customer satisfaction and value.
+&#8226; Responsible for estimating, project planning, communicating status of projects, designing, analyzing, coding (where applicable), testing, and documentation and implementation of components in accordance with standards and procedures.
+&#8226; Works with management team to staff projects.
+&#8226; Provides objective feedback to management regarding team and individual performance.
+&#8226; Provides technical expertise and knowledge transfer for IT, PMO and Business user team members.
+Relationships
+&#8226; Establishes and/or maintains working relationships with both Business and IT partners to define, understand and evaluate business requirements and resolve production issues.
+&#8226; Provides support in a matrix-management fashion to other areas as needed.
+Leadership
+&#8226; Provides knowledge transfer to other technical peers.
+&#8226; Provides technical leadership and expertise to peers on small to medium-sized work efforts and production support.
+Required Education, Experience &amp; Skills:
+&#8226; Bachelor's degree and a minimum of 5 years IT programming experience or 5 years managing software development and/or technical project management experience.
+&#8226; In lieu of degree, additional work experience and/or trade school or applicable certifications required.
+&#8226; Solid understanding of IT Technical Architecture, and strong knowledge of the capabilities and constraints of large-scale, multi-processing computer systems.
+&#8226; In depth knowledge and experience with Relational Database Management Systems (RDBMS) that interact with batch and web applications.
+&#8226; In depth technical expertise in multiple platforms (i.e., UNIX/LINUX, Windows/Intel); multiple database technologies, (i.e., Oracle); multiple programming languages, (i.e., VB.Net, C#, ASP, PL/SQL, Java, Object oriented programming); and multiple batch operating environments (i.e., Unix/Shell Scripting, Windows).
+&#8226; Solid Communication Skills - ability to communicate clearly and concisely, both verbally and in writing, and to establish and maintain working relationships with both Business and IT partners as part of developing solutions and resolving business issues.
+&#8226; Solid Customer Service Skills - ability to identify and anticipate customer requirements and needs, and respond to and influence customer expectations.
+&#8226; In Depth Analytical Skills - ability to gather and analyze information, and draw logical conclusions while identifying the root cause of problems and providing options for resolution.
+&#8226; Programming Skills -- In depth knowledge of programming principles, techniques, standards and analytical ability to develop computer programs and systems.
+&#8226; Project Management Skills -- In depth understanding of project life cycle methodologies, estimating, and IT best practices with experience managing and implementing small to medium size projects.
+&#8226; Ability to multi-task, juggle multiple projects, and function in a flexible matrix-management environment.
+&#8226; In depth understanding of industry standard desktop software (e.g., Windows, Office, eMail, SharePoint, etc).
+Preferred Education, Experience, and Skills:
+&#8226; Bachelor's degree in computer information or related field.
+&#8226; Good working knowledge and understanding of NCCI business processes and systems.
+&#8226; Experience integrating 3rd party software.
+&#8226; MCSD or ORACLE Developer Certification.
+&#8226; PMI (Project Management Institute) Certification.
+As key contributors to our success, our team members enjoy working in a casual, collaborative environment that offers state-of-the-art resources, advanced technologies, and a superior benefits package.
+We require a drug screen and background check.
+EEO/Smoke Free environment
+Apply online:&#32;
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:38.024"
+						timeRelativeToTestModuleStartTime="02:23.478"
+						timeWallClock="12:26:17"
+						time="02:38.024"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/mdc/sof/5473717720.html :&#32;
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:41.139"
+						timeRelativeToTestModuleStartTime="02:26.593"
+						timeWallClock="12:26:20"
+						time="02:41.139"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/brw/sof/5473097012.html :&#32;
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:44.265"
+						timeRelativeToTestModuleStartTime="02:29.719"
+						timeWallClock="12:26:23"
+						time="02:44.265"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/mdc/sof/5472935856.html : requirements, developing functional specification and developing applications. Programmer must be experienced with Microsoft development products such as .NET, C#, Active Server Pages, SQL, Access, and TFS. Knowledge of web development, HTML, Java, and MVC are required. In addition, ESRI products such as ArcSDE, ArcIMS, ArcGIS Server and interfacing with geographic databases are beneficial. 
+Required / Desired Skills
+&#8226;	.NET (Required 2 Years)
+&#8226;	C# (Required 2 Years)
+&#8226;	Active Server Pages (ASP) (Required 2 Years)
+&#8226;	SQL (Required 2 Years)
+&#8226;	Access (Required 2 Years)
+&#8226;	Team Foundation Server (TFS) (Required 2 Years)
+&#8226;	HTML (Required 2 Years)
+&#8226;	Java (Required 2 Years)
+&#8226;	MVC (Required 2 Years)
+&#8226;	ArcSDE (Highly Desired 1 Years)
+&#8226;	ArcIMS (Highly Desired 1 Years)
+&#8226;	ArcGIS Server (Highly Desired 1 Years)
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:47.780"
+						timeRelativeToTestModuleStartTime="02:33.234"
+						timeWallClock="12:26:27"
+						time="02:47.780"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/mdc/sof/5472927479.html :&#32;
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:51.374"
+						timeRelativeToTestModuleStartTime="02:36.828"
+						timeWallClock="12:26:30"
+						time="02:51.374"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/mdc/sof/5471280126.html :&#32;
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:55.890"
+						timeRelativeToTestModuleStartTime="02:41.344"
+						timeWallClock="12:26:35"
+						time="02:55.890"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/mdc/sof/5471207816.html : requirements, as project requires throughout various phases. 
+&#8226; Communicate project progress and formally obtain final acceptance and satisfaction at each critical milestone.
+&#8226; Gathering Business and Data Requirements, Analyzing and Documenting Requirements.
+&#8226; Testing applications (regression and load) and sound testing methodologies. 
+&#8226; Develop, research and evaluate project alternatives and provide recommendations to customer based on client's objectives. 
+MINIMUM EDUCATION &amp; EXPERIENCE REQUIRED:
+&#8226; Bachelor's degree in Computer Science, Management Information Systems, or related field 
+&#8226; Two years of supervising or managing analysis and programmers
+&#8226; Two years of applications development experience working with Microsoft development tools
+ESTIMATED START DATE: 02/21/2016
+DURATION: One year
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:59.280"
+						timeRelativeToTestModuleStartTime="02:44.733"
+						timeWallClock="12:26:38"
+						time="02:59.280"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/mdc/sof/5470662165.html :&#32;
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="03:02.531"
+						timeRelativeToTestModuleStartTime="02:47.984"
+						timeWallClock="12:26:41"
+						time="03:02.531"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/mdc/sof/5470250166.html : Requirements for CallPal Skilled DevOps Engineer:
+- Teamplayer
+- VMware - 3yrs Hands on exp
+- Pfsense - 2yrs Hands on exp
+- LINUX - 5yrs Hands on exp
+- Ansible - 2yrs Hands on exp
+- Jenkins - 2yrs Hands on exp
+- Nginx - 3yrs Hands on exp
+- HAproxy - 3yrs Hands on exp
+- Tcp/ip, Networking.. - 3yrs Hands on exp
+- Couchbase, MySql, PostgreSQL clusters - 3yrs Hands on exp - NodeJS, among others
+Functions &amp; Responsibilities:
+- Continued scaling and optimization of our cloud infrastructure: day-to-day management and development of new architecture to accommodate future growth.
+- Work with engineering team to determine how to best leverage tools and techniques involving infrastructure as code, configuration management and other DevOps-type techniques to improve delivery quality, speed and experience.
+- Develop and maintain tools for application deployment.
+- Develop and maintain automated tests to monitor and optimize platform.
+- Explore new technologies to keep ahead of the curve for effective systems deployment and
+monitoring.
+- Create custom tools to build, test, deploy and monitor systems in production and
+development.
+- Continuously improve our infrastructure to be easy to deploy, scalable, secure, and fault-
+tolerant.
+- Infrastructure cost containment, forecasting and budgeting.
+- Integration of software stacks and applicable components.
+If you think you're the right candidate for this position, send us your cv to hr@callpalapp.net&#10;
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="03:06.484"
+						timeRelativeToTestModuleStartTime="02:51.937"
+						timeWallClock="12:26:45"
+						time="03:06.484"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/mdc/sof/5469610048.html :&#32;
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="03:10.515"
+						timeRelativeToTestModuleStartTime="02:55.968"
+						timeWallClock="12:26:49"
+						time="03:10.515"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/brw/sof/5468385709.html : requirements and/or necessary alterations
+Contributes in project planning and project management
+Manages and priorities multiple projects within design specifications and budget limitations
+Interacts with all internal and external sources necessary to successfully complete assignments
+Performs other related duties as assigned or requested
+Creates and updates computer programs to satisfy user requests.
+Discusses requests with users for clarification and recommends modifications to lower costs, enhance usability or expand functionality.
+Develops time and expense estimates to fulfill user requests.
+Develops test data and test plans for requested programs and systems.
+Creates and reviews program and system documentation and flow charts to ensure accuracy and consistency.
+Works with data center operations and data security personnel to move programs and systems from test to production status.
+Works with and supports sales/marketing functions.
+Provides labor material and cost estimates.
+Follows safety procedures as set forth by the company.
+Analyzes date and provides support to each department.
+Job Qualifications
+Minimum Education: Bachelor's Degree
+Minimum Field of Expertise: Information technology
+Minimum Experience: 5 Years
+Preferred Experience: 10+ Years
+Competencies
+Analysis
+Assessment/evaluation
+Attention to detail
+Communication -- written and oral skills
+Conflict resolution
+Consulting
+Creativity
+Organization
+Knowledge of relevant policies and procedures
+Problem identification and resolution
+Computer network and computer systems
+Works independently
+IOS; C+; C++; Android; HTML5
+Apply Now:&#32;
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="03:14.531"
+						timeRelativeToTestModuleStartTime="02:59.984"
+						timeWallClock="12:26:53"
+						time="03:14.531"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/mdc/sof/5466909180.html :&#32;
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="03:18.093"
+						timeRelativeToTestModuleStartTime="03:03.547"
+						timeWallClock="12:26:57"
+						time="03:18.093"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/mdc/sof/5466234997.html : requirements:
+Skills knowledge and Experience:
+- Experience developing restfull API systems with NodeJS.
+- NodeJS, Express, passport, NoSQL databases integration. (Mandatory)
+- Knowledge or implementations using Couchbase is a BIG plus.
+- MySql for NodeJs is a plus.
+- PostgreSQL for NodeJs is a plus.
+Functions and Responsibilities
+- Responsible of developing new functions and end points in the back end systems.
+- Keep track of the availability of the services
+- Advise in programming approaches to create efficient functionality
+- Enhance and maintain code in the back end systems
+- Advise in data structure 
+This is a full time and in-house position. 3rd Parties DO NOT APPLY!
+If you think you're the right candidate for this position, please send us your resume to hr@callpalapp.net&#10;
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="03:21.311"
+						timeRelativeToTestModuleStartTime="03:06.765"
+						timeWallClock="12:27:00"
+						time="03:21.311"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/mdc/sof/5466145870.html :&#32;
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="03:24.827"
+						timeRelativeToTestModuleStartTime="03:10.281"
+						timeWallClock="12:27:04"
+						time="03:24.827"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/mdc/sof/5465477708.html :&#32;
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="03:28.171"
+						timeRelativeToTestModuleStartTime="03:13.624"
+						timeWallClock="12:27:07"
+						time="03:28.171"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/pbc/sof/5465347537.html :&#32;
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="03:31.656"
+						timeRelativeToTestModuleStartTime="03:17.109"
+						timeWallClock="12:27:10"
+						time="03:31.656"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/mdc/sof/5465329476.html : requirements. This will require integration with other enterprise systems, developing new tools and functionality to improve planning, operations and reporting of utility infrastructure. Candidate will mainly focus on consent decree/CMOM initiatives. 
+Required / Desired Skills
+&#8226;	Visual Studio .Net C#/VB (Required 5 Years)
+&#8226;	JavaScript (Required 5 Years)
+&#8226;	JQuery (Required 5 Years)
+&#8226;	MVC MS Model (Required 5 Years)
+&#8226;	Razor Syntax (Required 5 Years)
+&#8226;	Ajax (Required 5 Years)
+&#8226;	Entity Framework (Required 5 Years)
+&#8226;	HTML (Required 5 Years)
+&#8226;	CSS (Required 5 Years)
+&#8226;	XML/XSL/XSLT (Required 5 Years)
+&#8226;	ASP (Required 5 Years)
+&#8226;	SSIS (Required 5 Years)
+&#8226;	SSRS (Required 5 Years)
+&#8226;	Web Services (Required 5 Years)
+&#8226;	MS .NET Framework 2.0+ and higher (Required 5 Years)
+&#8226;	TFS (Required 5 Years)
+&#8226;	IIS (Required 5 Years)
+&#8226;	SSL (Required 5 Years)
+&#8226;	SQL Server Management (Views, Stored Procedures, and Security) (Required 5 Years)
+&#8226;	Crystal Reports (Required 5 Years)
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="03:36.140"
+						timeRelativeToTestModuleStartTime="03:21.593"
+						timeWallClock="12:27:15"
+						time="03:36.140"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/mdc/sof/5463985756.html :&#32;
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="03:41.921"
+						timeRelativeToTestModuleStartTime="03:27.375"
+						timeWallClock="12:27:21"
+						time="03:41.921"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/mdc/sof/5462358977.html :&#32;
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="03:45.562"
+						timeRelativeToTestModuleStartTime="03:31.015"
+						timeWallClock="12:27:24"
+						time="03:45.562"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/pbc/sof/5461263632.html : requirements.&#10;
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="03:49.359"
+						timeRelativeToTestModuleStartTime="03:34.813"
+						timeWallClock="12:27:28"
+						time="03:49.359"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/mdc/sof/5459825070.html :&#32;
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="03:52.687"
+						timeRelativeToTestModuleStartTime="03:38.140"
+						timeWallClock="12:27:31"
+						time="03:52.687"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/mdc/sof/5459760637.html :&#32;
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="03:56.796"
+						timeRelativeToTestModuleStartTime="03:42.249"
+						timeWallClock="12:27:36"
+						time="03:56.796"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/brw/sof/5459507931.html : requirements. They will also be responsible for designing and executing a strategic plan with specified guidelines, timelines, and forecasts for project completion. This can be achieved by thorough/extensive examination and analysis of current business processes and information flow and establishing objectives that would facilitate the achievement of the organization's operational goals.
+Job Responsibilities:
+&#65533;	Performs analysis on which business processes should be improved and identify the processes that can be automated.
+&#65533;	Advise and direct the company in the selection of the appropriate industry specific/business software or platform. 
+&#65533;	Create/outline the objectives, an implementation strategy, and timeline by which these improvements can be achieved.
+&#65533;	Analyze and review software capabilities. 
+&#65533;	Convert data, as all data may not be converted because there may be outdated information in the current system.
+&#65533;	Define the new data that needs to be collected, identify the source documents of the data, create a tracking system to collect and segment data into logical tables. (Most ERP systems will have a utility to upload data from a spreadsheet)
+&#65533;	Enter all converted and manually entered data into the ERP database and review for accuracy and completeness.
+&#65533;	Review and eliminate unneeded information.
+&#65533;	Pre-test the database by practicing in the TEST database to confirm all information is accurate and working correctly. 
+&#65533;	Ensure that the actual test mirrors the Standard Operating Procedures (SOPs) outlined and determine whether modifications need to be made.
+&#65533;	Train and provide additional tools such as training documentation etc.
+&#65533;	Will be responsible for additional tasks as assigned by reporting manager.
+Position Requirements:
+&#65533;	Degree in accounting discipline preferred but not required 
+&#65533;	Knowledge of general accounting procedures
+&#65533;	Minimum 5 years ERP Implementation/Analyst experience
+&#65533;	Prior experience with IQMS Software
+&#65533; Bilingual a PLUS
+&#65533;	Excellent communication skills
+&#65533;	Must pay extreme attention to detail
+&#65533;	Must be able to travel/Extensive travel
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="04:01.030"
+						timeRelativeToTestModuleStartTime="03:46.484"
+						timeWallClock="12:27:40"
+						time="04:01.030"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/mdc/sof/5459380778.html : Requirements:
+The following skills or experience may be required:
+&#8226;	Knowledge of Microsoft Office Suite 
+&#8226;	Data Entry 
+&#8226;	Database
+&#8226;	Entry Level SQL Knowledge
+&#8226;	Excel
+&#8226;	Information Technology
+&#8226;	Microsoft Excel
+&#8226;	Written and verbal communication Skills
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="04:06.062"
+						timeRelativeToTestModuleStartTime="03:51.515"
+						timeWallClock="12:27:45"
+						time="04:06.062"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/mdc/sof/5459362439.html :&#32;
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="04:09.890"
+						timeRelativeToTestModuleStartTime="03:55.344"
+						timeWallClock="12:27:49"
+						time="04:09.890"
+						level="Info"
+						category="User">
+						<message>
+							http://miami.craigslist.org/mdc/sof/5458791123.html : requirements.
+&#8226;Accomplishes financial objectives by forecasting requirements; preparing an annual budget; scheduling expenditures; analyzing variances; initiating corrective action.
+&#8226;Maintains quality service by establishing and enforcing organization standards.
+&#8226;Maintains professional and technical knowledge by attending educational workshops; reviewing professional publications; establishing personal networks; benchmarking state-of-the-art practices; participating in professional societies.
+&#8226;Contributes to team effort by accomplishing related results as needed.
+&#8226;Maintains records, updates documentation, and composes correspondence relative to the work. 
+&#8226;Additional duties, consistent with the successful operation of the department and the business as whole, may be assigned by management
+&#8226;Employees are expected to cross train within their department to ensure business continuity
+Knowledge and Skill Requirements: 
+&#8226;Knowledge of system implementation methods used for the development of new systems and enhancements to existing information systems
+&#8226;Knowledge of computer monitoring systems, vendor-supplied packaged applications, utilities, and other highly technical applications
+&#8226;Knowledge of the operational and technical problems involved in a Production Operations Environment
+&#8226;Ability to gather and analyze facts, draw conclusions, define problems, and suggest solutions
+&#8226;Ability to communicate effectively.
+&#8226;Excellent documentation and organization skills
+&#8226;Ability to work with minimal supervision and guide/mentor others on the team.
+&#8226;PMP / PRINCE II certification is a plus
+&#8226;1-2 years of experience within IT project management
+Compensation: 
+Harvard is offering a competitive compensation structure including benefit package with medical, dental, life, and long-term disability (LTD) insurance along with 401K Savings Plan.A monthly parking allowance of $125.00 USD will also be included.
+To apply, please visit our website: 
+Equal Opportunity Employer&#10;
+						</message>
+						<metainfo
+							codefile="c:\RanorexSession2_Cl\Session2_CL\Session2_CL\ReportingJobsReqs.cs"
+							codeline="81"
+							loglvl="Info"/>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>
