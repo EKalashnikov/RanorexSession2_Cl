@@ -64,7 +64,6 @@ namespace Session2_CL
 				bDetailsOpened = false;
 				
 				while (!bDetailsOpened && iAttempts > 0){
-					//Report.Info((!bDetailsOpened).ToString() + iAttempts.ToString() + (!bDetailsOpened || iAttempts > 0).ToString());
 					//Opening job details in new tab
 					try
 					{
@@ -80,24 +79,13 @@ namespace Session2_CL
 						Match matchReqs = Regex.Match(strJobDescription, strReqPatern, RegexOptions.Singleline);
 						Report.Info(job.Href + " : " + matchReqs.Groups[0].Value);
 						bDetailsOpened = true;
-						//Delay.Milliseconds(1000);
+
 						//Closing job details
 						wdJobDetail.Close();
 					}
 					catch (Ranorex.RanorexException)
 					{
-//						Host.Local.FindSingle("/form[@title='Untitled - Google Chrome']/element").EnsureVisible();
-//						Host.Local.PressKeys("{Control down}w{Control up}");
 						Keyboard.Press("{Alt down}{F4}{ALT up}");
-//					    WebDocument wdJobDetail = "/form[@title='Untitled - Google Chrome']";
-//						IList<Form> myAutForms = Host.Local.Find <Form> ("/form[@processname='chrome']");
-//						foreach(Form form in myAutForms)
-//							if (form.As<NativeWindow>().IsAppHung) form.Close();
-						
-						
-//						WebDocument wdJobDetail = "/dom[@pageurl='" + job.Href + "']";
-//						wdJobDetail.EnsureVisible();
-//					    wdJobDetail.Close();
 						Report.Info("Not able to open job detail for " + job.Href);
 						Delay.Milliseconds(5000);
 						iAttempts--;
